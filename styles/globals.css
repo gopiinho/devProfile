@@ -4,6 +4,10 @@
 
 @layer base {
   body {
-    @apply bg-black text-white tracking-wide
+    @apply bg-slate-200 text-black tracking-wide
+  }
+
+  h1{
+    @apply text-3xl
   }
 }
