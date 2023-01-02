@@ -4,10 +4,10 @@
 
 @layer base {
   body {
-    @apply bg-slate-200 text-black tracking-wide
+    @apply bg-slate-200 text-black tracking-wide;
   }
 
-  h1{
-    @apply text-4xl sm:text-5xl md:text-6xl
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl;
   }
 }
