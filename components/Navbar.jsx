@@ -2,6 +2,7 @@ import React from "react"
 import Link from "next/link"
 import { BiCode } from "react-icons/bi"
 import { AiOutlineClose } from "react-icons/ai"
+import { FaGithub } from "react-icons/fa"
 
 const Navbar = () => {
   return (
@@ -40,10 +41,37 @@ const Navbar = () => {
                 <AiOutlineClose size={25} />
               </div>
             </div>
-            <div className="my-5">
+            <div className="my-5 ">
               <p className="w-[85%] md:w-[90%] py-4">
                 Building the decentralised web.
               </p>
+            </div>
+          </div>
+          <div className="p-4 flex flex-col">
+            <ul className="uppercase">
+              <Link href="/">
+                <li className="py-4 text-sm">Home</li>
+              </Link>
+              <Link href="/">
+                <li className="py-4 text-sm">About</li>
+              </Link>
+              <Link href="/">
+                <li className="py-4 text-sm">Projects</li>
+              </Link>
+              <Link href="/">
+                <li className="py-4 text-sm">Vision</li>
+              </Link>
+            </ul>
+            <div className="pt-20">
+              <p className="uppercase text-white tracking-widest">Links</p>
+              <div className="flex items-center justify-between my-4 w-full sm:[80%]">
+                <div className="rounded-full shadow-md shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <FaGithub />
+                </div>
+                <div className="rounded-full shadow-md shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <FaGithub />
+                </div>
+              </div>
             </div>
           </div>
         </div>
