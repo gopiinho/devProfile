@@ -1,10 +1,15 @@
-import React from "react"
+import React, { useState } from "react"
 import Link from "next/link"
 import { BiCode } from "react-icons/bi"
 import { AiOutlineClose } from "react-icons/ai"
 import { FaGithub } from "react-icons/fa"
 
 const Navbar = () => {
+  const [nav, setNav] = useState(false)
+
+  const handleNav = () => {
+    setNav(!nav)
+  }
   return (
     <div className="fixed w-full h-25 shadow-xl z-[100]">
       <div className="flex justify-between items-center w-full h-full p-4 2xl:px-16">
@@ -26,18 +31,28 @@ const Navbar = () => {
               <li className="ml-10 text-sm uppercase hover:border-b">Vision</li>
             </Link>
           </ul>
-          <div className="md:hidden">
+          <div onClick={handleNav} className="md:hidden">
             <BiCode size={30} />
           </div>
         </div>
       </div>
-
-      <div className="fixed left-0 top-0 w-full h-screen bg-black/75">
-        <div className="fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-red-400 p-10 ease-in duration-500">
+      <div
+        className={nav ? "fixed left-0 top-0 w-full h-screen bg-black/75" : ""}
+      >
+        <div
+          className={
+            nav
+              ? "md:hidden fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-red-400 p-10 ease-in duration-500"
+              : "fixed left-[-100%] top-0  p-10 ease-in duration-500"
+          }
+        >
           <div>
             <div className="flex w-full items-center justify-between">
               <h1 className=""> Gopinho </h1>
-              <div className="rounded-full shadow-md shadow-gray-300 p-3 cursor-pointer">
+              <div
+                onClick={handleNav}
+                className="rounded-full shadow-md shadow-gray-300 p-3 cursor-pointer"
+              >
                 <AiOutlineClose size={25} />
               </div>
             </div>
