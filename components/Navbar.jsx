@@ -1,7 +1,11 @@
 import React, { useState } from "react"
 import Link from "next/link"
 import { BiCode } from "react-icons/bi"
-import { AiOutlineClose } from "react-icons/ai"
+import {
+  AiOutlineClose,
+  AiFillTwitterCircle,
+  AiFillLinkedin,
+} from "react-icons/ai"
 import { FaGithub } from "react-icons/fa"
 
 const Navbar = () => {
@@ -37,12 +41,14 @@ const Navbar = () => {
         </div>
       </div>
       <div
-        className={nav ? "fixed left-0 top-0 w-full h-screen bg-black/75" : ""}
+        className={
+          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/75" : ""
+        }
       >
         <div
           className={
             nav
-              ? "md:hidden fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-red-400 p-10 ease-in duration-500"
+              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-red-400 p-10 ease-in duration-500"
               : "fixed left-[-100%] top-0  p-10 ease-in duration-500"
           }
         >
@@ -84,7 +90,10 @@ const Navbar = () => {
                   <FaGithub />
                 </div>
                 <div className="rounded-full shadow-md shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaGithub />
+                  <AiFillLinkedin />
+                </div>
+                <div className="rounded-full shadow-md shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <AiFillTwitterCircle />
                 </div>
               </div>
             </div>
