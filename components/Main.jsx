@@ -1,4 +1,6 @@
 import React from "react"
+import { FaGithub } from "react-icons/fa"
+import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai"
 
 const Main = () => {
   return (
@@ -19,6 +21,17 @@ const Main = () => {
             communication skills and a dedication to continuously learning and
             staying up-to-date with the latest industry developments.
           </p>
+          <div className="flex items-center  justify-between max-w-[330px] m-auto py-4">
+            <div className="rounded-full shadow-md p-4 shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300">
+              <FaGithub />
+            </div>
+            <div className="rounded-full shadow-md p-4 shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300 ">
+              <AiFillTwitterCircle />
+            </div>
+            <div className="rounded-full shadow-md p-4 shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300">
+              <AiFillLinkedin />
+            </div>
+          </div>
         </div>
       </div>
     </div>
