@@ -15,7 +15,7 @@ const Navbar = () => {
     setNav(!nav)
   }
   return (
-    <div className="fixed w-full h-25 shadow-md  shadow-red-300 z-[100]">
+    <div className="fixed w-full h-25 shadow-md  z-[100]">
       <div className="flex justify-between items-center w-full h-full p-12 2xl:px-16 ">
         <div>
           <ul className="hidden md:flex">
