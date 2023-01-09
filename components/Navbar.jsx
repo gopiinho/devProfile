@@ -16,7 +16,7 @@ const Navbar = () => {
   }
   return (
     <div className="fixed w-full h-25 shadow-md  z-[100]">
-      <div className="flex justify-between items-center w-full h-full p-12 2xl:px-16 ">
+      <div className="flex justify-between items-center w-full h-full p-12 2xl:px-16 font-cyber">
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
