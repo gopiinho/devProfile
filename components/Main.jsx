@@ -10,7 +10,7 @@ const Main = () => {
           <p className="uppercase text-sm tracking-widest text-gray-600">
             Making the Internet decentralised
           </p>
-          <h1 className="py-4  ">Hi, I'm Gurpreet Singh</h1>
+          <h1 className="py-4 ">Hi, I'm Gurpreet Singh</h1>
           <h1 className=" py-2 text-slate-500">
             A Full Stack BlockChain Developer
           </h1>

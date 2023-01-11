@@ -9,6 +9,10 @@ module.exports = {
       fontFamily: {
         cyber: "'Orbitron', sans-serif;",
       },
+
+      colors: {
+        neon: "ff2a6d",
+      },
     },
   },
   plugins: [],

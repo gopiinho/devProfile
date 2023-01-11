@@ -16,7 +16,7 @@ const Navbar = () => {
   }
   return (
     <div className="fixed w-full h-25 shadow-md  z-[100]">
-      <div className="flex justify-between items-center w-full h-full p-6 2xl:px-16 font-cyber text-[#ff2a6d] bg-white">
+      <div className="navBar flex justify-between items-center w-full h-full p-6 2xl:px-16 font-cyber text-[#ff2a6d] bg-black">
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
@@ -50,13 +50,13 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-red-400 p-10 ease-in duration-500"
+              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-500"
               : "fixed left-[-100%] top-0  p-10 ease-in duration-500"
           }
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <h1 className=""> Gopinho </h1>
+              <h1 className="text-[#ff2a6d]"> Gopinho </h1>
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-md shadow-gray-300 p-3 cursor-pointer"

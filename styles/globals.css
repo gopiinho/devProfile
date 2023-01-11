@@ -10,4 +10,16 @@
   h1 {
     @apply text-4xl sm:text-5xl md:text-6xl;
   }
+
+  .navBar h1:hover,
+  li:hover {
+    text-shadow: 0 0 10px #ff2a6d, 0 0 20px #ff2a6d, 0 0 40px #ff2a6d,
+      0 0 80px #ff2a6d, 0 0 120px #ff2a6d;
+    transition: 0.5s;
+    --primary: hsl(
+      var(--primary-hue),
+      85%,
+      calc(var(--primary-lightness, 50) * 0.6%)
+    );
+  }
 }
