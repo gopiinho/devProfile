@@ -16,14 +16,18 @@ const Navbar = () => {
   }
   return (
     <div className="fixed w-full h-25 shadow-md  z-[100]">
-      <div className="navBar flex justify-between items-center w-full h-full p-6 2xl:px-16 font-cyber text-[#ff2a6d] bg-black">
+      <div className="navBar flex justify-between items-center w-full h-full p-6 2xl:px-16 font-cyber text-[#ff2a6d] bg-black cursor-pointer">
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-lg  hover:border-b">home</li>
+              <li className="ml-10 text-lg  hover:border-b border-[#0a9cf5]">
+                home
+              </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-lg  hover:border-b">about</li>
+              <li className="ml-10 text-lg  hover:border-b border-[#0a9cf5]">
+                about
+              </li>
             </Link>
           </ul>
         </div>
@@ -31,10 +35,14 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-lg  hover:border-b">projects</li>
+              <li className="ml-10 text-lg  hover:border-b border-[#0a9cf5]">
+                projects
+              </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-lg  hover:border-b">vision</li>
+              <li className="ml-10 text-lg  hover:border-b border-[#0a9cf5]">
+                vision
+              </li>
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden">
