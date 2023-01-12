@@ -15,17 +15,17 @@ const Navbar = () => {
     setNav(!nav)
   }
   return (
-    <div className="fixed w-full h-25 shadow-md  z-[100]">
+    <div className="fixed w-full h-30 shadow-md z-[100]">
       <div className="navBar flex justify-between items-center w-full h-full p-6 2xl:px-16 font-cyber text-[#ff2a6d] bg-black cursor-pointer">
-        <div>
+        <div className="">
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-lg  hover:border-b border-[#0a9cf5]">
+              <li className="ml-10 text-lg  hover:border-b border-[#05d9e8]">
                 home
               </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-lg  hover:border-b border-[#0a9cf5]">
+              <li className="ml-10 text-lg  hover:border-b border-[#05d9e8]">
                 about
               </li>
             </Link>
@@ -35,12 +35,12 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-lg  hover:border-b border-[#0a9cf5]">
+              <li className="ml-10 text-lg  hover:border-b border-[#05d9e8]">
                 projects
               </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-lg  hover:border-b border-[#0a9cf5]">
+              <li className="ml-10 text-lg  hover:border-b border-[#05d9e8]">
                 vision
               </li>
             </Link>
@@ -58,16 +58,16 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-500"
+              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-black p-10 ease-in duration-500"
               : "fixed left-[-100%] top-0  p-10 ease-in duration-500"
           }
         >
           <div>
-            <div className="flex w-full items-center justify-between">
+            <div className=" navBar flex w-full items-center justify-between font-cyber">
               <h1 className="text-[#ff2a6d]"> Gopinho </h1>
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-md shadow-[#ff2a6d] p-3 cursor-pointer"
+                className="rounded-full shadow-md shadow-gray-300 p-3 cursor-pointer"
               >
                 <AiOutlineClose size={25} />
               </div>
@@ -79,30 +79,30 @@ const Navbar = () => {
             </div>
           </div>
           <div className="p-4 flex flex-col">
-            <ul className="uppercase">
+            <ul className="font-cyber">
               <Link href="/">
-                <li className="py-4 text-sm">Home</li>
+                <li className="py-4 text-sm">home</li>
               </Link>
               <Link href="/">
-                <li className="py-4 text-sm">About</li>
+                <li className="py-4 text-sm">about</li>
               </Link>
               <Link href="/">
-                <li className="py-4 text-sm">Projects</li>
+                <li className="py-4 text-sm">projects</li>
               </Link>
               <Link href="/">
-                <li className="py-4 text-sm">Vision</li>
+                <li className="py-4 text-sm">vision</li>
               </Link>
             </ul>
             <div className="pt-20">
               <p className="uppercase text-white tracking-widest">Links</p>
-              <div className="flex items-center justify-between my-4 w-full sm:[80%] text-black">
-                <div className="rounded-full shadow-md shadow-[#ff2a6d] cursor-pointer hover:scale-105 ease-in duration-300">
+              <div className="flex items-center justify-between my-4 w-full sm:[80%] text-white">
+                <div className="rounded-full shadow-md shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300">
                   <FaGithub />
                 </div>
-                <div className="rounded-full shadow-md shadow-[#ff2a6d] cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full shadow-md shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300">
                   <AiFillLinkedin />
                 </div>
-                <div className="rounded-full shadow-md shadow-[#ff2a6d] cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full shadow-md shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300">
                   <AiFillTwitterCircle />
                 </div>
               </div>

@@ -22,4 +22,15 @@
       calc(var(--primary-lightness, 50) * 0.6%)
     );
   }
+
+  .neonH2 h2:hover {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff,
+      0 0 120px #fff;
+    transition: 0.5s;
+    --primary: hsl(
+      var(--primary-hue),
+      85%,
+      calc(var(--primary-lightness, 50) * 0.6%)
+    );
+  }
 }
