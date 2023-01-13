@@ -1,23 +1,23 @@
-import React, { useState } from "react"
-import Link from "next/link"
-import { BiCode } from "react-icons/bi"
+import React, { useState } from "react";
+import Link from "next/link";
+import { BiCode } from "react-icons/bi";
 import {
   AiOutlineClose,
   AiFillTwitterCircle,
   AiFillLinkedin,
-} from "react-icons/ai"
-import { FaGithub } from "react-icons/fa"
+} from "react-icons/ai";
+import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false)
+  const [nav, setNav] = useState(false);
 
   const handleNav = () => {
-    setNav(!nav)
-  }
+    setNav(!nav);
+  };
   return (
     <div className="fixed w-full h-30 shadow-md z-[100]">
-      <div className="navBar flex justify-between items-center w-full h-full p-6 2xl:px-16 font-cyber text-[#ff2a6d] bg-black cursor-pointer">
-        <div className="">
+      <div className="navBar flex justify-between items-center w-full h-full p-6 2xl:px-16 font-cyber text-[#ff2a6d] bg-black cursor-pointer justify-content:space-evenly">
+        <div className="justify-between items-center">
           <ul className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-lg  hover:border-b border-[#05d9e8]">
@@ -31,8 +31,10 @@ const Navbar = () => {
             </Link>
           </ul>
         </div>
-        <h1> Gopinho </h1>
-        <div>
+        <div className="justify-between items-center">
+          <h1> Gopinho </h1>
+        </div>
+        <div className=" justify-between items-center">
           <ul className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-lg  hover:border-b border-[#05d9e8]">
@@ -111,6 +113,6 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-  )
-}
-export default Navbar
+  );
+};
+export default Navbar;
