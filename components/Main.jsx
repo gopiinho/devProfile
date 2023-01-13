@@ -1,6 +1,6 @@
-import React from "react"
-import { FaGithub } from "react-icons/fa"
-import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai"
+import React from "react";
+import { FaGithub } from "react-icons/fa";
+import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
 
 const Main = () => {
   return (
@@ -22,20 +22,20 @@ const Main = () => {
             staying up-to-date with the latest industry developments.
           </p>
           <div className="flex items-center  justify-between max-w-[330px] m-auto py-4">
-            <div className="rounded-full shadow-md p-4 shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300">
+            <div className="rounded-full shadow-md p-4 shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d]">
               <FaGithub />
             </div>
-            <div className="rounded-full shadow-md p-4 shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300 ">
+            <div className="rounded-full shadow-md p-4 shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d]">
               <AiFillTwitterCircle />
             </div>
-            <div className="rounded-full shadow-md p-4 shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300">
+            <div className="rounded-full shadow-md p-4 shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d]">
               <AiFillLinkedin />
             </div>
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;
