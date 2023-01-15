@@ -18,7 +18,7 @@ const Projects = () => {
           <ProjectsItems
             title="NFT MINT PAGE"
             backgroundImg={sibylImage}
-            stack="ReactJS / Solidity"
+            stack="ReactJS / Solidity / Ethers"
             projectUrl="/"
           />
 

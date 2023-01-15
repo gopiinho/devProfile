@@ -10,11 +10,11 @@ const Skills = () => {
             Skills
           </h2>
         </div>
-        <div className="grid md:grid-cols-2 lg-grid-cols-4 gap-8 tracking-widest group">
+        <div className="grid md:grid-cols-2 lg-grid-cols-4 gap-8 tracking-widest">
           <div className="p-6  ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <div className="devicon-solidity-plain text-6xl text-[#fff]"></div>
+                <div className=" logoNeonSol devicon-solidity-plain text-6xl text-[#d1f7ff] hover:text-[#c4c4c4] hover:scale-110 transform duration-700"></div>
               </div>
               <div className="neonH2 flex flex-col items-center justify-center">
                 <h2 className="text-3xl">Solidity</h2>
@@ -25,7 +25,7 @@ const Skills = () => {
           <div className="p-6  ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <div className="devicon-javascript-plain text-6xl text-[#f0db4f]"></div>
+                <div className="logoNeonJS devicon-javascript-plain text-6xl text-[#d1f7ff] hover:text-[#f0db4f] hover:scale-110 transform duration-700"></div>
               </div>
               <div className="neonH2 flex flex-col items-center justify-center">
                 <h2 className="text-3xl">JavaScript</h2>
@@ -36,7 +36,7 @@ const Skills = () => {
           <div className="p-6  ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <div className="devicon-tailwindcss-plain text-6xl text-[#37bcf8]"></div>
+                <div className="devicon-tailwindcss-plain text-6xl text-[#d1f7ff] hover:text-[#37bcf8] hover:scale-110 transform duration-700"></div>
               </div>
               <div className="neonH2 flex flex-col items-center justify-center">
                 <h2 className="text-3xl">Tailwind</h2>
@@ -47,10 +47,21 @@ const Skills = () => {
           <div className="p-6 5 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <div className="devicon-react-original text-6xl text-[#61d9fb]"></div>
+                <div className="devicon-react-original text-6xl text-[#d1f7ff] hover:text-[#61d9fb] hover:scale-110 transform duration-700"></div>
               </div>
               <div className="neonH2 flex flex-col items-center justify-center">
                 <h2 className="text-3xl">React</h2>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 5 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <div className="devicon-nodejs-plain text-6xl text-[#d1f7ff] hover:text-[#3e883d] hover:scale-110 transform duration-700"></div>
+              </div>
+              <div className="neonH2 flex flex-col items-center justify-center">
+                <h2 className="text-3xl">NodeJS</h2>
               </div>
             </div>
           </div>
