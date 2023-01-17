@@ -11,56 +11,67 @@ const Skills = () => {
           </h2>
         </div>
         <div className="grid md:grid-cols-2 lg-grid-cols-4 gap-8 tracking-widest">
-          <div className="p-6  ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+          <div className="px-4">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center ease-in duration-300 rounded-md border-slate-500 border-2 hover:shadow-neon-white ">
               <div className="m-auto">
-                <div className=" logoNeonSol devicon-solidity-plain text-6xl text-[#d1f7ff] hover:text-[#c4c4c4] hover:scale-110 transform duration-700"></div>
+                <div className="py-6 devicon-solidity-plain text-6xl text-[#d1f7ff] hover:text-[#c4c4c4] hover:scale-110 transform duration-700"></div>
               </div>
-              <div className="neonH2 flex flex-col items-center justify-center">
+              <div className=" flex flex-col items-center justify-center">
                 <h2 className="text-3xl">Solidity</h2>
               </div>
             </div>
           </div>
 
-          <div className="p-6  ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+          <div className=" px-4">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center ease-in duration-300 rounded-md border-slate-500 border-2 hover:shadow-neon-white ">
               <div className="m-auto">
-                <div className="logoNeonJS devicon-javascript-plain text-6xl text-[#d1f7ff] hover:text-[#f0db4f] hover:scale-110 transform duration-700"></div>
+                <div className="py-6 devicon-javascript-plain text-6xl text-[#d1f7ff] hover:text-[#f0db4f] hover:scale-110 transform duration-700"></div>
               </div>
-              <div className="neonH2 flex flex-col items-center justify-center">
+              <div className=" flex flex-col items-center justify-center">
                 <h2 className="text-3xl">JavaScript</h2>
               </div>
             </div>
           </div>
 
-          <div className="p-6  ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+          <div className="px-4">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center ease-in duration-300 rounded-md border-slate-500 border-2 hover:shadow-neon-white ">
               <div className="m-auto">
-                <div className="devicon-tailwindcss-plain text-6xl text-[#d1f7ff] hover:text-[#37bcf8] hover:scale-110 transform duration-700"></div>
+                <div className=" py-6 devicon-typescript-original text-6xl text-[#d1f7ff] hover:text-[#007ACC] hover:scale-110 transform duration-700"></div>
               </div>
-              <div className="neonH2 flex flex-col items-center justify-center">
+              <div className=" flex flex-col items-center justify-center">
+                <h2 className="text-3xl">TypeScript</h2>
+              </div>
+            </div>
+          </div>
+
+          <div className="px-4 ">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center ease-in duration-300 rounded-md border-slate-500 border-2 hover:shadow-neon-white ">
+              <div className="m-auto">
+                <div className="py-6 devicon-tailwindcss-plain text-6xl text-[#d1f7ff] hover:text-[#37bcf8] hover:scale-110 transform duration-700"></div>
+              </div>
+              <div className=" flex flex-col items-center justify-center">
                 <h2 className="text-3xl">Tailwind</h2>
               </div>
             </div>
           </div>
 
-          <div className="p-6 5 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+          <div className="px-4">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center ease-in duration-300 rounded-md border-slate-500 border-2 hover:shadow-neon-white ">
               <div className="m-auto">
-                <div className="devicon-react-original text-6xl text-[#d1f7ff] hover:text-[#61d9fb] hover:scale-110 transform duration-700"></div>
+                <div className=" py-6 devicon-react-original text-6xl text-[#d1f7ff] hover:text-[#61d9fb] hover:scale-110 transform duration-700"></div>
               </div>
-              <div className="neonH2 flex flex-col items-center justify-center">
+              <div className=" flex flex-col items-center justify-center">
                 <h2 className="text-3xl">React</h2>
               </div>
             </div>
           </div>
 
-          <div className="p-6 5 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+          <div className="px-4">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center ease-in duration-300 rounded-md border-slate-500 border-2 hover:shadow-neon-white ">
               <div className="m-auto">
-                <div className="devicon-nodejs-plain text-6xl text-[#d1f7ff] hover:text-[#3e883d] hover:scale-110 transform duration-700"></div>
+                <div className=" py-6 devicon-nodejs-plain text-6xl text-[#d1f7ff] hover:text-[#3E863E] hover:scale-110 transform duration-700"></div>
               </div>
-              <div className="neonH2 flex flex-col items-center justify-center">
+              <div className=" flex flex-col items-center justify-center">
                 <h2 className="text-3xl">NodeJS</h2>
               </div>
             </div>

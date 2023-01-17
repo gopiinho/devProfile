@@ -27,6 +27,14 @@ module.exports = {
         cyber: "'Orbitron', sans-serif;",
       },
 
+      boxShadow: {
+        "neon-white": "0px 0px 20px  #fff",
+      },
+
+      borderColor: {
+        "neon-white": "#fff",
+      },
+
       colors: {
         neon: "ff2a6d",
       },
