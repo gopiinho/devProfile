@@ -1,3 +1,3 @@
 # Personal Developer Website
 
-Built using NextJS
+Built using NextJS and TailwindCss
