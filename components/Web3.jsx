@@ -9,7 +9,51 @@ const Web3 = () => {
             Web3 Stack
           </h2>
         </div>
-        <div className="grid md:grid-cols-2 lg-grid-cols-4 gap-8 tracking-widest"></div>
+        <div className="grid md:grid-cols-2 lg-grid-cols-3 gap-8 tracking-widest font-robot">
+          <div className="px-4">
+            <div className=" justify-center items-center ease-in  hover:shadow-neon-white ">
+              <div className=" flex flex-col items-center justify-center py-4">
+                <h2 className="text-3xl ">Frameworks</h2>
+              </div>
+              <div className="text-center text-slate-400">
+                <p>Hardhat - Foundry </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="px-4">
+            <div className=" justify-center items-center ease-in  hover:shadow-neon-white ">
+              <div className=" flex flex-col items-center justify-center py-4">
+                <h2 className="text-3xl">Standards</h2>
+              </div>
+              <div className="text-center text-slate-400">
+                <p>OpenZeppelin - Chainlink </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="px-4">
+            <div className=" justify-center items-center ease-in  hover:shadow-neon-white ">
+              <div className=" flex flex-col items-center justify-center py-4">
+                <h2 className="text-3xl ">Querying</h2>
+              </div>
+              <div className="text-center text-slate-400">
+                <p>EtherScan - Alchemy - Moralis</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="px-4">
+            <div className=" justify-center items-center ease-in  hover:shadow-neon-white ">
+              <div className=" flex flex-col items-center justify-center py-4">
+                <h2 className="text-3xl ">API's</h2>
+              </div>
+              <div className="text-center text-slate-400">
+                <p>Ethers.js - Wagmi.sh - Web3.js</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )

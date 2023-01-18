@@ -19,7 +19,7 @@ const Projects = () => {
             title="NFT MINT PAGE"
             backgroundImg={sibylImage}
             stack="ReactJS / Solidity / Ethers"
-            projectUrl="/"
+            projectUrl="https://whimsical-kheer-5221bd.netlify.app/"
           />
 
           <ProjectsItems

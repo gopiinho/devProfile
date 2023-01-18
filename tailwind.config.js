@@ -25,6 +25,7 @@ module.exports = {
 
       fontFamily: {
         cyber: "'Orbitron', sans-serif;",
+        robot: "'Roboto', sans-serif;",
       },
 
       boxShadow: {

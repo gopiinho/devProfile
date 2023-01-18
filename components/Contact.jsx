@@ -9,7 +9,7 @@ const Contact = () => {
             Contact
           </h2>
         </div>
-        <div className="w-full h-full p-8  text-center items-center">
+        <div className="w-full h-full p-8  text-center items-center font-robot">
           <p className="text-slate-400 max-w-[70%] m-auto">
             I'm seeking out opportunities to collaborate with companies /
             agencies / individuals, not just work for them. I want to bring my
