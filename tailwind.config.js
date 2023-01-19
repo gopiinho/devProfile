@@ -36,6 +36,7 @@ module.exports = {
         "neon-sol": "0px 0px 20px #63698E",
         "neon-green": "0px 0px 20px #3E863E",
         "neon-type": "0px 0px 20px #007ACC",
+        "neon-main": "0px 0px 20px #ff2a6d",
       },
 
       borderColor: {
@@ -46,6 +47,7 @@ module.exports = {
         "neon-sol": "#63698E",
         "neon-green": "#3E863E",
         "neon-type": "#007ACC",
+        "neon-main": "#ff2a6d",
       },
 
       colors: {
