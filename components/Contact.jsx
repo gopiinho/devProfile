@@ -1,4 +1,5 @@
 import React from "react"
+import Link from "next/link"
 
 const Contact = () => {
   return (
@@ -23,6 +24,56 @@ const Contact = () => {
             collaborators where egos are out of the equation. If that all sounds
             about right, then lets for sure chat about how we can work together.
           </p>
+        </div>
+
+        <div className="grid md:grid-cols-3 gap-8 links items-center  justify-between max-w-[370px] m-auto p-4 font-cyber text-[#ff2a6d] ">
+          <div className=" flex flex-col items-center justify-between ">
+            <Link href="/">
+              <h3 className="text-lg  hover:border-b border-[#05d9e8]">
+                github
+              </h3>
+            </Link>
+          </div>
+
+          <div className=" flex flex-col items-center justify-center">
+            <Link href="/">
+              <h3 className="text-lg  hover:border-b border-[#05d9e8]">
+                linkedin
+              </h3>
+            </Link>
+          </div>
+
+          <div className=" flex flex-col items-center justify-center">
+            <Link href="/">
+              <h3 className="text-lg  hover:border-b border-[#05d9e8]">
+                twitter
+              </h3>
+            </Link>
+          </div>
+
+          <div className=" flex flex-col items-center justify-between ">
+            <Link href="/">
+              <h3 className="text-lg  hover:border-b border-[#05d9e8]">
+                instagram
+              </h3>
+            </Link>
+          </div>
+
+          <div className=" flex flex-col items-center justify-center">
+            <Link href="/">
+              <h3 className="text-lg  hover:border-b border-[#05d9e8]">
+                email
+              </h3>
+            </Link>
+          </div>
+
+          <div className=" flex flex-col items-center justify-center">
+            <Link href="/">
+              <h3 className="text-lg  hover:border-b border-[#05d9e8]">
+                discord
+              </h3>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

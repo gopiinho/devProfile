@@ -27,6 +27,21 @@
     text-shadow: 0 0 0 transparent; /* Initial state, with no shadow */
     transition: text-shadow 0.5s ease-out; /* Fade out over 0.5 seconds */
   }
+  .links h3 {
+    text-shadow: 0 0 0 transparent; /* Initial state, with no shadow */
+    transition: text-shadow 0.5s ease-out; /* Fade out over 0.5 seconds */
+  }
+
+  .links h3:hover {
+    text-shadow: 0 0 10px #ff2a6d, 0 0 20px #ff2a6d, 0 0 40px #ff2a6d,
+      0 0 80px #ff2a6d, 0 0 120px #ff2a6d;
+    transition: 0.5s;
+    --primary: hsl(
+      var(--primary-hue),
+      85%,
+      calc(var(--primary-lightness, 50) * 0.6%)
+    );
+  }
 
   .neonH2 h2 {
     text-shadow: 0 0 0 transparent; /* Initial state, with no shadow */

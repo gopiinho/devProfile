@@ -10,7 +10,7 @@ const Skills = () => {
             Tech Stack
           </h2>
         </div>
-        <div className="grid md:grid-cols-2 lg-grid-cols-4 gap-8 tracking-widest font-robot">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 tracking-widest font-robot">
           <div className="px-4">
             <div className="grid grid-cols-2 gap-4 justify-center items-center ease-in duration-300 rounded-md border-slate-500 border-2 hover:shadow-neon-white ">
               <div className="m-auto">
