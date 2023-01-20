@@ -1,7 +1,9 @@
-import React from "react"
+import React, { useState } from "react"
 import Link from "next/link"
 
 const Contact = () => {
+  const [linkText, setLinkText] = useState("discord")
+
   return (
     <div className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16  w-full">
@@ -26,9 +28,13 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 links items-center  justify-between max-w-[370px] m-auto p-4 font-cyber text-[#ff2a6d] ">
+        <div className="grid md:grid-cols-3 gap-8 links items-center  justify-between max-w-[370px] m-auto p-4 font-cyber text-[#ff2a6d] mobile-center">
           <div className=" flex flex-col items-center justify-between ">
-            <Link href="/">
+            <Link
+              href="https://github.com/igopib"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <h3 className="text-lg  hover:border-b border-[#05d9e8]">
                 github
               </h3>
@@ -36,7 +42,11 @@ const Contact = () => {
           </div>
 
           <div className=" flex flex-col items-center justify-center">
-            <Link href="/">
+            <Link
+              href="https://www.linkedin.com/in/gopinho/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <h3 className="text-lg  hover:border-b border-[#05d9e8]">
                 linkedin
               </h3>
@@ -44,7 +54,11 @@ const Contact = () => {
           </div>
 
           <div className=" flex flex-col items-center justify-center">
-            <Link href="/">
+            <Link
+              href="https://twitter.com/gopiinho"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <h3 className="text-lg  hover:border-b border-[#05d9e8]">
                 twitter
               </h3>
@@ -52,7 +66,11 @@ const Contact = () => {
           </div>
 
           <div className=" flex flex-col items-center justify-between ">
-            <Link href="/">
+            <Link
+              href="https://www.instagram.com/gopiinho/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <h3 className="text-lg  hover:border-b border-[#05d9e8]">
                 instagram
               </h3>
@@ -60,7 +78,11 @@ const Contact = () => {
           </div>
 
           <div className=" flex flex-col items-center justify-center">
-            <Link href="/">
+            <Link
+              href="mailto:gopinho@protonmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <h3 className="text-lg  hover:border-b border-[#05d9e8]">
                 email
               </h3>
@@ -68,11 +90,12 @@ const Contact = () => {
           </div>
 
           <div className=" flex flex-col items-center justify-center">
-            <Link href="/">
-              <h3 className="text-lg  hover:border-b border-[#05d9e8]">
-                discord
-              </h3>
-            </Link>
+            <h3
+              className="text-lg  hover:border-b border-[#05d9e8] cursor-pointer"
+              onClick={() => setLinkText("Gopinho#6037")}
+            >
+              {linkText}
+            </h3>
           </div>
         </div>
       </div>

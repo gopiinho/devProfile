@@ -10,6 +10,12 @@
   h1 {
     @apply text-4xl sm:text-5xl md:text-6xl;
   }
+  @media (max-width: 768px) {
+    .mobile-center {
+      grid-template-columns: 1fr;
+      justify-items: center;
+    }
+  }
 
   .navBar h1:hover,
   li:hover {
