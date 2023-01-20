@@ -7,7 +7,7 @@ import ProjectsItems from "./ProjectsItems"
 
 const Projects = () => {
   return (
-    <div className="w-full">
+    <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto p-8 ">
         <div className="neonH2 flex items-center justify-center cursor-default">
           <h2 className="text-3xl tracking-widest uppercase text-cyber text-center my-12 font-cyber">

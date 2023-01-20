@@ -38,7 +38,7 @@ const Navbar = () => {
       <div className="navBar flex justify-between items-center w-full h-full p-6 2xl:px-16 font-cyber text-[#ff2a6d] bg-black cursor-pointer justify-content:space-evenly">
         <div className="justify-between items-center">
           <ul className="hidden md:flex">
-            <Link href="/">
+            <Link href="/#home">
               <li className="ml-10 text-lg  hover:border-b border-[#05d9e8]">
                 home
               </li>
@@ -55,7 +55,7 @@ const Navbar = () => {
         </div>
         <div className=" justify-between items-center">
           <ul className="hidden md:flex">
-            <Link href="/">
+            <Link href="/#projects">
               <li className="ml-10 text-lg  hover:border-b border-[#05d9e8]">
                 projects
               </li>
