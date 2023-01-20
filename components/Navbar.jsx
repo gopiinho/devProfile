@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import Link from "next/link"
 import { BiCode } from "react-icons/bi"
 import {
@@ -10,12 +10,31 @@ import { FaGithub } from "react-icons/fa"
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
+  const [shadow, setShadow] = useState(false)
 
   const handleNav = () => {
     setNav(!nav)
   }
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY >= 90) {
+        setShadow(true)
+      } else {
+        setShadow(false)
+      }
+    }
+    window.addEventListener("scroll", handleScroll)
+  }, [])
+
   return (
-    <div className="fixed w-full h-30 shadow-md z-[100]">
+    <div
+      className={
+        shadow
+          ? "fixed w-full h-30  shadow-md shadow-slate-400 z-[100] transform duration-700"
+          : "fixed w-full h-30 z-[100] transform duration-700"
+      }
+    >
       <div className="navBar flex justify-between items-center w-full h-full p-6 2xl:px-16 font-cyber text-[#ff2a6d] bg-black cursor-pointer justify-content:space-evenly">
         <div className="justify-between items-center">
           <ul className="hidden md:flex">
@@ -75,36 +94,44 @@ const Navbar = () => {
               </div>
             </div>
             <div className="my-5 ">
-              <p className="w-[85%] md:w-[90%] py-4">
+              <p className="w-[85%] md:w-[90%] py-4 text-slate-400">
                 Building the decentralised web.
               </p>
             </div>
           </div>
           <div className="p-4 flex flex-col">
-            <ul className="font-cyber">
+            <ul className="font-cyber text-[#ff2a6d]">
               <Link href="/">
-                <li className="py-4 text-sm">home</li>
+                <li className="py-4 text-sm hover:border-b border-[#05d9e8] w-[30%] transform duration-300">
+                  home
+                </li>
               </Link>
               <Link href="/">
-                <li className="py-4 text-sm">about</li>
+                <li className="py-4 text-sm hover:border-b border-[#05d9e8] w-[30%] transform duration-300">
+                  about
+                </li>
               </Link>
               <Link href="/">
-                <li className="py-4 text-sm">projects</li>
+                <li className="py-4 text-sm hover:border-b border-[#05d9e8] w-[30%] transform duration-300">
+                  projects
+                </li>
               </Link>
               <Link href="/">
-                <li className="py-4 text-sm">vision</li>
+                <li className="py-4 text-sm hover:border-b border-[#05d9e8] w-[30%] transform duration-300">
+                  vision
+                </li>
               </Link>
             </ul>
             <div className="pt-20">
               <p className="uppercase text-white tracking-widest">Links</p>
               <div className="flex items-center justify-between my-4 w-full sm:[80%] text-white">
-                <div className="rounded-full shadow-md shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full shadow-md shadow-gray-300 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d]">
                   <FaGithub />
                 </div>
-                <div className="rounded-full shadow-md shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full shadow-md shadow-gray-300 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d]">
                   <AiFillLinkedin />
                 </div>
-                <div className="rounded-full shadow-md shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300">
+                <div className="rounded-full shadow-md shadow-gray-300 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d]">
                   <AiFillTwitterCircle />
                 </div>
               </div>

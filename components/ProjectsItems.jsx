@@ -11,13 +11,13 @@ const ProjectsItems = ({ title, backgroundImg, stack, projectUrl }) => {
         src={backgroundImg}
         alt="/"
       />
-      <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] font-cyber">
+      <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] font-cyber ">
         <h3 className="text-2xl tracking-wider text-center ">{title}</h3>
 
         <p className="pb-4 pt-2 text-white text-center">{stack}</p>
 
         <Link href={projectUrl}>
-          <p className="neonH2 text-center py-2 mx-8 rounded-md bg-white text-[#ff2a6d] text-lg cursor-pointer opacity-75 hover:opacity-100 transition duration-700">
+          <p className="neonH2 text-center py-2 mx-8 border-2 border-slate-600  hover:border-[#ff2a6d] bg-black text-[#ff2a6d] text-lg cursor-pointer opacity-75 hover:opacity-100 transition duration-700 hover:shadow-neon-main rounded-md border-opacity-40">
             Visit
           </p>
         </Link>
