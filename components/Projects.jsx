@@ -19,7 +19,7 @@ const Projects = () => {
             title="NFT MINT PAGE"
             backgroundImg={sibylImage}
             stack="ReactJS / Solidity / Ethers"
-            projectUrl="https://whimsical-kheer-5221bd.netlify.app/"
+            projectUrl="/sibyl"
             description="NFT project based on anime psycho pass. Each NFT is supposed to be an access token to every member in Sibyl system"
           />
 

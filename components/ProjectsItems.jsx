@@ -29,7 +29,7 @@ const ProjectsItems = ({
 
         <Link href={projectUrl}>
           <p className="neonH2 text-center py-2 mx-8 border-2 border-slate-600  hover:border-[#ff2a6d] bg-black text-[#ff2a6d] text-lg cursor-pointer opacity-75 hover:opacity-100 transition duration-700 hover:shadow-neon-main rounded-md border-opacity-40">
-            Visit
+            Info
           </p>
         </Link>
       </div>
