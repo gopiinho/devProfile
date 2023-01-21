@@ -20,6 +20,7 @@ const Projects = () => {
             backgroundImg={sibylImage}
             stack="ReactJS / Solidity / Ethers"
             projectUrl="https://whimsical-kheer-5221bd.netlify.app/"
+            description="NFT project based on anime psycho pass. Each NFT is supposed to be an access token to every member in Sibyl system"
           />
 
           <ProjectsItems
@@ -27,6 +28,7 @@ const Projects = () => {
             backgroundImg={cyberImage}
             stack="NextJS / Solidity"
             projectUrl="/"
+            description="NFT project based on anime psycho pass. Each NFT is supposed to be an access token to every member in Sibyl system"
           />
         </div>
       </div>
