@@ -35,7 +35,7 @@ const Navbar = () => {
           : "fixed w-full h-30 z-[100] transform duration-700"
       }
     >
-      <div className="navBar flex justify-between items-center w-full h-full p-6 2xl:px-16 font-cyber text-[#ff2a6d] bg-black cursor-pointer justify-content:space-evenly">
+      <div className="navBar flex justify-between items-center w-full h-full p-6 2xl:px-16 font-cyber text-[#ff2a6d] cursor-pointer justify-content:space-evenly">
         <div className="justify-between items-center">
           <ul className="hidden md:flex">
             <Link href="/#home">
