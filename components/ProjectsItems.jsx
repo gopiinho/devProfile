@@ -11,8 +11,7 @@ const ProjectsItems = ({
 }) => {
   return (
     <div className="relative flex items-center justify-center h-auto w-full group rounded-sm p-1 opacity-75 hover:opacity-100 transition duration-700 text-white ">
-      <div className="absolute -inset-0.5 opacity-75 bg-gradient-to-r from-[#ff2a6d] to-[#05d9e8] rounded-lg blur group-hover:opacity-0 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-      <div className="relative flex flex-col justify-center items-center">
+      <div className="relative flex flex-col justify-center items-center ease-in border-2 border-slate-600 hover:border-[#ff2a6d] duration-300 hover:shadow-neon-main rounded-md border-opacity-40">
         <Image
           className="relative rounded-md group-hover:opacity-10 transition duration-500 "
           src={backgroundImg}

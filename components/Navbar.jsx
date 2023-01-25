@@ -55,7 +55,7 @@ const Navbar = () => {
             </Link>
             <Link href="/stack">
               <li className="mx-10 text-lg  hover:border-b border-[#05d9e8]">
-                tech.stack
+                tech
               </li>
             </Link>
             <Link href="/contact">
