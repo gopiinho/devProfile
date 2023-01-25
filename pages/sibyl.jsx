@@ -6,9 +6,13 @@ const sibyl = () => {
     <div className="w-full h-screen text-center font-cyber">
       <div className=" h-20 background-tile "></div>
       <div className="w-full border-t-2 border-neon-main">
-        <div className="max-w-[1240px] w-full h-full mx-auto  flex justify-center items-center ">
-          <div className="">
-            <h1 className="text-4xl neonH2 pt-8">NFT MINT PAGE </h1>
+        <div className="max-w-[1240px] w-full h-full mx-auto   ">
+          <div className="pt-20">
+            <div className="neonH2 flex items-center justify-center cursor-default">
+              <h2 className="text-3xl tracking-widest uppercase text-cyber text-center  font-cyber opacity-60 hover:opacity-100 duration-200">
+                NFT MINT PAGE
+              </h2>
+            </div>
             <h2 className=" tracking-widest uppercase text-center my-8 font-cyber text-slate-400">
               React - Solidity - ethersjs - ChakraUI
             </h2>

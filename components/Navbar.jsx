@@ -31,38 +31,36 @@ const Navbar = () => {
     <div
       className={
         shadow
-          ? "fixed w-full h-30  shadow-md shadow-slate-400 z-[100] transform duration-700"
+          ? "fixed w-full h-30  shadow-md shadow-slate-400 z-[100] transform duration-700 bg-black"
           : "fixed w-full h-30 z-[100] transform duration-700"
       }
     >
-      <div className="navBar flex justify-between items-center w-full h-full p-6 2xl:px-16 font-cyber text-[#ff2a6d] cursor-pointer justify-content:space-evenly">
-        <div className="justify-between items-center">
-          <ul className="hidden md:flex">
-            <Link href="/#home">
-              <li className="ml-10 text-lg  hover:border-b border-[#05d9e8]">
-                home
-              </li>
-            </Link>
-            <Link href="/">
-              <li className="ml-10 text-lg  hover:border-b border-[#05d9e8]">
-                about
-              </li>
-            </Link>
-          </ul>
-        </div>
-        <div className="justify-between items-center">
-          <h1> Gopinho </h1>
-        </div>
+      <div className="navBar flex justify-center items-center w-full h-full p-6 2xl:px-16 font-cyber text-[#ff2a6d] ">
         <div className=" justify-between items-center">
           <ul className="hidden md:flex">
-            <Link href="/#projects">
-              <li className="ml-10 text-lg  hover:border-b border-[#05d9e8]">
+            <Link href="/projects">
+              <li className="mx-10 text-lg  hover:border-b border-[#05d9e8]">
                 projects
               </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-lg  hover:border-b border-[#05d9e8]">
+              <li className="mx-10 text-lg  hover:border-b border-[#05d9e8]">
                 vision
+              </li>
+            </Link>
+            <Link href="/#home" className="neonH2">
+              <h2 className=" text-white text-xl mx-10  hover:border-b border-[#05d9e8]">
+                menu
+              </h2>
+            </Link>
+            <Link href="/stack">
+              <li className="mx-10 text-lg  hover:border-b border-[#05d9e8]">
+                tech.stack
+              </li>
+            </Link>
+            <Link href="/contact">
+              <li className="mx-10 text-lg  hover:border-b border-[#05d9e8]">
+                contact
               </li>
             </Link>
           </ul>

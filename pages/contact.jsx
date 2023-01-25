@@ -5,10 +5,10 @@ const Contact = () => {
   const [linkText, setLinkText] = useState("discord")
 
   return (
-    <div id="contact" className="w-full lg:h-screen">
-      <div className="max-w-[1240px] m-auto px-2 py-16  w-full">
+    <div className="w-full lg:h-screen">
+      <div className="max-w-[1240px] m-auto p-28  w-full">
         <div className="neonH2 flex items-center justify-center cursor-default">
-          <h2 className="text-4xl tracking-widest uppercase text-center my-12 font-cyber">
+          <h2 className="text-3xl tracking-widest uppercase text-cyber text-center my-12 font-cyber opacity-60 hover:opacity-100 duration-200">
             Contact
           </h2>
         </div>

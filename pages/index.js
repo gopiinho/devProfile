@@ -1,13 +1,6 @@
 import Head from "next/head"
 import Image from "next/image"
-import { Inter } from "@next/font/google"
-
 import Main from "../components/Main"
-import About from "../components/About"
-import Skills from "../components/Skills"
-import Web3 from "../components/Web3"
-
-import Contact from "../components/Contact"
 
 export default function Home() {
   return (
@@ -19,9 +12,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Main />
-      <Skills />
-      <Web3 />
-      <Contact />
     </>
   )
 }
