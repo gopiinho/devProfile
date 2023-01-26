@@ -80,7 +80,7 @@ const Skills = () => {
         <div className="w-full h-full p-8">
           <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full ">
             <div className="neonH2 flex items-center justify-center cursor-default">
-              <h2 className="text-3xl tracking-widest uppercase text-center my-12 font-cyber">
+              <h2 className="text-3xl tracking-widest uppercase text-cyber text-center my-12 font-cyber opacity-60 hover:opacity-100 duration-200">
                 Web3.0 Stack
               </h2>
             </div>

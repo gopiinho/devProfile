@@ -43,7 +43,7 @@ const Navbar = () => {
                 projects
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/vision">
               <li className="mx-10 text-lg  hover:border-b border-[#05d9e8]">
                 vision
               </li>

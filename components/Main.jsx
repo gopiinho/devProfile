@@ -4,7 +4,7 @@ import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai"
 
 const Main = () => {
   return (
-    <div id="home" className="w-full h-screen text-center font-robot">
+    <div className="w-full h-screen text-center font-robot pb-16">
       <div className="max-w-[1240px] w-full pt-28 h-full mx-auto p-2 flex justify-center items-center">
         <div className="pt-8">
           <p className="uppercase text-sm tracking-widest text-gray-400">

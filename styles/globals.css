@@ -85,4 +85,10 @@ html {
     background-position: center;
     filter: brightness(0.1);
   }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
 }
