@@ -22,9 +22,7 @@ const Contact = () => {
           </p>
           <div className="p-2"></div>
           <p className="text-slate-400 max-w-[70%] m-auto">
-            I want to avoid subjective pissing-matches, and favor open-minded
-            collaborators where egos are out of the equation. If that all sounds
-            about right, then lets for sure chat about how we can work together.
+            Write me up to say hello.
           </p>
         </div>
 

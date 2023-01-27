@@ -31,7 +31,7 @@ const Navbar = () => {
     <div
       className={
         shadow
-          ? "fixed w-full h-30  shadow-md shadow-slate-400 z-[100] transform duration-700 bg-[#30303a]"
+          ? "fixed w-full h-30  shadow-md shadow-slate-400 z-[100] transform duration-700 bg-[#0E1117]"
           : "fixed w-full h-30 z-[100] transform duration-700"
       }
     >
@@ -77,7 +77,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-black p-10 ease-in duration-500"
+              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#0E1117] p-10 ease-in duration-500"
               : "fixed left-[-100%] top-0  p-10 ease-in duration-500"
           }
         >
@@ -86,9 +86,9 @@ const Navbar = () => {
               <h1 className="text-[#ff2a6d]"> Gopinho </h1>
               <div
                 onClick={handleNav}
-                className="rounded-full shadow-md shadow-gray-300 p-3 cursor-pointer"
+                className="rounded-full shadow-full shadow-gray-300 p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d]"
               >
-                <AiOutlineClose size={25} />
+                <AiOutlineClose size={15} />
               </div>
             </div>
             <div className="my-5 ">
@@ -99,24 +99,29 @@ const Navbar = () => {
           </div>
           <div className="p-4 flex flex-col">
             <ul className="font-cyber text-[#ff2a6d]">
-              <Link href="/">
-                <li className="py-4 text-sm hover:border-b border-[#05d9e8] w-[30%] transform duration-300">
-                  home
-                </li>
+              <Link href="/" className="neonH2">
+                <h2 className=" py-4 text-sm hover:border-b border-[#05d9e8] w-[30%] transform duration-300 text-white">
+                  menu
+                </h2>
               </Link>
-              <Link href="/">
+              <Link href="/about">
                 <li className="py-4 text-sm hover:border-b border-[#05d9e8] w-[30%] transform duration-300">
                   about
                 </li>
               </Link>
-              <Link href="/">
+              <Link href="/projects">
                 <li className="py-4 text-sm hover:border-b border-[#05d9e8] w-[30%] transform duration-300">
                   projects
                 </li>
               </Link>
-              <Link href="/">
+              <Link href="/vision">
                 <li className="py-4 text-sm hover:border-b border-[#05d9e8] w-[30%] transform duration-300">
                   vision
+                </li>
+              </Link>
+              <Link href="/stack">
+                <li className="py-4 text-sm hover:border-b border-[#05d9e8] w-[30%] transform duration-300">
+                  tech
                 </li>
               </Link>
             </ul>

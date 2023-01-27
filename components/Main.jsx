@@ -20,13 +20,13 @@ const Main = () => {
             truly unique and immersive experiences.
           </p>
           <div className="flex items-center  justify-between max-w-[330px] m-auto py-4">
-            <div className="rounded-full shadow-md p-4 shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d]">
+            <div className="rounded-full shadow-sm p-4 shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d]">
               <FaGithub />
             </div>
-            <div className="rounded-full shadow-md p-4 shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d]">
+            <div className="rounded-full shadow-sm p-4 shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d]">
               <AiFillTwitterCircle />
             </div>
-            <div className="rounded-full shadow-md p-4 shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d]">
+            <div className="rounded-full shadow-sm p-4 shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d]">
               <AiFillLinkedin />
             </div>
           </div>
