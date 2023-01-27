@@ -25,7 +25,7 @@ const Projects = () => {
           backgroundImg={cyberImage}
           stack="NextJS / Solidity"
           projectUrl="/"
-          description="NFT project based on anime psycho pass. Each NFT is supposed to be an access token to every member in Sibyl system"
+          description="NFT Marketplace smart contract to trade any kind of ERC721's. Creates several funds to Add/remove items."
         />
       </div>
     </div>
