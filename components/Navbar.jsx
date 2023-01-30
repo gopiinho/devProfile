@@ -32,10 +32,10 @@ const Navbar = () => {
       className={
         shadow
           ? "fixed w-full h-30  shadow-md shadow-slate-400 z-[100] transform duration-700 bg-[#0E1117]"
-          : "fixed w-full h-30 z-[100] transform duration-700"
+          : "fixed w-full h-30 z-[100] transform duration-700 bg-[#e2dddf] bg-opacity-60 shadow-md shadow-[#ff577d]"
       }
     >
-      <div className="navBar flex justify-center items-center w-full h-full p-6 2xl:px-16 font-cyber text-[#ff2a6d] ">
+      <div className="navBar flex justify-center items-center w-full h-full p-6 2xl:px-16 font-cyber text-[#ff2a6d] pr-12">
         <div className=" justify-between items-center">
           <ul className="hidden md:flex">
             <Link href="/projects">
@@ -82,7 +82,7 @@ const Navbar = () => {
           }
         >
           <div>
-            <div className=" navBar flex w-full items-center justify-between font-cyber">
+            <div className=" navBar flex w-full items-center justify-between font-cyber pl-12">
               <h1 className="text-[#ff2a6d]"> Gopinho </h1>
               <div
                 onClick={handleNav}

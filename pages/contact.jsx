@@ -28,9 +28,11 @@ const Contact = () => {
             <div className="max-w-[200px] m-auto  justify-center items-center ease-in border-2 text-[#ff2a6d] border-slate-600 hover:border-[#ff2a6d] duration-300 hover:shadow-neon-main rounded-md border-opacity-40">
               <Link
                 href="https://drive.google.com/file/d/12WNCNpQlSO1jyVFVxrmuQx1IWbH1PgCV/view"
+                target="_blank"
+                rel="noopener noreferrer"
                 className=" flex flex-col items-center justify-center py-2 font-cyber"
               >
-                <h2 className="text-xl">View CV</h2>
+                <h2 className="text-xl">view cv</h2>
               </Link>
             </div>
           </div>
