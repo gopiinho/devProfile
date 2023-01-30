@@ -1,9 +1,16 @@
 import React from "react"
 import Link from "next/link"
+import { motion as m } from "framer-motion"
 
 const sibyl = () => {
   return (
-    <div className="w-full h-screen text-center font-cyber">
+    <m.div
+      initial={{ opacity: 0.3 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.3, ease: "easeOut" }}
+      className="w-full h-screen text-center font-cyber"
+    >
       <div className=" h-20 background-tile "></div>
       <div className="w-full ">
         <div className="max-w-[1240px] w-full h-full mx-auto   ">
@@ -64,7 +71,7 @@ const sibyl = () => {
           </div>
         </div>
       </div>
-    </div>
+    </m.div>
   )
 }
 

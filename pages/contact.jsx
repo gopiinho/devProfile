@@ -1,11 +1,18 @@
 import React, { useState } from "react"
 import Link from "next/link"
+import { motion as m } from "framer-motion"
 
 const Contact = () => {
   const [linkText, setLinkText] = useState("discord")
 
   return (
-    <div className="w-full lg:h-screen">
+    <m.div
+      initial={{ opacity: 0.3 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.3, ease: "easeOut" }}
+      className="w-full lg:h-screen"
+    >
       <div className="max-w-[1240px] m-auto py-24  w-full">
         <div className="neonH2 flex items-center justify-center cursor-default">
           <h2 className="text-3xl tracking-widest uppercase text-cyber text-center my-12 font-cyber opacity-60 hover:opacity-100 duration-200">
@@ -109,7 +116,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </m.div>
   )
 }
 

@@ -1,4 +1,5 @@
 import React, { useEffect } from "react"
+import { motion as m } from "framer-motion"
 
 const vision = () => {
   useEffect(() => {
@@ -10,7 +11,13 @@ const vision = () => {
   }, [])
 
   return (
-    <div className="w-full h-screen text-center font-robot pb-16">
+    <m.div
+      initial={{ opacity: 0.3 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.3, ease: "easeOut" }}
+      className="w-full h-screen text-center font-robot pb-16"
+    >
       <div className="max-w-[1240px] w-full pt-28 h-full mx-auto p-2 flex justify-center items-center">
         <div className="pt-8">
           <p className="uppercase text-sm tracking-widest text-gray-400">
@@ -23,7 +30,7 @@ const vision = () => {
           </div>
         </div>
       </div>
-    </div>
+    </m.div>
   )
 }
 
