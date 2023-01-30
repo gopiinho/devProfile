@@ -11,7 +11,7 @@ const Skills = () => {
       transition={{ duration: 0.3, ease: "easeOut" }}
       className="w-full h-full lg:h-full"
     >
-      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full pt-28">
+      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full py-28">
         <div className="neonH2 flex items-center justify-center cursor-default">
           <h2 className="text-3xl tracking-widest uppercase text-cyber text-center my-12 font-cyber opacity-60 hover:opacity-100 duration-200">
             Tech Stack

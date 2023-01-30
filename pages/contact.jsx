@@ -13,7 +13,7 @@ const Contact = () => {
       transition={{ duration: 0.3, ease: "easeOut" }}
       className="w-full lg:h-screen"
     >
-      <div className="max-w-[1240px] m-auto py-24  w-full">
+      <div className="max-w-[1240px] m-auto py-28  w-full">
         <div className="neonH2 flex items-center justify-center cursor-default">
           <h2 className="text-3xl tracking-widest uppercase text-cyber text-center my-12 font-cyber opacity-60 hover:opacity-100 duration-200">
             Contact
@@ -32,14 +32,14 @@ const Contact = () => {
             Write me up to say hello.
           </p>
           <div className="pt-8 ">
-            <div className="max-w-[200px] m-auto  justify-center items-center ease-in border-2 text-[#ff2a6d] border-slate-600 hover:border-[#ff2a6d] duration-300 hover:shadow-neon-main rounded-md border-opacity-40">
+            <div className="max-w-[200px] m-auto  justify-center items-center ease-in border-2 text-[#ff2a6d] hover:text-white border-slate-600 hover:border-[#ff2a6d] duration-300 hover:shadow-neon-main rounded-md border-opacity-40">
               <Link
                 href="https://drive.google.com/file/d/12WNCNpQlSO1jyVFVxrmuQx1IWbH1PgCV/view"
                 target="_blank"
                 rel="noopener noreferrer"
                 className=" flex flex-col items-center justify-center py-2 font-cyber"
               >
-                <h2 className="text-xl">view cv</h2>
+                <h2 className="text-xl ">view cv</h2>
               </Link>
             </div>
           </div>
@@ -52,9 +52,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h3 className="text-lg  hover:border-b border-[#05d9e8]">
-                github
-              </h3>
+              <h3 className="text-lg hover:text-white">github</h3>
             </Link>
           </div>
 
@@ -64,9 +62,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h3 className="text-lg  hover:border-b border-[#05d9e8]">
-                linkedin
-              </h3>
+              <h3 className="text-lg hover:text-white">linkedin</h3>
             </Link>
           </div>
 
@@ -76,9 +72,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h3 className="text-lg  hover:border-b border-[#05d9e8]">
-                twitter
-              </h3>
+              <h3 className="text-lg hover:text-white">twitter</h3>
             </Link>
           </div>
 
@@ -88,9 +82,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h3 className="text-lg  hover:border-b border-[#05d9e8]">
-                instagram
-              </h3>
+              <h3 className="text-lg  hover:text-white">instagram</h3>
             </Link>
           </div>
 
@@ -100,15 +92,13 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h3 className="text-lg  hover:border-b border-[#05d9e8]">
-                email
-              </h3>
+              <h3 className="text-lg hover:text-white">email</h3>
             </Link>
           </div>
 
           <div className=" flex flex-col items-center justify-center">
             <h3
-              className="text-lg  hover:border-b border-[#05d9e8] cursor-pointer"
+              className="text-lg cursor-pointer hover:text-white"
               onClick={() => setLinkText("Gopinho#6037")}
             >
               {linkText}
