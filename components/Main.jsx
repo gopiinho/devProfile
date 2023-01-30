@@ -1,17 +1,25 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { FaGithub } from "react-icons/fa"
 import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai"
 
 const Main = () => {
+  useEffect(() => {
+    document.body.style.overflow = "hidden"
+
+    return () => {
+      document.body.style.overflow = "auto"
+    }
+  }, [])
+
   return (
     <div className="w-full h-screen text-center font-robot pb-16">
       <div className="max-w-[1240px] w-full pt-28 h-full mx-auto p-2 flex justify-center items-center">
         <div className="pt-8">
-          <p className="uppercase text-sm tracking-widest text-gray-400">
+          <p className="uppercase text-sm tracking-widest text-slate-200">
             Building the decentralized internet
           </p>
           <h1 className=" py-8 text-[#ff2a6d] ">BlockChain Developer</h1>
-          <p className="py-4 text-slate-400 max-w-[70%] m-auto">
+          <p className="py-4 text-slate-300 max-w-[70%] m-auto">
             I am deeply enthralled by the boundless potential of the internet,
             and the endless opportunities it presents for creativity and
             innovation. As an artistic and technologically-inclined individual,

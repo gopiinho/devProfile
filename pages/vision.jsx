@@ -1,6 +1,14 @@
-import React from "react"
+import React, { useEffect } from "react"
 
 const vision = () => {
+  useEffect(() => {
+    document.body.style.overflow = "hidden"
+
+    return () => {
+      document.body.style.overflow = "auto"
+    }
+  }, [])
+
   return (
     <div className="w-full h-screen text-center font-robot pb-16">
       <div className="max-w-[1240px] w-full pt-28 h-full mx-auto p-2 flex justify-center items-center">

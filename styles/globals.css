@@ -8,7 +8,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-[#0E1117] text-white tracking-wide;
+    @apply bg-[#2A2B2E] text-white tracking-wide;
   }
 
   h1 {

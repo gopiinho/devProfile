@@ -124,6 +124,11 @@ const Navbar = () => {
                   tech
                 </li>
               </Link>
+              <Link href="/contact">
+                <li className="py-4 text-sm hover:border-b border-[#05d9e8] w-[30%] transform duration-300">
+                  contact
+                </li>
+              </Link>
             </ul>
             <div className="pt-20">
               <p className="uppercase text-white tracking-widest">Links</p>

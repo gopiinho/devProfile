@@ -11,8 +11,8 @@ const Skills = () => {
           </h2>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 tracking-widest font-cyber">
-          <div className="px-4 text-white hover:text-[#63698E]">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center ease-in duration-300 rounded-md border-[#63698E]  hover:bg-black border-2 hover:shadow-neon-sol border-opacity-40 hover:border-opacity-100">
+          <div className="px-4 text-slate-300 hover:text-[#63698E]">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center ease-in duration-300 rounded-md border-[#63698E]  border-2 hover:shadow-neon-sol border-opacity-40 hover:border-opacity-100">
               <div className="m-auto">
                 <div className="py-6 devicon-solidity-plain text-6xl hover:text-slate-400 hover:scale-110 transform duration-300"></div>
               </div>
@@ -33,8 +33,8 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="px-4 text-white hover:text-[#007ACC]">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center ease-in duration-300 rounded-md border-[#007ACC]  hover:bg-black border-2 hover:shadow-neon-type border-opacity-40 hover:border-opacity-100">
+          <div className="px-4  hover:text-[#007ACC]">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center ease-in duration-300 rounded-md border-[#007ACC]   border-2 hover:shadow-neon-type border-opacity-40 hover:border-opacity-100">
               <div className="m-auto">
                 <div className=" py-6 devicon-typescript-original text-6xl hover:text-slate-400 hover:scale-110 transform duration-300"></div>
               </div>
@@ -45,7 +45,7 @@ const Skills = () => {
           </div>
 
           <div className="px-4 text-white hover:text-[#37bcf8]">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center ease-in duration-300 rounded-md border-[#37bcf8]  hover:bg-black border-2 hover:shadow-neon-tailwind border-opacity-40 hover:border-opacity-100">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center ease-in duration-300 rounded-md border-[#37bcf8]   border-2 hover:shadow-neon-tailwind border-opacity-40 hover:border-opacity-100">
               <div className="m-auto">
                 <div className="py-6 devicon-tailwindcss-plain text-6xl hover:text-slate-400 hover:scale-110 transform duration-300"></div>
               </div>
@@ -56,7 +56,7 @@ const Skills = () => {
           </div>
 
           <div className="px-4  text-white hover:text-[#61d9fb]">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center ease-in duration-300 rounded-md border-[#61d9fb]  hover:bg-black border-2 hover:shadow-neon-blue border-opacity-40 hover:border-opacity-100">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center ease-in duration-300 rounded-md border-[#61d9fb]   border-2 hover:shadow-neon-blue border-opacity-40 hover:border-opacity-100">
               <div className="m-auto">
                 <div className=" py-6 devicon-react-original text-6xl hover:text-slate-400 hover:scale-110 transform duration-300"></div>
               </div>
@@ -67,7 +67,7 @@ const Skills = () => {
           </div>
 
           <div className="px-4 text-white hover:text-[#3E863E]">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center ease-in duration-300 rounded-md border-[#3E863E]  hover:bg-black border-2 hover:shadow-neon-green border-opacity-40 hover:border-opacity-100">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center ease-in duration-300 rounded-md border-[#3E863E]   border-2 hover:shadow-neon-green border-opacity-40 hover:border-opacity-100">
               <div className="m-auto">
                 <div className=" py-6 devicon-nodejs-plain text-6xl  hover:text-slate-400  hover:scale-110 transform duration-300"></div>
               </div>
