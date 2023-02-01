@@ -22,6 +22,12 @@ html {
     }
   }
 
+  @media (min-width: 640px) and (max-width: 768px) {
+    .pt-20 {
+      padding-top: 20px;
+    }
+  }
+
   .navBar h1:hover,
   li:hover {
     text-shadow: 0 0 10px #ff2a6d, 0 0 20px #ff2a6d, 0 0 40px #ff2a6d,

@@ -1,6 +1,6 @@
 import Head from "next/head"
 import Main from "../components/Main"
-import { easeOut, motion as m } from "framer-motion"
+import { motion as m } from "framer-motion"
 
 export default function Home() {
   return (

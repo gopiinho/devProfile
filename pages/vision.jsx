@@ -1,32 +1,32 @@
-import React, { useEffect } from "react"
+import React from "react"
 import { motion as m } from "framer-motion"
 
 const vision = () => {
-  useEffect(() => {
-    document.body.style.overflow = "hidden"
-
-    return () => {
-      document.body.style.overflow = "auto"
-    }
-  }, [])
-
   return (
     <m.div
       initial={{ opacity: 0.3 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.3, ease: "easeOut" }}
-      className="w-full h-screen text-center font-robot pb-16"
+      className="w-full h-screen text-center font-robot "
     >
-      <div className="max-w-[1240px] w-full pt-28 h-full mx-auto p-2 flex justify-center items-center">
-        <div className="pt-8">
-          <p className="uppercase text-sm tracking-widest text-gray-400">
-            Looking forward to the future
-          </p>
-          <div className="neonH2 flex items-center justify-center cursor-default">
-            <h2 className="text-3xl tracking-widest uppercase text-cyber text-center my-12 font-cyber opacity-60 hover:opacity-100 duration-200">
-              Vision
-            </h2>
+      <div className="flex flex-col justify-between lg:flex-row md:flex-row h-full sm:flex-col md:h-screen  sm:h-screen sm:justify-center md:justify-center lg:justify-center font-robot pt-20 sm:pt-20 md:pt-20">
+        <div className="p-4 bg-[#e2dddf]  lg:w-1/3 md:w-full h-full sm:w-full ">
+          <div className="flex lg:flex-col md:flex-col sm:flex-row sm:w-full justify-between h-full py-24 text-slate-700 ">
+            <h1 className="">Storyteller</h1>
+            <p>Test</p>
+          </div>
+        </div>
+        <div className="p-4 bg-[#ff2a6d]  lg:w-1/3 md:w-full h-full sm:w-full">
+          <div className="flex lg:flex-col md:flex-col sm:flex-row sm:w-full justify-between h-full py-24 text-slate-700">
+            <h1>Developer</h1>
+            <p>Test</p>
+          </div>
+        </div>
+        <div className="p-4 bg-[#ff6e27]  lg:w-1/3 md:w-full h-full sm:w-full">
+          <div className="flex lg:flex-col md:flex-col sm:flex-row sm:w-full justify-between h-full py-24 text-slate-700">
+            <h1>Designer</h1>
+            <p>Test</p>
           </div>
         </div>
       </div>
