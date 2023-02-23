@@ -1,6 +1,5 @@
 import React from "react"
-import sibylImage from "../public/assets/projects/sibyl.png"
-import cyberImage from "../public/assets/projects/cyber.png"
+import { sibylImage, cyberImage } from "../public/assets/projects/index"
 import ProjectsItems from "../components/ProjectsItems"
 import { motion as m } from "framer-motion"
 
