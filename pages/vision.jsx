@@ -11,7 +11,7 @@ const vision = () => {
       className="w-full h-screen text-center font-robot "
     >
       <div className="flex flex-col justify-between lg:flex-row md:flex-row h-full sm:flex-col md:h-screen  sm:h-screen sm:justify-center md:justify-center lg:justify-center font-robot pt-20 sm:pt-20 md:pt-20">
-        <div className="p-4 bg-[#e2dddf]/40 hover:bg-[#e2dddf] hover:text-slate-700 text-slate-700/60 transform duration-300 lg:w-1/3 md:w-full h-full sm:w-full">
+        <div className="p-4 bg-[#e2dddf]/40 hover:bg-[#e2dddf] hover:text-slate-700 text-slate-700/90 transform duration-300 lg:w-1/3 md:w-full h-full sm:w-full">
           <div className="flex lg:flex-col md:flex-col sm:flex-row sm:w-full justify-between h-full py-24   ">
             <h1 className="text-slate-700">Storyteller</h1>
             <p className="mx-12 pb-12">
@@ -28,7 +28,7 @@ const vision = () => {
             </p>
           </div>
         </div>
-        <div className="p-4 bg-[#ff2a6d]/40 hover:bg-[#ff2a6d] hover:text-slate-700 text-slate-700/60 transform duration-300 lg:w-1/3 md:w-full h-full sm:w-full">
+        <div className="p-4 bg-[#ff2a6d]/40 hover:bg-[#ff2a6d] hover:text-slate-700 text-slate-700/90 transform duration-300 lg:w-1/3 md:w-full h-full sm:w-full">
           <div className="flex lg:flex-col md:flex-col sm:flex-row sm:w-full justify-between h-full py-24">
             <h1>Developer</h1>
             <p className="mx-12 pb-12">
@@ -45,7 +45,7 @@ const vision = () => {
             </p>
           </div>
         </div>
-        <div className="p-4 bg-[#ADD8E6]/40 hover:bg-[#ADD8E6] hover:text-slate-700 text-slate-700/60 transform duration-300  lg:w-1/3 md:w-full h-full sm:w-full">
+        <div className="p-4 bg-[#ADD8E6]/40 hover:bg-[#ADD8E6] hover:text-slate-700 text-slate-700/90 transform duration-300  lg:w-1/3 md:w-full h-full sm:w-full">
           <div className="flex lg:flex-col md:flex-col sm:flex-row sm:w-full justify-between h-full py-24">
             <h1>Designer</h1>
             <p className="mx-12 pb-12">
