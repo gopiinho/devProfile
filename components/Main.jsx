@@ -15,10 +15,10 @@ const Main = () => {
     <div className="w-full h-screen text-center font-robot pb-16">
       <div className="max-w-[1240px] w-full pt-28 h-full mx-auto p-2 flex justify-center items-center">
         <div className="pt-8">
-          <p className="uppercase text-sm tracking-widest text-slate-200">
+          <p className="uppercase text-sm tracking-widest  text-slate-200">
             Building decentralized internet
           </p>
-          <h1 className=" py-8 cursor-default text-[#ff2a6d] tracking-titleWide transform duration-700">
+          <h1 className=" py-8 cursor-default text-[#ff2a6d] tracking-titleWide hover:tracking-titleDefault transform duration-1000">
             WEB3 DEVELOPER
           </h1>
           <p className="py-4 text-slate-300 max-w-[70%] m-auto">

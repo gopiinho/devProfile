@@ -25,11 +25,13 @@ module.exports = {
       letterSpacing: {
         widest: ".1em",
         titleWide: ".3em",
+        titleDefault: ".28em",
       },
 
       fontFamily: {
         cyber: "'Orbitron', sans-serif;",
         robot: "'Roboto', sans-serif;",
+        phudu: "'Phudu', cursive;",
       },
 
       boxShadow: {

@@ -16,7 +16,7 @@ const sibyl = () => {
         <div className="max-w-[1240px] w-full h-full mx-auto   ">
           <div className="pt-20">
             <div className="neonH2 flex items-center justify-center cursor-default">
-              <h2 className="text-3xl tracking-widest uppercase text-cyber text-center  font-cyber opacity-70 hover:opacity-100 duration-200">
+              <h2 className="text-3xl tracking-widest uppercase text-center  font-cyber opacity-70 hover:opacity-100 duration-200">
                 NFT MINT PAGE
               </h2>
             </div>
