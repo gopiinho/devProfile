@@ -22,6 +22,10 @@ module.exports = {
           },
         },
       },
+      letterSpacing: {
+        widest: ".1em",
+        titleWide: ".3em",
+      },
 
       fontFamily: {
         cyber: "'Orbitron', sans-serif;",

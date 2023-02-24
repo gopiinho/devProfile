@@ -16,9 +16,11 @@ const Main = () => {
       <div className="max-w-[1240px] w-full pt-28 h-full mx-auto p-2 flex justify-center items-center">
         <div className="pt-8">
           <p className="uppercase text-sm tracking-widest text-slate-200">
-            Building the decentralized internet
+            Building decentralized internet
           </p>
-          <h1 className=" py-8 text-[#ff2a6d] ">BlockChain Developer</h1>
+          <h1 className=" py-8 cursor-default text-[#ff2a6d] tracking-titleWide transform duration-700">
+            WEB3 DEVELOPER
+          </h1>
           <p className="py-4 text-slate-300 max-w-[70%] m-auto">
             I am deeply enthralled by the boundless potential of the internet,
             and the endless opportunities it presents for creativity and
