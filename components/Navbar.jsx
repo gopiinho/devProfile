@@ -67,13 +67,16 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#0E1117] p-10 ease-in duration-500 "
+              ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#3c3d42]  p-10 ease-in duration-500 shadow shadow-[#ff577d]"
               : "fixed left-[-100%] top-0  p-10 ease-in duration-500"
           }
         >
           <div>
             <div className=" navBar flex w-full items-center justify-between font-cyber ">
-              <h1 className="text-[#ff2a6d]"> Gopinho </h1>
+              <h1 className="text-[#ff2a6d] cursor-default font-phudu">
+                {" "}
+                WEB3{" "}
+              </h1>
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-full shadow-gray-300 p-3 cursor-pointer hover:scale-105 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d] "
@@ -82,7 +85,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className="my-5 ">
-              <p className="w-[85%] md:w-[90%] py-4 text-slate-400 font-robot">
+              <p className="w-[85%] md:w-[90%] py-4 text-slate-400 font-robot uppercase">
                 Building the decentralised web.
               </p>
             </div>
