@@ -17,7 +17,7 @@ const Skills = () => {
             Tech Stack
           </h2>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 tracking-widest font-cyber">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 tracking-widest font-phudu">
           <div className="px-4 text-slate-300 hover:text-[#63698E]">
             <div className="grid grid-cols-2 gap-4 justify-center items-center ease-in duration-300 rounded-md border-[#63698E]  border-2 hover:shadow-neon-sol border-opacity-40 hover:border-opacity-100">
               <div className="m-auto">
@@ -87,14 +87,14 @@ const Skills = () => {
         <div className="w-full h-full p-8">
           <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full ">
             <div className="neonH2 flex items-center justify-center cursor-default">
-              <h2 className="text-3xl tracking-widest uppercase text-cyber text-center my-12 font-cyber opacity-60 hover:opacity-100 duration-200">
+              <h2 className="text-3xl tracking-widest uppercase text-center my-12 font-cyber opacity-60 hover:opacity-100 duration-200">
                 Web3.0 Stack
               </h2>
             </div>
             <div className="grid md:grid-cols-2 lg-grid-cols-3 gap-8 tracking-widest font-robot">
               <div className="px-4">
                 <div className=" justify-center items-center ease-in border-2 border-slate-600 hover:border-[#ff2a6d] duration-300 hover:shadow-neon-main rounded-md  border-opacity-40">
-                  <div className=" flex flex-col items-center justify-center py-4 font-cyber">
+                  <div className=" flex flex-col items-center justify-center py-4 font-phudu">
                     <h2 className="text-xl">Frameworks</h2>
                   </div>
                   <div className="text-center text-slate-400 py-4">
@@ -105,7 +105,7 @@ const Skills = () => {
 
               <div className="px-4">
                 <div className=" justify-center items-center ease-in border-2 border-slate-600 hover:border-[#ff2a6d] duration-300 hover:shadow-neon-main rounded-md border-opacity-40">
-                  <div className=" flex flex-col items-center justify-center py-4 font-cyber">
+                  <div className=" flex flex-col items-center justify-center py-4 font-phudu">
                     <h2 className="text-xl">Standards</h2>
                   </div>
                   <div className="text-center text-slate-400 py-4">
@@ -116,7 +116,7 @@ const Skills = () => {
 
               <div className="px-4">
                 <div className=" justify-center items-center ease-in border-2 border-slate-600 hover:border-[#ff2a6d] duration-300 hover:shadow-neon-main rounded-md border-opacity-40">
-                  <div className=" flex flex-col items-center justify-center py-4 font-cyber">
+                  <div className=" flex flex-col items-center justify-center py-4 font-phudu">
                     <h2 className="text-xl ">Querying</h2>
                   </div>
                   <div className="text-center text-slate-400 py-4">
@@ -127,7 +127,7 @@ const Skills = () => {
 
               <div className="px-4">
                 <div className=" justify-center items-center ease-in border-2 border-slate-600  hover:border-[#ff2a6d] duration-300 hover:shadow-neon-main rounded-md border-opacity-40">
-                  <div className=" flex flex-col items-center justify-center py-4 font-cyber">
+                  <div className=" flex flex-col items-center justify-center py-4 font-phudu">
                     <h2 className="text-xl ">API's</h2>
                   </div>
                   <div className="text-center text-slate-400 py-4">

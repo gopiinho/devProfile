@@ -18,7 +18,7 @@ const Main = () => {
           <p className="uppercase text-sm tracking-widest  text-slate-200">
             Building decentralized internet
           </p>
-          <h1 className=" py-8 cursor-default text-[#ff2a6d] tracking-titleWide hover:tracking-titleDefault transform duration-1000">
+          <h1 className=" py-8 cursor-default font-phudu text-[#ff2a6d] tracking-titleWide hover:tracking-titleDefault transform duration-1000">
             WEB3 DEVELOPER
           </h1>
           <p className="py-4 text-slate-300 max-w-[70%] m-auto">

@@ -30,7 +30,7 @@ const vision = () => {
             </p>
           </div>
         </div>
-        <div className="p-4 bg-[#ff2a6d]/40 hover:bg-[#ff2a6d] hover:text-slate-800 text-slate-800/90 transform duration-300 lg:w-1/3 md:w-full h-full sm:w-full">
+        <div className="p-4 bg-[#ff2a6d]/40 hover:bg-[#ff2a6d] hover:text-slate-800 text-slate-700/90 transform duration-300 lg:w-1/3 md:w-full h-full sm:w-full">
           <div className="flex lg:flex-col md:flex-col sm:flex-row sm:w-full justify-between h-full py-24">
             <h2 className=" font-phudu uppercase text-4xl tracking-titleWide hover:tracking-titleDefault transform duration-1000  cursor-default">
               Developer
