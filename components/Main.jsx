@@ -2,6 +2,8 @@ import React, { useEffect } from "react"
 import { FaGithub } from "react-icons/fa"
 import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai"
 
+import Image from "next/image"
+import { mainBG } from "../public/assets/backgrounds/index"
 const Main = () => {
   useEffect(() => {
     document.body.style.overflow = "hidden"
@@ -13,6 +15,13 @@ const Main = () => {
 
   return (
     <div className="w-full h-screen text-center font-robot pb-16">
+      <Image
+        src={mainBG}
+        alt="/"
+        className="absolute inset-0 w-full h-full object-cover z--1 opacity-30 pointer-events-none"
+        priority
+        unoptimized={true}
+      />
       <div className="max-w-[1240px] w-full pt-28 h-full mx-auto p-2 flex justify-center items-center">
         <div className="pt-8">
           <p className="uppercase text-sm tracking-widest  text-slate-200">
