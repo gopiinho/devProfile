@@ -12,11 +12,11 @@ const vision = () => {
     >
       <div className="flex flex-col justify-between lg:flex-row md:flex-row h-full sm:flex-col md:h-screen  sm:h-screen sm:justify-center md:justify-center lg:justify-center font-robot pt-20 sm:pt-20 md:pt-20">
         <div className="p-4 bg-[#e2dddf]/40 hover:bg-[#e2dddf] hover:text-slate-700 text-slate-700/90 transform duration-300 lg:w-1/3 md:w-full h-full sm:w-full">
-          <div className="flex lg:flex-col md:flex-col sm:flex-row sm:w-full justify-between h-full py-24   ">
+          <div className="flex-col lg:flex-col md:flex-col sm:flex-row sm:w-full justify-between h-full py-24   ">
             <h2 className="text-slate-700 font-phudu uppercase text-4xl tracking-titleWide hover:tracking-titleDefault transform duration-1000 cursor-default">
               Storyteller
             </h2>
-            <p className="mx-12 pb-12">
+            <p className="mx-8 mt-16">
               As a storyteller, I am drawn to the power of visuals and
               interactive experiences to captivate an audience. Inspired by the
               dynamic storytelling of anime and the immersive worlds of great
@@ -31,11 +31,11 @@ const vision = () => {
           </div>
         </div>
         <div className="p-4 bg-[#ff2a6d]/40 hover:bg-[#ff2a6d] hover:text-slate-800 text-slate-700/90 transform duration-300 lg:w-1/3 md:w-full h-full sm:w-full">
-          <div className="flex lg:flex-col md:flex-col sm:flex-row sm:w-full justify-between h-full py-24">
+          <div className="flex-col lg:flex-col md:flex-col sm:flex-row sm:w-full justify-between h-full py-24">
             <h2 className=" font-phudu uppercase text-4xl tracking-titleWide hover:tracking-titleDefault transform duration-1000  cursor-default">
               Developer
             </h2>
-            <p className="mx-12 pb-12">
+            <p className="mx-8 mt-16">
               As a dedicated developer, I'm excited to leverage the power of
               Web3 to create a cutting-edge gaming platform that offers players
               unparalleled levels of ownership, control, and security. Through
@@ -49,12 +49,12 @@ const vision = () => {
             </p>
           </div>
         </div>
-        <div className="p-4 bg-[#ADD8E6]/40 hover:bg-[#ADD8E6] hover:text-slate-700 text-slate-700/90 transform duration-300  lg:w-1/3 md:w-full h-full sm:w-full">
-          <div className="flex lg:flex-col md:flex-col sm:flex-row sm:w-full justify-between h-full py-24">
+        <div className="bg-[#ADD8E6]/40 hover:bg-[#ADD8E6] hover:text-slate-700 text-slate-700/90 transform duration-300  lg:w-1/3 md:w-full h-full sm:w-full">
+          <div className="flex-col lg:flex-col md:flex-col sm:flex-row sm:w-full justify-between h-full py-24 ">
             <h2 className="text-slate-700 font-phudu uppercase text-4xl tracking-titleWide hover:tracking-titleDefault transform duration-1000  cursor-default">
               Designer
             </h2>
-            <p className="mx-12 pb-12">
+            <p className="mx-8 mt-16">
               As a lifelong learner and explorer, I am passionate about
               constantly expanding my knowledge and understanding of the world
               and all of its intricacies. One of my areas of interest is
