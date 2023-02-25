@@ -20,6 +20,7 @@ const vision = () => {
             alt="/"
             className="absolute inset-0 w-full h-full object-cover z--1 opacity-30 pointer-events-none"
             priority
+            unoptimized={true}
           />
           <div className="flex-col lg:flex-col md:flex-col sm:flex-row sm:w-full justify-between h-full py-24  ">
             <h2 className="text-slate-700 font-phudu uppercase text-4xl tracking-titleWide hover:tracking-titleDefault transform duration-1000 cursor-default   bg-[#E4E1E3]/50 py-4">
@@ -45,6 +46,7 @@ const vision = () => {
             alt="/"
             className="absolute inset-0 w-full h-full object-cover z--1 opacity-30 pointer-events-none"
             priority
+            unoptimized={true}
           />
           <div className="flex-col lg:flex-col md:flex-col sm:flex-row sm:w-full justify-between h-full py-24">
             <h2 className=" font-phudu uppercase text-4xl tracking-titleWide hover:tracking-titleDefault transform duration-1000  cursor-default  bg-[#CD3769]/50 py-4">
@@ -70,6 +72,7 @@ const vision = () => {
             alt="/"
             className="absolute inset-0 w-full h-full object-cover z--1 opacity-30 pointer-events-none"
             priority
+            unoptimized={true}
           />
           <div className="flex-col lg:flex-col md:flex-col sm:flex-row sm:w-full justify-between h-full py-24 ">
             <h2 className="text-slate-700 font-phudu uppercase text-4xl tracking-titleWide hover:tracking-titleDefault transform duration-1000  cursor-default bg-[#79AFC0]/50 py-4">
