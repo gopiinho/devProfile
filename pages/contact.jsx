@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import Link from "next/link"
-import Image from "next/image"
 import { motion as m } from "framer-motion"
+import Image from "next/image"
 import { contactBG } from "../public/assets/backgrounds/index"
 const Contact = () => {
   const [linkText, setLinkText] = useState("discord")

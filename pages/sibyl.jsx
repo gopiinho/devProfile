@@ -1,6 +1,8 @@
 import React from "react"
 import Link from "next/link"
 import { motion as m } from "framer-motion"
+import Image from "next/image"
+import { sibylBG } from "../public/assets/backgrounds/index"
 
 const sibyl = () => {
   return (
@@ -12,6 +14,12 @@ const sibyl = () => {
       className="w-full h-screen text-center font-cyber"
     >
       <div className=" h-20 background-tile "></div>
+      <Image
+        src={sibylBG}
+        alt="/"
+        className="absolute inset-0 w-full h-screen object-cover z-1 opacity-30 pointer-events-none"
+        priority
+      />
       <div className="w-full ">
         <div className="max-w-[1240px] w-full h-full mx-auto   ">
           <div className="pt-20">

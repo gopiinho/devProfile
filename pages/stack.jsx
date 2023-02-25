@@ -1,6 +1,8 @@
 import React from "react"
 import "devicon/devicon.min.css"
 import { motion as m } from "framer-motion"
+import Image from "next/image"
+import { stackBG } from "../public/assets/backgrounds/index"
 
 const Skills = () => {
   return (
@@ -11,6 +13,13 @@ const Skills = () => {
       transition={{ duration: 0.3, ease: "easeOut" }}
       className="w-full h-full lg:h-full"
     >
+      <Image
+        src={stackBG}
+        alt="/"
+        className="fixed top-0 left-0 w-full h-full object-cover z-1 opacity-30 pointer-events-none"
+        priority
+        unoptimized={true}
+      />
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full py-28">
         <div className="neonH2 flex items-center justify-center cursor-default">
           <h2 className="text-3xl tracking-widest uppercase text-cyber text-center my-12 font-cyber opacity-60 hover:opacity-100 duration-200">
