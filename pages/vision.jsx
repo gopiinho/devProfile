@@ -2,7 +2,7 @@ import React from "react"
 import { motion as m } from "framer-motion"
 import Image from "next/image"
 import storyBg from "../public/assets/backgrounds/story.gif"
-import DevBg from "../public/assets/backgrounds/dev2.gif"
+import DevBg from "../public/assets/backgrounds/dev.gif"
 import DesignBg from "../public/assets/backgrounds/designer.gif"
 const vision = () => {
   return (
@@ -21,7 +21,7 @@ const vision = () => {
             className="absolute inset-0 w-full h-full object-cover z--1 opacity-30 pointer-events-none"
           />
           <div className="flex-col lg:flex-col md:flex-col sm:flex-row sm:w-full justify-between h-full py-24  ">
-            <h2 className="text-slate-700 font-phudu uppercase text-4xl tracking-titleWide hover:tracking-titleDefault transform duration-1000 cursor-default  ">
+            <h2 className="text-slate-700 font-phudu uppercase text-4xl tracking-titleWide hover:tracking-titleDefault transform duration-1000 cursor-default   bg-[#E4E1E3]/50 py-4">
               Storyteller
             </h2>
             <p className="mx-8 mt-16 ">
@@ -45,7 +45,7 @@ const vision = () => {
             className="absolute inset-0 w-full h-full object-cover z--1 opacity-30 pointer-events-none"
           />
           <div className="flex-col lg:flex-col md:flex-col sm:flex-row sm:w-full justify-between h-full py-24">
-            <h2 className=" font-phudu uppercase text-4xl tracking-titleWide hover:tracking-titleDefault transform duration-1000  cursor-default ">
+            <h2 className=" font-phudu uppercase text-4xl tracking-titleWide hover:tracking-titleDefault transform duration-1000  cursor-default  bg-[#CD3769]/50 py-4">
               Developer
             </h2>
             <p className="mx-8 mt-16 ">
@@ -69,7 +69,7 @@ const vision = () => {
             className="absolute inset-0 w-full h-full object-cover z--1 opacity-30 pointer-events-none"
           />
           <div className="flex-col lg:flex-col md:flex-col sm:flex-row sm:w-full justify-between h-full py-24 ">
-            <h2 className="text-slate-700 font-phudu uppercase text-4xl tracking-titleWide hover:tracking-titleDefault transform duration-1000  cursor-default">
+            <h2 className="text-slate-700 font-phudu uppercase text-4xl tracking-titleWide hover:tracking-titleDefault transform duration-1000  cursor-default bg-[#79AFC0]/50 py-4">
               Designer
             </h2>
             <p className="mx-8 mt-16">
