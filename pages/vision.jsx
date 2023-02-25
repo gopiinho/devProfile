@@ -26,7 +26,7 @@ const vision = () => {
             <h2 className="text-slate-700 font-phudu uppercase text-4xl tracking-titleWide hover:tracking-titleDefault transform duration-1000 cursor-default   bg-[#E4E1E3]/50 py-4">
               Storyteller
             </h2>
-            <p className="mx-8 mt-16 ">
+            <p className=" mt-16 bg-[#E4E1E3]/50 px-8 py-4">
               As a storyteller, I am drawn to the power of visuals and
               interactive experiences to captivate an audience. Inspired by the
               dynamic storytelling of anime and the immersive worlds of great
@@ -49,10 +49,10 @@ const vision = () => {
             unoptimized={true}
           />
           <div className="flex-col lg:flex-col md:flex-col sm:flex-row sm:w-full justify-between h-full py-24">
-            <h2 className=" font-phudu uppercase text-4xl tracking-titleWide hover:tracking-titleDefault transform duration-1000  cursor-default  bg-[#CD3769]/50 py-4">
+            <h2 className=" font-phudu uppercase text-4xl tracking-titleWide hover:tracking-titleDefault transform duration-1000  cursor-default text-slate-100  bg-[#CD3769]/50 py-4">
               Developer
             </h2>
-            <p className="mx-8 mt-16 ">
+            <p className=" mt-16 bg-[#CD3769]/50 px-8 py-4 text-white">
               As a dedicated developer, I'm excited to leverage the power of
               Web3 to create a cutting-edge gaming platform that offers players
               unparalleled levels of ownership, control, and security. Through
@@ -78,7 +78,7 @@ const vision = () => {
             <h2 className="text-slate-700 font-phudu uppercase text-4xl tracking-titleWide hover:tracking-titleDefault transform duration-1000  cursor-default bg-[#79AFC0]/50 py-4">
               Designer
             </h2>
-            <p className="mx-8 mt-16">
+            <p className=" mt-16 bg-[#79AFC0]/50 px-8 py-4 overflow-hidden">
               As a lifelong learner and explorer, I am passionate about
               constantly expanding my knowledge and understanding of the world
               and all of its intricacies. One of my areas of interest is
@@ -88,7 +88,7 @@ const vision = () => {
               my broad range of skills and interests to develop innovative
               solutions and ideas that merge the worlds of technology and
               creativity. My goal is to bring a unique perspective and creative
-              energy to any project or endeavor I pursue.
+              energy to any project or endeavor I pursue and enjoy.
             </p>
           </div>
         </div>
