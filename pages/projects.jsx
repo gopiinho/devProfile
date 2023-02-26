@@ -20,12 +20,12 @@ const Projects = () => {
       <Image
         src={projectBG}
         alt="/"
-        className="absolute inset-0 w-full h-full object-cover z--1 opacity-30 pointer-events-none"
+        className="fixed inset-0 w-full h-full object-cover z--1 opacity-30 pointer-events-none"
         priority
         unoptimized={true}
       />
       <div className="neonH2 flex items-center justify-center cursor-default">
-        <h2 className="text-3xl tracking-widest uppercase text-cyber text-center my-12 font-cyber opacity-60 hover:opacity-100 duration-200">
+        <h2 className="text-3xl tracking-widest uppercase text-cyber text-center my-12 font-cyber  duration-200">
           Projects
         </h2>
       </div>
