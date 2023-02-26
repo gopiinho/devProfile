@@ -17,7 +17,7 @@ const sibyl = () => {
       <Image
         src={sibylBG}
         alt="/"
-        className="absolute inset-0 w-full h-full object-cover z-1 opacity-30 pointer-events-none"
+        className="absolute inset-0 w-full h-full object-cover z-1 opacity-10 pointer-events-none"
         priority
       />
       <div className="w-full ">

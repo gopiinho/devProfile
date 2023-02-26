@@ -1,9 +1,13 @@
 import React from "react"
-import { sibylImage, cyberImage } from "../public/assets/projects/index"
 import ProjectsItems from "../components/ProjectsItems"
 import { motion as m } from "framer-motion"
 import Image from "next/image"
 import { projectBG } from "../public/assets/backgrounds/index"
+import {
+  sibylImage,
+  cyberImage,
+  dexImage,
+} from "../public/assets/projects/index"
 const Projects = () => {
   return (
     <m.div
@@ -32,6 +36,14 @@ const Projects = () => {
           stack="ReactJS / Solidity / Ethers"
           projectUrl="/sibyl"
           description="NFT project based on anime psycho pass. Each NFT is supposed to be an access token to every member in Sibyl system"
+        />
+
+        <ProjectsItems
+          title="DEFI EXCHANGE"
+          backgroundImg={dexImage}
+          stack="NextJS / Solidity / TailWind"
+          projectUrl="/sibyl"
+          description="Defi Exchange build using Solidity smart contracts. Follows Uniswap AMM, hardhat for contract development."
         />
 
         <ProjectsItems
