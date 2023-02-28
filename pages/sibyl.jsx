@@ -19,6 +19,7 @@ const sibyl = () => {
         alt="/"
         className="absolute inset-0 w-full h-full object-cover z-1 opacity-10 pointer-events-none"
         priority
+        unoptimized={true}
       />
       <div className="w-full ">
         <div className="max-w-[1240px] w-full h-full mx-auto   ">
