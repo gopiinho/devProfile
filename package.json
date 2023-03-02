@@ -1,4 +1,5 @@
 {
+  "homepage": "https://igopib.github.io/devProfile",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -6,12 +7,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@next/font": "^13.1.1",
     "devicon": "^2.15.1",
     "framer-motion": "^8.5.4",
+    "gh-pages": "^5.0.0",
     "next": "13.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
