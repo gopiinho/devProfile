@@ -1,6 +1,10 @@
 import React, { useEffect } from "react"
-import { FaGithub } from "react-icons/fa"
-import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai"
+import {
+  SlSocialGithub,
+  SlSocialTwitter,
+  SlSocialLinkedin,
+} from "react-icons/sl"
+import Link from "next/link"
 
 import Image from "next/image"
 import { mainBG } from "../public/assets/backgrounds/index"
@@ -39,15 +43,30 @@ const Main = () => {
             truly unique and immersive experiences.
           </p>
           <div className="flex items-center  justify-between max-w-[330px] m-auto py-4">
-            <div className="rounded-full shadow-sm p-4 shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d]">
-              <FaGithub />
-            </div>
-            <div className="rounded-full shadow-sm p-4 shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d]">
-              <AiFillTwitterCircle />
-            </div>
-            <div className="rounded-full shadow-sm p-4 shadow-gray-300 cursor-pointer hover:scale-105 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d]">
-              <AiFillLinkedin />
-            </div>
+            <Link
+              href="https://github.com/igopib"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-2xl p-4 cursor-pointer hover:scale-125 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d]"
+            >
+              <SlSocialGithub />
+            </Link>
+            <Link
+              href="https://twitter.com/gopiinho"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-2xl p-4 cursor-pointer hover:scale-125 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d]"
+            >
+              <SlSocialTwitter />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/gopinho/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-2xl p-4 cursor-pointer hover:scale-125 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d]"
+            >
+              <SlSocialLinkedin />
+            </Link>
           </div>
         </div>
       </div>
