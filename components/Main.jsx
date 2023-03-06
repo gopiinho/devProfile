@@ -36,7 +36,7 @@ const Main = () => {
           </h1>
 
           <div className="flex space-between justify-center m-auto py-4 gap-8 tracking-widest font-phudu text-2xl mt-8  ">
-            <h3 className="font-extrabold">Frontend </h3>
+            <h3>Frontend </h3>
             <h3>Smart Contracts </h3>
             <h3>Devops</h3>
           </div>
