@@ -18,7 +18,7 @@ const Main = () => {
   }, [])
 
   return (
-    <div className="w-full h-screen text-center font-robot pb-16">
+    <div className="w-full h-full text-center font-robot pb-16 justify-center">
       <Image
         src={mainBG}
         alt="/"
@@ -26,7 +26,7 @@ const Main = () => {
         priority
         unoptimized={true}
       />
-      <div className="max-w-[1240px] w-full pt-28 h-full mx-auto p-2 flex justify-center items-center">
+      <div className="max-w-[1240px] w-full pt-40 h-full mx-auto p-2 flex justify-center items-center">
         <div className="pt-8">
           <p className="uppercase text-sm tracking-widest  text-slate-200">
             Building decentralized internet
@@ -34,13 +34,20 @@ const Main = () => {
           <h1 className=" py-8 cursor-default font-phudu text-[#ff2a6d] tracking-titleWide hover:tracking-titleDefault transform duration-1000">
             WEB3 DEVELOPER
           </h1>
-          <p className="py-4 text-slate-300 max-w-[70%] m-auto">
-            I am deeply enthralled by the boundless potential of the internet,
-            and the endless opportunities it presents for creativity and
-            innovation. As an artistic and technologically-inclined individual,
-            I am driven by a desire to bridge the gap between the worlds of
-            gaming and blockchain, leveraging the strengths of both to create
-            truly unique and immersive experiences.
+
+          <div className="flex space-between justify-center m-auto py-4 gap-8 tracking-widest font-phudu text-2xl mt-8  ">
+            <h3 className="font-extrabold">Frontend </h3>
+            <h3>Smart Contracts </h3>
+            <h3>Devops</h3>
+          </div>
+          <p className="py-4 text-slate-300 max-w-[80%] m-auto">
+            As an avid supporter of digital assets, I am passionate about
+            utilizing blockchain technology to facilitate the growth of the
+            digital economy. With my expertise in developing smart contracts and
+            frontends, I am dedicated to contributing to the adoption of
+            blockchain in business and gaming. My ultimate goal is to empower
+            individuals and organizations to leverage the benefits of this
+            innovative technology in a secure and efficient manner.
           </p>
           <div className="flex items-center  justify-between max-w-[330px] m-auto py-4">
             <Link
