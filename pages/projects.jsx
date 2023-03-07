@@ -42,7 +42,7 @@ const Projects = () => {
           title="DEFI EXCHANGE"
           backgroundImg={dexImage}
           stack="NextJS / Solidity / TailWind"
-          projectUrl="/sibyl"
+          projectUrl="https://singular-parfait-06cfa7.netlify.app/"
           description="Defi Exchange build using Solidity smart contracts. Follows Uniswap AMM, hardhat for contract development."
         />
 

@@ -6,6 +6,20 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        sm: "360px",
+        // => @media (min-width: 360px) { ... }
+
+        sm2: "560px",
+        // => @media (min-width: 550px) { ... }
+
+        md: "760px",
+        // => @media (min-width: 760px) { ... }
+
+        lg: "1060px",
+        // => @media (min-width: 1060px) { ... }
+      },
+
       animation: {
         tilt: "tilt 10s infinite linear",
       },
