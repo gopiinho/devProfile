@@ -7,6 +7,7 @@ import {
   sibylImage,
   cyberImage,
   dexImage,
+  nftImage,
 } from "../public/assets/projects/index"
 const Projects = () => {
   return (
@@ -44,6 +45,14 @@ const Projects = () => {
           stack="NextJS / Solidity / TailWind"
           projectUrl="https://singular-parfait-06cfa7.netlify.app/"
           description="Defi Exchange build using Solidity smart contracts. Follows Uniswap AMM, hardhat for contract development."
+        />
+
+        <ProjectsItems
+          title="NFT SHOWCASE"
+          backgroundImg={nftImage}
+          stack="NextJS / Ethers"
+          projectUrl="https://scintillating-monstera-c20172.netlify.app/"
+          description="NFT showcase page, where it indexes all nft's from a certain address and displays them with link to opensea."
         />
 
         <ProjectsItems
