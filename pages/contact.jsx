@@ -106,7 +106,7 @@ const Contact = () => {
 
           <div className=" flex flex-col items-center justify-center">
             <h3
-              className="text-lg cursor-pointer hover:text-white"
+              className="text-lg cursor-pointer hover:text-white select-text"
               onClick={() => setLinkText("Gopinho#6037")}
             >
               {linkText}
