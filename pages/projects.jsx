@@ -54,14 +54,6 @@ const Projects = () => {
           projectUrl="https://scintillating-monstera-c20172.netlify.app/"
           description="NFT showcase page, where it indexes all nft's from a certain address and displays them with link to opensea."
         />
-
-        <ProjectsItems
-          title="NFT MARKETPLACE"
-          backgroundImg={cyberImage}
-          stack="NextJS / Solidity"
-          projectUrl="/"
-          description="NFT Marketplace smart contract to trade any kind of ERC721's. Creates several funds to Add/remove items."
-        />
       </div>
     </m.div>
   )
