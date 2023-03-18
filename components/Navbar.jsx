@@ -98,8 +98,8 @@ const Navbar = () => {
               <Link href="/projects">
                 <li className="py-4 text-sm hover:text-white">projects</li>
               </Link>
-              <Link href="/vision">
-                <li className="py-4 text-sm hover:text-white">vision</li>
+              <Link href="/about">
+                <li className="py-4 text-sm hover:text-white">about</li>
               </Link>
               <Link href="/stack">
                 <li className="py-4 text-sm hover:text-white">tech</li>
