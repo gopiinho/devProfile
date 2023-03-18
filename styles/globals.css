@@ -76,6 +76,10 @@ html {
     );
   }
 
+  .writing-vertical {
+    writing-mode: vertical-rl;
+  }
+
   .blocks:hover {
     color: #fff;
   }
