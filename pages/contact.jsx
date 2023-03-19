@@ -40,7 +40,7 @@ const Contact = () => {
             Write me up to say hello.
           </p>
           <div className="py-8 mt-4 ">
-            <div className="max-w-[200px] m-auto justify-center items-center ease-in border-2 bg-black text-[#ff2a6d] hover:text-white border-zinc-400 hover:border-[#ff2a6d] duration-300 hover:shadow-neon-main rounded-md border-opacity-40">
+            <div className="max-w-[200px] m-auto justify-center items-center ease-in border-2 bg-zinc-800 text-[#ff2a6d] hover:text-white border-zinc-600 hover:border-[#ff2a6d] duration-300 hover:shadow-neon-main rounded-md border-opacity-40">
               <Link
                 href="https://drive.google.com/file/d/12WNCNpQlSO1jyVFVxrmuQx1IWbH1PgCV/view"
                 target="_blank"

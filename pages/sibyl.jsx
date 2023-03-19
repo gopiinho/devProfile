@@ -43,14 +43,14 @@ const sibyl = () => {
             </p>
           </div>
         </div>
-        <div className="pt-8 max-w-[350px] m-auto">
-          <div className="border-2 border-neon-main">
+        <div className="my-8 max-w-[350px] m-auto">
+          <div className="border-2 rounded-md border-neon-main bg-zinc-800">
             <h2 className="border-b-2 border-slate-400 mx-4 py-2">Rules</h2>
             <div className="text-slate-400 py-2">
               <p>Max Members - 247</p>
               <p>Max Per Person - 1</p>
               <p>Mint Amount - 0.05 ether</p>
-              <p className="text-red-600">Network - Georli</p>
+              <p className="text-red-600/80 my-3">Network - Georli</p>
             </div>
           </div>
         </div>
@@ -61,7 +61,7 @@ const sibyl = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p className="neonH2 text-center py-2  px-16 border-2 border-zinc-400 hover:border-[#ff2a6d] bg-black text-[#ff2a6d] hover:text-white text-lg cursor-pointer opacity-75 hover:opacity-100 transition duration-700 hover:shadow-neon-main rounded-md border-opacity-40">
+              <p className="neonH2 text-center py-2  px-16 border-2 border-zinc-600 hover:border-[#ff2a6d] bg-zinc-900 text-[#ff2a6d] hover:text-white text-lg cursor-pointer opacity-75 hover:opacity-100 transition duration-700 hover:shadow-neon-main rounded-md border-opacity-40">
                 visit
               </p>
             </Link>
@@ -73,7 +73,7 @@ const sibyl = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p className="neonH2 text-center py-2  px-6 border-2 border-zinc-400  hover:border-[#ff2a6d] bg-black text-[#ff2a6d] hover:text-white text-lg cursor-pointer opacity-75 hover:opacity-100 transition duration-700 hover:shadow-neon-main rounded-md border-opacity-40">
+              <p className="neonH2 text-center py-2  px-6 border-2 border-zinc-600  hover:border-[#ff2a6d] bg-zinc-900 text-[#ff2a6d] hover:text-white text-lg cursor-pointer opacity-75 hover:opacity-100 transition duration-700 hover:shadow-neon-main rounded-md border-opacity-40">
                 source code
               </p>
             </Link>

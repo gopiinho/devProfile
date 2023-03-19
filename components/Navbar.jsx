@@ -1,12 +1,7 @@
 import React, { useState, useEffect } from "react"
 import Link from "next/link"
 import { BiCode } from "react-icons/bi"
-import {
-  AiOutlineClose,
-  AiFillTwitterCircle,
-  AiFillLinkedin,
-} from "react-icons/ai"
-import { FaGithub } from "react-icons/fa"
+import { AiOutlineClose } from "react-icons/ai"
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -35,7 +30,7 @@ const Navbar = () => {
           : "fixed w-full h-30 z-[100] transform duration-700 bg-[#3c3d42]  shadow-md shadow-[#ff577d] pr-10"
       }
     >
-      <div className="navBar flex justify-center items-center w-full h-full p-6 2xl:px-16 font-cyber text-[#ff2a6d] ">
+      <div className="navBar flex justify-center items-center w-full h-full p-6 2xl:px-16 font-cyber text-[#ff2a6d]">
         <div className=" justify-between items-center">
           <ul className="hidden md:flex">
             <Link href="/projects">
@@ -54,8 +49,11 @@ const Navbar = () => {
               <li className="mx-10 text-lg hover:text-white">contact</li>
             </Link>
           </ul>
-          <div onClick={handleNav} className="md:hidden pl-8">
-            <BiCode size={30} />
+          <div onClick={handleNav} className="md:hidden pl-8 ">
+            <BiCode
+              size={30}
+              className="cursor-pointer hover:text-[#ff2a6d]/50 transform duration-300"
+            />
           </div>
         </div>
       </div>
