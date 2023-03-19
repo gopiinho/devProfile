@@ -22,7 +22,7 @@ const Main = () => {
       <Image
         src={mainBG}
         alt="/"
-        className="fixed inset-0 w-full h-full object-cover z--1 opacity-30 pointer-events-none"
+        className="fixed inset-0 w-full h-full object-cover z-[-1] opacity-20 pointer-events-none"
         priority
         unoptimized={true}
       />

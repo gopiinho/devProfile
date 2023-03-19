@@ -17,12 +17,12 @@ const sibyl = () => {
       <Image
         src={sibylBG}
         alt="/"
-        className="fixed inset-0 w-full h-full object-cover z-1 opacity-10 pointer-events-none"
+        className="fixed inset-0 w-full h-full object-cover z-[-1] opacity-10 pointer-events-none"
         priority
         unoptimized={true}
       />
       <div className="w-full ">
-        <div className="max-w-[1240px] w-full h-full mx-auto   ">
+        <div className="max-w-[1240px] w-full h-full mx-auto">
           <div className="pt-20">
             <div className="neonH2 flex items-center justify-center cursor-default">
               <h2 className="text-3xl tracking-widest uppercase text-center  font-cyber opacity-70 hover:opacity-100 duration-200">

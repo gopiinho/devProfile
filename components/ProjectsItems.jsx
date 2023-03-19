@@ -10,10 +10,10 @@ const ProjectsItems = ({
   description,
 }) => {
   return (
-    <div className="relative flex items-center justify-center h-auto w-full group rounded-sm p-1  transition duration-700 text-white pb-6">
+    <div className="relative flex items-center justify-center h-auto w-full group rounded-sm p-1 transition duration-700 text-white pb-6">
       <div className="relative flex flex-col justify-center items-center ease-in border-2 border-slate-600 hover:border-[#ff2a6d] duration-300 hover:shadow-neon-main rounded-md border-opacity-40">
         <Image
-          className="relative rounded-md opacity-70 group-hover:opacity-10 transition duration-500"
+          className="relative rounded-md opacity-80 group-hover:opacity-40 transition duration-500"
           src={backgroundImg}
           alt="/"
         />

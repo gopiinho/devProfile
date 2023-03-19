@@ -16,7 +16,7 @@ const Skills = () => {
       <Image
         src={stackBG}
         alt="/"
-        className="fixed top-0 left-0 w-full h-full object-cover z-1 opacity-10 pointer-events-none"
+        className="fixed top-0 left-0 w-full h-full object-cover z-[-1] opacity-20 pointer-events-none"
         priority
         unoptimized={true}
       />
