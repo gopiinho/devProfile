@@ -27,7 +27,7 @@ const ProjectsItems = ({
         <p className="pb-4 pt-2 text-center">{stack}</p>
 
         <Link href={projectUrl} target="_blank" rel="noopener noreferrer">
-          <p className="neonH2 text-center py-2 mx-8 border-2 border-slate-600  hover:border-[#ff2a6d] bg-black text-[#ff2a6d] text-lg cursor-pointer opacity-75 hover:opacity-100 transition duration-700 hover:shadow-neon-main rounded-md border-opacity-40">
+          <p className="neonH2 text-center py-2 mx-8 border-2 border-zinc-400 hover:border-[#ff2a6d] bg-black text-[#ff2a6d] text-lg cursor-pointer opacity-75 hover:opacity-100 transition duration-700 hover:shadow-neon-main rounded-md border-opacity-40">
             Info
           </p>
         </Link>

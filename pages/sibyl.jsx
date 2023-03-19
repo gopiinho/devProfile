@@ -61,7 +61,7 @@ const sibyl = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p className="neonH2 text-center py-2  px-16 border-2 border-slate-600  hover:border-[#ff2a6d] bg-black text-[#ff2a6d] hover:text-white text-lg cursor-pointer opacity-75 hover:opacity-100 transition duration-700 hover:shadow-neon-main rounded-md border-opacity-40">
+              <p className="neonH2 text-center py-2  px-16 border-2 border-zinc-400 hover:border-[#ff2a6d] bg-black text-[#ff2a6d] hover:text-white text-lg cursor-pointer opacity-75 hover:opacity-100 transition duration-700 hover:shadow-neon-main rounded-md border-opacity-40">
                 visit
               </p>
             </Link>
@@ -73,7 +73,7 @@ const sibyl = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p className="neonH2 text-center py-2  px-6 border-2 border-slate-600  hover:border-[#ff2a6d] bg-black text-[#ff2a6d] hover:text-white text-lg cursor-pointer opacity-75 hover:opacity-100 transition duration-700 hover:shadow-neon-main rounded-md border-opacity-40">
+              <p className="neonH2 text-center py-2  px-6 border-2 border-zinc-400  hover:border-[#ff2a6d] bg-black text-[#ff2a6d] hover:text-white text-lg cursor-pointer opacity-75 hover:opacity-100 transition duration-700 hover:shadow-neon-main rounded-md border-opacity-40">
                 source code
               </p>
             </Link>

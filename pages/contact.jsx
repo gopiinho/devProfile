@@ -40,14 +40,14 @@ const Contact = () => {
             Write me up to say hello.
           </p>
           <div className="py-8 mt-4 ">
-            <div className="max-w-[200px] m-auto justify-center items-center ease-in border-2 text-[#ff2a6d] hover:text-white border-slate-600 hover:border-[#ff2a6d] duration-300 hover:shadow-neon-main rounded-md border-opacity-40">
+            <div className="max-w-[200px] m-auto justify-center items-center ease-in border-2 bg-black text-[#ff2a6d] hover:text-white border-zinc-400 hover:border-[#ff2a6d] duration-300 hover:shadow-neon-main rounded-md border-opacity-40">
               <Link
                 href="https://drive.google.com/file/d/12WNCNpQlSO1jyVFVxrmuQx1IWbH1PgCV/view"
                 target="_blank"
                 rel="noopener noreferrer"
                 className=" flex flex-col items-center justify-center py-3 font-cyber"
               >
-                <h2 className="text-xl ">view cv</h2>
+                <h2 className="text-xl ">resume</h2>
               </Link>
             </div>
           </div>

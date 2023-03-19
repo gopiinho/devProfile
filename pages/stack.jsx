@@ -23,12 +23,12 @@ const Skills = () => {
 
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full py-28 ">
         <div className="neonH2 flex items-center justify-center cursor-default">
-          <h2 className="text-3xl tracking-widest uppercase text-cyber text-center my-12 font-cyber  duration-200">
+          <h2 className="text-3xl tracking-widest uppercase text-cyber text-center my-12 font-cyber duration-200">
             Tech Stack
           </h2>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 tracking-widest font-phudu ">
-          <div className="px-4 text-slate-300 hover:text-[#63698E]">
+          <div className="px-4 text-white hover:text-[#63698E]">
             <div className="grid grid-cols-2 gap-4 bg-[#3c3d42] justify-center items-center ease-in duration-300 rounded-md border-[#63698E] opacity-100  border-2 hover:shadow-neon-sol border-opacity-40 hover:border-opacity-100 ">
               <div className="m-auto">
                 <div className="py-6 devicon-solidity-plain text-6xl hover:scale-110 transform duration-300"></div>
