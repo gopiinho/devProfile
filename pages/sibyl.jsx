@@ -11,9 +11,8 @@ const sibyl = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.3, ease: "easeOut" }}
-      className="w-full h-screen text-center font-cyber"
+      className="w-full h-screen text-center font-cyber pt-20"
     >
-      <div className=" h-20 background-tile "></div>
       <Image
         src={sibylBG}
         alt="/"
@@ -22,8 +21,8 @@ const sibyl = () => {
         unoptimized={true}
       />
       <div className="w-full ">
-        <div className="max-w-[1240px] w-full h-full mx-auto">
-          <div className="pt-20">
+        <div className="max-w-[1240px] w-full h-full mx-auto mt-20 py-4">
+          <div>
             <div className="neonH2 flex items-center justify-center cursor-default">
               <h2 className="text-3xl tracking-widest uppercase text-center  font-cyber opacity-70 hover:opacity-100 duration-200">
                 NFT MINT PAGE
@@ -50,7 +49,7 @@ const sibyl = () => {
               <p>Max Members - 247</p>
               <p>Max Per Person - 1</p>
               <p>Mint Amount - 0.05 ether</p>
-              <p className="text-red-600/80 my-3">Network - Georli</p>
+              <p className="text-[#ff2a6d] my-3">Network - Georli</p>
             </div>
           </div>
         </div>
