@@ -87,26 +87,4 @@ html {
   .description {
     z-index: 1;
   }
-
-  .background-tile {
-    background-image: url("../public/assets/backgrounds/cyber.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    filter: brightness(1);
-  }
-
-  .background1 {
-    background-image: url("../public/assets/backgrounds/cyber.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.1;
-  }
-
-  footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
 }

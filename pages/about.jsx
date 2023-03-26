@@ -13,19 +13,6 @@ const vision = () => {
       className="w-full h-full text-center font-robot "
     >
       <div>
-        <div className="flex justify-between hidden absolute py-4 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full  text-white z-50 bg-zinc-900 shadow-black shadow-lg">
-          <h2 className="text-3xl writing-vertical px-4 font-phudu opacity-40">
-            about
-          </h2>
-          <p className="p-4 w-[50%] m-auto">
-            Some placeholder text for now. Will update with someone more
-            personal. Like things I like, where I get my inspirations and what I
-            want to work on.
-          </p>
-          <h2 className="text-3xl writing-vertical2 px-4 font-phudu opacity-40">
-            about
-          </h2>
-        </div>
         <div className="flex flex-col justify-between lg:flex-row md:flex-row  sm:flex-col md:h-screen  sm:h-screen sm:justify-center md:justify-center lg:justify-center font-robot pt-20 sm:pt-20 md:pt-20">
           <div className=" bg-[#e2dddf]/40 hover:bg-[#e2dddf] hover:text-slate-700 text-slate-700/90 transform duration-300 lg:w-1/3 md:w-full h-full sm:w-full">
             <Image
@@ -40,7 +27,10 @@ const vision = () => {
               <h2 className="writing-vertical h-full text-slate-700 font-phudu uppercase text-4xl tracking-titleWide hover:tracking-titleDefault transform duration-1000 cursor-default   bg-[#E4E1E3]/50 px-3">
                 Storyteller
               </h2>
-              <p>Filler </p>
+              <p className="text-zinc-600  text-2xl font-phudu mx-2 transform duration-300">
+                Been inspired from great medium like movies, video games and
+                anime. My imagination has always been out of the ordinary
+              </p>
             </div>
           </div>
           <div className=" bg-[#ff2a6d]/40 hover:bg-[#ff2a6d] hover:text-slate-800 text-slate-700/90 transform duration-300 lg:w-1/3 md:w-full h-full sm:w-full">
