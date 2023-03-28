@@ -40,15 +40,7 @@ const Main = () => {
             <h3>Smart Contracts </h3>
             <h3>Devops</h3>
           </div>
-          <p className="py-4 text-slate-300 max-w-[80%] m-auto">
-            As an avid supporter of digital assets, I am passionate about
-            utilizing blockchain technology to facilitate the growth of the
-            digital economy. With my expertise in developing smart contracts and
-            frontends, I am dedicated to contributing to the adoption of
-            blockchain in business and gaming. My ultimate goal is to empower
-            individuals and organizations to leverage the benefits of this
-            innovative technology in a secure and efficient manner.
-          </p>
+          <p className="py-4 text-slate-300 max-w-[80%] m-auto"></p>
           <div className="flex items-center  justify-between max-w-[330px] m-auto py-4">
             <Link
               href="https://github.com/igopib"
