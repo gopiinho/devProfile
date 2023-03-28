@@ -18,7 +18,7 @@ const Main = () => {
   }, [])
 
   return (
-    <div className="w-full h-full text-center font-robot pb-16 justify-center">
+    <div className="w-full h-screen  text-center font-robot pb-16 justify-center">
       <Image
         src={mainBG}
         alt="/"
