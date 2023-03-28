@@ -28,8 +28,8 @@ const Skills = () => {
           </h2>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 tracking-widest font-phudu ">
-          <div className="px-4 text-white hover:text-[#63698E]">
-            <div className="grid grid-cols-2 gap-4 bg-[#3c3d42] justify-center items-center ease-in duration-300 rounded-md border-[#63698E] opacity-100  border-2 hover:shadow-neon-sol border-opacity-40 hover:border-opacity-100 ">
+          <div className="px-4 text-zinc-800 hover:text-[#63698E]">
+            <div className="grid grid-cols-2 gap-4 bg-zinc-200 hover:bg-zinc-800 justify-center items-center ease-in duration-300 rounded-md border-[#63698E] opacity-100  border-2 hover:shadow-neon-sol border-opacity-40 hover:border-opacity-100 ">
               <div className="m-auto">
                 <div className="py-6 devicon-solidity-plain text-6xl hover:scale-110 transform duration-300"></div>
               </div>
@@ -39,8 +39,8 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className=" px-4 text-white hover:text-[#f0db4f]">
-            <div className="grid grid-cols-2 gap-4 bg-[#3c3d42] justify-center items-center ease-in duration-300 rounded-md border-[#f0db4f]  border-2 hover:shadow-neon-yellow border-opacity-40 hover:border-opacity-100">
+          <div className=" px-4 text-zinc-800 hover:text-[#f0db4f]/60">
+            <div className="grid grid-cols-2 gap-4 bg-zinc-200 hover:bg-zinc-800 justify-center items-center ease-in duration-300 rounded-md border-[#f0db4f]  border-2 hover:shadow-neon-yellow border-opacity-40 hover:border-opacity-100">
               <div className="m-auto">
                 <div className="py-6 devicon-javascript-plain text-6xl  hover:scale-110 transform duration-300"></div>
               </div>
@@ -50,8 +50,8 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="px-4  hover:text-[#007ACC]">
-            <div className="grid grid-cols-2 gap-4 bg-[#3c3d42] justify-center items-center ease-in duration-300 rounded-md border-[#007ACC]   border-2 hover:shadow-neon-type border-opacity-40 hover:border-opacity-100">
+          <div className="px-4 text-zinc-800 hover:text-[#007ACC]">
+            <div className="grid grid-cols-2 gap-4 bg-zinc-200 hover:bg-zinc-800 justify-center items-center ease-in duration-300 rounded-md border-[#007ACC]   border-2 hover:shadow-neon-type border-opacity-40 hover:border-opacity-100">
               <div className="m-auto">
                 <div className=" py-6 devicon-typescript-original text-6xl hover:scale-110 transform duration-300"></div>
               </div>
@@ -61,8 +61,8 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="px-4 text-white hover:text-[#37bcf8]">
-            <div className="grid grid-cols-2 gap-4 bg-[#3c3d42] justify-center items-center ease-in duration-300 rounded-md border-[#37bcf8]   border-2 hover:shadow-neon-tailwind border-opacity-40 hover:border-opacity-100">
+          <div className="px-4 text-zinc-800 hover:text-[#37bcf8]">
+            <div className="grid grid-cols-2 gap-4 bg-zinc-200 hover:bg-zinc-800 justify-center items-center ease-in duration-300 rounded-md border-[#37bcf8]   border-2 hover:shadow-neon-tailwind border-opacity-40 hover:border-opacity-100">
               <div className="m-auto">
                 <div className="py-6 devicon-tailwindcss-plain text-6xl hover:scale-110 transform duration-300"></div>
               </div>
@@ -72,8 +72,8 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="px-4  text-white hover:text-[#61d9fb]">
-            <div className="grid grid-cols-2 gap-4 bg-[#3c3d42] justify-center items-center ease-in duration-300 rounded-md border-[#61d9fb]   border-2 hover:shadow-neon-blue border-opacity-40 hover:border-opacity-100">
+          <div className="px-4  text-zinc-800 hover:text-[#61d9fb]">
+            <div className="grid grid-cols-2 gap-4 bg-zinc-200 hover:bg-zinc-800 justify-center items-center ease-in duration-300 rounded-md border-[#61d9fb]   border-2 hover:shadow-neon-blue border-opacity-40 hover:border-opacity-100">
               <div className="m-auto">
                 <div className=" py-6 devicon-react-original text-6xl  hover:scale-110 transform duration-300"></div>
               </div>
@@ -83,8 +83,8 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="px-4 text-white hover:text-[#3E863E]">
-            <div className="grid grid-cols-2 gap-4 bg-[#3c3d42] justify-center items-center ease-in duration-300 rounded-md border-[#3E863E]   border-2 hover:shadow-neon-green border-opacity-40 hover:border-opacity-100">
+          <div className="px-4 text-zinc-800 hover:text-[#3E863E]">
+            <div className="grid grid-cols-2 gap-4 bg-zinc-200 hover:bg-zinc-800 justify-center items-center ease-in duration-300 rounded-md border-[#3E863E]   border-2 hover:shadow-neon-green border-opacity-40 hover:border-opacity-100">
               <div className="m-auto">
                 <div className=" py-6 devicon-nodejs-plain text-6xl  hover:scale-110 transform duration-300"></div>
               </div>
@@ -103,7 +103,7 @@ const Skills = () => {
             </div>
             <div className="grid md:grid-cols-2 lg-grid-cols-3 gap-8 tracking-widest font-robot">
               <div className="px-4">
-                <div className=" justify-center items-center ease-in bg-[#3c3d42] border-2 border-slate-600 hover:border-[#ff2a6d] duration-300 hover:shadow-neon-main rounded-md  border-opacity-40">
+                <div className=" justify-center items-center ease-in bg-zinc-200 hover:bg-zinc-800 text-zinc-800 hover:text-zinc-200 border-2 border-slate-600 hover:border-[#ff2a6d] duration-300 hover:shadow-neon-main rounded-md  border-opacity-40">
                   <div className=" flex flex-col items-center justify-center py-4 font-phudu">
                     <h2 className="text-xl">Frameworks</h2>
                   </div>
@@ -114,7 +114,7 @@ const Skills = () => {
               </div>
 
               <div className="px-4">
-                <div className=" justify-center items-center ease-in bg-[#3c3d42] border-2 border-slate-600 hover:border-[#ff2a6d] duration-300 hover:shadow-neon-main rounded-md border-opacity-40">
+                <div className=" justify-center items-center ease-in bg-zinc-200 hover:bg-zinc-800 text-zinc-800 hover:text-zinc-200 border-2 border-slate-600 hover:border-[#ff2a6d] duration-300 hover:shadow-neon-main rounded-md border-opacity-40">
                   <div className=" flex flex-col items-center justify-center py-4 font-phudu">
                     <h2 className="text-xl">Standards</h2>
                   </div>
@@ -125,9 +125,9 @@ const Skills = () => {
               </div>
 
               <div className="px-4">
-                <div className=" justify-center items-center ease-in bg-[#3c3d42] border-2 border-slate-600 hover:border-[#ff2a6d] duration-300 hover:shadow-neon-main rounded-md border-opacity-40">
+                <div className=" justify-center items-center ease-in bg-zinc-200 hover:bg-zinc-800 text-zinc-800 hover:text-zinc-200 border-2 border-slate-600 hover:border-[#ff2a6d] duration-300 hover:shadow-neon-main rounded-md border-opacity-40">
                   <div className=" flex flex-col items-center justify-center py-4 font-phudu">
-                    <h2 className="text-xl ">Querying</h2>
+                    <h2 className="text-xl">Querying</h2>
                   </div>
                   <div className="text-center text-slate-400 py-4">
                     <p>EtherScan - Alchemy - Moralis</p>
@@ -136,9 +136,9 @@ const Skills = () => {
               </div>
 
               <div className="px-4">
-                <div className=" justify-center items-center ease-in bg-[#3c3d42] border-2 border-slate-600  hover:border-[#ff2a6d] duration-300 hover:shadow-neon-main rounded-md border-opacity-40">
+                <div className=" justify-center items-center ease-in bg-zinc-200 hover:bg-zinc-800 text-zinc-800 hover:text-zinc-200 border-2 border-slate-600  hover:border-[#ff2a6d] duration-300 hover:shadow-neon-main rounded-md border-opacity-40">
                   <div className=" flex flex-col items-center justify-center py-4 font-phudu">
-                    <h2 className="text-xl ">API's</h2>
+                    <h2 className="text-xl">API's</h2>
                   </div>
                   <div className="text-center text-slate-400 py-4">
                     <p>Ethers.js - Wagmi.sh - Web3.js</p>
