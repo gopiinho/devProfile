@@ -90,19 +90,19 @@ const Navbar = () => {
           </div>
           <div className="p-4 flex flex-col">
             <ul className="font-cyber text-[#ff2a6d]">
-              <Link href="/" className="neonH2">
+              <Link href="/" onClick={() => setNav(false)} className="neonH2">
                 <h2 className=" py-4 text-sm text-white ">menu</h2>
               </Link>
-              <Link href="/projects">
+              <Link href="/projects" onClick={() => setNav(false)}>
                 <li className="py-4 text-sm hover:text-white">projects</li>
               </Link>
-              <Link href="/about">
+              <Link href="/about" onClick={() => setNav(false)}>
                 <li className="py-4 text-sm hover:text-white">about</li>
               </Link>
-              <Link href="/stack">
+              <Link href="/stack" onClick={() => setNav(false)}>
                 <li className="py-4 text-sm hover:text-white">tech</li>
               </Link>
-              <Link href="/contact">
+              <Link href="/contact" onClick={() => setNav(false)}>
                 <li className="py-4 text-sm hover:text-white">contact</li>
               </Link>
             </ul>
