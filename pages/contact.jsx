@@ -28,8 +28,8 @@ const Contact = () => {
               Contact
             </h2>
           </div>
-          <div className="flex m-auto items-center px-20 justify-between bg-zinc-300 border-y-2 py-8 text-zinc-800 hover:text-zinc-200 hover:bg-zinc-800 border-zinc-600 hover:border-[#EA9931] hover:border-opacity-100 duration-300 border-opacity-40">
-            <div className="p-8 text-center items-center font-robot">
+          <div className="m-auto items-center px-20 justify-between bg-zinc-300/20 py-12 text-zinc-200 hover:text-zinc-200 hover:bg-zinc-800/50  duration-300 border-opacity-40">
+            <div className="text-center items-center font-robot">
               <div>
                 <p className="text-2xl font-robot uppercase max-w-[400px] m-auto items-center justify-center">
                   Focused on improving daily and connecting with like minded
@@ -39,7 +39,7 @@ const Contact = () => {
             </div>
             <div>
               <div className="py-8 mt-4">
-                <div className="max-w-[200px] m-auto justify-center items-center ease-in border-2 bg-zinc-800 text-[#ff2a6d] hover:text-white border-zinc-600 hover:border-[#ff2a6d] duration-300 hover:shadow-neon-main rounded-md border-opacity-40">
+                <div className="max-w-[200px] m-auto justify-center items-center ease-in border bg-zinc-800 text-[#ff2a6d] hover:text-white border-zinc-600 hover:border-[#ff2a6d] duration-200 hover:shadow-neon-main rounded-md border-opacity-40">
                   <Link
                     href="https://drive.google.com/file/d/12WNCNpQlSO1jyVFVxrmuQx1IWbH1PgCV/view"
                     target="_blank"
@@ -52,7 +52,7 @@ const Contact = () => {
               </div>
 
               <div>
-                <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-8 links items-center  justify-between max-w-[370px] m-auto p-4 font-cyber text-[#ff2a6d] mobile-center">
+                <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-6 links items-center  justify-between max-w-[370px] m-auto p-4 font-cyber text-[#ff2a6d] mobile-center">
                   <div className=" flex flex-col items-center justify-between ">
                     <Link
                       href="https://github.com/igopib"
