@@ -34,13 +34,19 @@ const Main = () => {
           <h1 className=" p-8 cursor-default font-cyber text-[#ff2a6d] tracking-titleWide hover:tracking-titleDefault transform duration-1000">
             WEB3 DEVELOPER
           </h1>
-
-          <div className="flex space-between justify-center m-auto py-4 gap-8 tracking-widest font-phudu text-2xl mt-8 ">
-            <h3>Frontend </h3>
-            <h3>Smart Contracts </h3>
-            <h3>Devops</h3>
+          <div>
+            <div className="grid grid-flow-col justify-center m-auto py-4 gap-12 tracking-widest font-phudu">
+              <div>
+                <h3 className="text-2xl">Frontend </h3>
+              </div>
+              <div>
+                <h3 className="text-2xl">Smart Contracts </h3>
+              </div>
+              <div>
+                <h3 className="text-2xl">Designing </h3>
+              </div>
+            </div>
           </div>
-          <p className="py-4 text-slate-300 max-w-[80%] m-auto"></p>
           <div className="flex items-center  justify-between max-w-[330px] m-auto py-4">
             <Link
               href="https://github.com/igopib"
