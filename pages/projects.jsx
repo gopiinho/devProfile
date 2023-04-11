@@ -5,9 +5,9 @@ import Image from "next/image"
 import { projectBG } from "../public/assets/backgrounds/index"
 import {
   sibylImage,
-  cyberImage,
   dexImage,
   nftImage,
+  untitledImage,
 } from "../public/assets/projects/index"
 const Projects = () => {
   return (
@@ -42,11 +42,17 @@ const Projects = () => {
         <ProjectsItems
           title="DEFI EXCHANGE"
           backgroundImg={dexImage}
-          stack="NextJS / Solidity / TailWind"
+          stack="NextJS / Solidity / TailWindCSS"
           projectUrl="https://singular-parfait-06cfa7.netlify.app/"
           description="Defi Exchange build using Solidity smart contracts. Follows Uniswap AMM, hardhat for contract development."
         />
-
+        <ProjectsItems
+          title="untitled"
+          backgroundImg={untitledImage}
+          stack="NextJS / TailWindCSS"
+          projectUrl="https://boisterous-hamster-73490e.netlify.app/"
+          description="As the title says, this project is still untitled. This may or may not change later on."
+        />
         <ProjectsItems
           title="NFT SHOWCASE"
           backgroundImg={nftImage}
