@@ -31,7 +31,7 @@ const Main = () => {
           <p className="p-2 uppercase font-robot text-sm tracking-widest text-zinc-200">
             Building decentralized internet
           </p>
-          <h1 className="p-5 m-8 bg-zinc-300/80 cursor-default font-robot text-black hover:text-[#ff2a6d] hover:bg-zinc-800/80 border border-zinc-300 hover:border-[#ff2a6d] tracking-tight transform duration-1000">
+          <h1 className="p-5 m-8 bg-zinc-300/80 cursor-default font-robot text-black hover:text-[#ff2a6d] hover:bg-zinc-800/80 border border-zinc-300 hover:border-[#ff2a6d] tracking-tight transform duration-300">
             WEB3 DEVELOPER
           </h1>
 
