@@ -40,7 +40,7 @@ const Main = () => {
             <h3>Smart Contracts </h3>
             <h3>UI/UX</h3>
           </div>
-          <div className="p-5 bg-zinc-300/80 font-robot text-black border border-zinc-300/0  hover:bg-zinc-650/80 hover:border-[#ff2a6d] transform duration-300 flex items-center justify-between ">
+          <div className="p-5 bg-zinc-300/80 font-robot text-black border border-zinc-300/0  hover:bg-zinc-500/80 hover:border-[#ff2a6d] transform duration-300 flex items-center justify-between ">
             <Link
               href="https://github.com/igopib"
               target="_blank"
