@@ -98,7 +98,7 @@ const Skills = () => {
           <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full ">
             <div className="neonH2 flex items-center justify-center cursor-default">
               <h2 className="text-3xl tracking-widest uppercase text-center my-12 font-cyber duration-200">
-                Web3.0 Stack
+                Web3 Stack
               </h2>
             </div>
             <div className="grid md:grid-cols-2 lg-grid-cols-3 gap-8 tracking-widest font-robot">
@@ -119,7 +119,7 @@ const Skills = () => {
                     <h2 className="text-xl">Standards</h2>
                   </div>
                   <div className="text-center text-slate-400 py-4">
-                    <p>OpenZeppelin - Chainlink </p>
+                    <p>OpenZeppelin - Chainlink - ERC 20/721A</p>
                   </div>
                 </div>
               </div>
