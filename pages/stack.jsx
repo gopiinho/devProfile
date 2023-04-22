@@ -108,7 +108,7 @@ const Skills = () => {
                     <h2 className="text-xl">Frameworks</h2>
                   </div>
                   <div className="text-center text-slate-400 py-4">
-                    <p>Hardhat - Foundry </p>
+                    <p>Hardhat - Foundry - Truffle</p>
                   </div>
                 </div>
               </div>
@@ -142,6 +142,17 @@ const Skills = () => {
                   </div>
                   <div className="text-center text-slate-400 py-4">
                     <p>Ethers.js - Wagmi.sh - Web3.js</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="px-4">
+                <div className=" justify-center items-center ease-in bg-zinc-200 hover:bg-zinc-800 text-zinc-800 hover:text-zinc-200 border-2 border-slate-600  hover:border-[#ff2a6d] duration-300 hover:shadow-neon-main rounded-md border-opacity-40">
+                  <div className=" flex flex-col items-center justify-center py-4 font-phudu">
+                    <h2 className="text-xl">Analysis</h2>
+                  </div>
+                  <div className="text-center text-slate-400 py-4">
+                    <p>Slither - Mythril - Securify</p>
                   </div>
                 </div>
               </div>
