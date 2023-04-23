@@ -107,7 +107,7 @@ const Skills = () => {
                   <div className=" flex flex-col items-center justify-center py-4 font-phudu">
                     <h2 className="text-xl">Frameworks</h2>
                   </div>
-                  <div className="text-center text-slate-400 py-4">
+                  <div className="text-center  py-4">
                     <p>Hardhat - Foundry - Truffle</p>
                   </div>
                 </div>
@@ -118,7 +118,7 @@ const Skills = () => {
                   <div className=" flex flex-col items-center justify-center py-4 font-phudu">
                     <h2 className="text-xl">Standards</h2>
                   </div>
-                  <div className="text-center text-slate-400 py-4">
+                  <div className="text-center  py-4">
                     <p>OpenZeppelin - Chainlink - ERC 20/721A</p>
                   </div>
                 </div>
@@ -129,7 +129,7 @@ const Skills = () => {
                   <div className=" flex flex-col items-center justify-center py-4 font-phudu">
                     <h2 className="text-xl">Querying</h2>
                   </div>
-                  <div className="text-center text-slate-400 py-4">
+                  <div className="text-center  py-4">
                     <p>EtherScan - Alchemy - Moralis</p>
                   </div>
                 </div>
@@ -140,7 +140,7 @@ const Skills = () => {
                   <div className=" flex flex-col items-center justify-center py-4 font-phudu">
                     <h2 className="text-xl">API's</h2>
                   </div>
-                  <div className="text-center text-slate-400 py-4">
+                  <div className="text-center  py-4">
                     <p>Ethers.js - Wagmi.sh - Web3.js</p>
                   </div>
                 </div>
@@ -151,7 +151,7 @@ const Skills = () => {
                   <div className=" flex flex-col items-center justify-center py-4 font-phudu">
                     <h2 className="text-xl">Analysis</h2>
                   </div>
-                  <div className="text-center text-slate-400 py-4">
+                  <div className="text-center  py-4">
                     <p>Slither - Mythril - Securify</p>
                   </div>
                 </div>
