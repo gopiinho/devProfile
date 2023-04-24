@@ -61,7 +61,7 @@ const Main = () => {
               href="https://github.com/igopib"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-2xl p-4 cursor-pointer hover:scale-125 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d]"
+              className="text-2xl cursor-pointer hover:scale-125 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d]"
             >
               <SlSocialGithub />
             </Link>
@@ -70,7 +70,7 @@ const Main = () => {
               href="https://www.linkedin.com/in/gopinho/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-2xl p-4 cursor-pointer hover:scale-125 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d]"
+              className="text-2xl cursor-pointer hover:scale-125 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d]"
             >
               <SlSocialLinkedin />
             </Link>
@@ -78,7 +78,7 @@ const Main = () => {
               href="https://twitter.com/gopiinho"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-2xl p-4 cursor-pointer hover:scale-125 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d]"
+              className="text-2xl cursor-pointer hover:scale-125 ease-in duration-300 hover:shadow-[#ff2a6d] hover:text-[#ff2a6d]"
             >
               <SlSocialTwitter />
             </Link>

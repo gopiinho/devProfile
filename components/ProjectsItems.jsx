@@ -13,7 +13,7 @@ const ProjectsItems = ({
     <div className="relative flex items-center justify-center h-auto w-full group rounded-sm p-1 transition duration-300 text-white pb-6">
       <div className="relative flex flex-col justify-center items-center ease-in border-2 border-slate-600 hover:border-[#ff2a6d] duration-300 hover:shadow-neon-main rounded-md border-opacity-40">
         <Image
-          className="relative rounded-md opacity-80 group-hover:opacity-40 hover:bg-slate-900 transition duration-300 blur-sm "
+          className="relative rounded-md group-hover:opacity-70 hover:bg-slate-900 transition duration-300 blur-sm "
           src={backgroundImg}
           alt="/"
         />
