@@ -37,7 +37,7 @@ const Main = () => {
             WEB3 DEVELOPER
           </h1>
 
-          <div className="flex items-center justify-between p-5 bg-zinc-300/80 font-robot text-black border border-zinc-300/0 hover:border-[#ff2a6d] transform duration-300">
+          <div className="flex items-center justify-between p-5 bg-zinc-300/80 font-robot text-black border border-zinc-300/0 hover:border-[#ff2a6d] hover:text-[#ff2a6d] hover:bg-zinc-800/80 transform duration-300">
             <Image
               src={profilePic}
               alt="/"
