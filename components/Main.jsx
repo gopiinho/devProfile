@@ -38,11 +38,14 @@ const Main = () => {
           </h1>
 
           <div className="flex items-center justify-between p-5 bg-zinc-300/80 font-robot text-black border border-zinc-300/0 hover:border-[#ff2a6d] hover:text-[#ff2a6d] hover:bg-zinc-800/80 transform duration-300">
+            <p className="uppercase text-lg tracking-tight font-semibold">
+              Hi, I'M Gurpreet
+            </p>
             <Image
               src={profilePic}
               alt="/"
               width={130}
-              className="rounded-full grayscale hover:grayscale-0 transform duration-300 ml-6"
+              className="rounded-full grayscale hover:grayscale-0 transform duration-300"
             ></Image>
             <div className="max-w-[60%] flex-col">
               <p className="uppercase text-lg tracking-tight font-semibold">
