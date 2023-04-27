@@ -36,14 +36,14 @@ const Navbar = () => {
             <Link href="/projects">
               <li className="mx-10 text-lg hover:text-white">projects</li>
             </Link>
-            <Link href="/about">
-              <li className="mx-10 text-lg hover:text-white">about</li>
+            <Link href="/skills">
+              <li className="mx-10 text-lg hover:text-white">skills</li>
             </Link>
             <Link href="/#home" className="neonH2">
               <h2 className=" text-white text-xl mx-10">menu</h2>
             </Link>
-            <Link href="/stack">
-              <li className="mx-10 text-lg hover:text-white">stack</li>
+            <Link href="/about">
+              <li className="mx-10 text-lg hover:text-white">about</li>
             </Link>
             <Link href="/contact">
               <li className="mx-10 text-lg hover:text-white">contact</li>

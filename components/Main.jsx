@@ -33,11 +33,11 @@ const Main = () => {
           <p className="p-2 bg-zinc-300/80 font-robot text-black uppercase border border-zinc-300/0 hover:border-[#ff2a6d] transform duration-300 text-sm tracking-widest">
             Building decentralized internet
           </p>
-          <h1 className="p-5 bg-zinc-300/80 font-robot text-black hover:text-[#ff2a6d] hover:bg-zinc-800/80 hover:border-[#ff2a6d] transform duration-500 border border-zinc-300 tracking-tight">
+          <h1 className="p-5 bg-zinc-300/80 font-robot text-black hover:text-[#ff2a6d] hover:bg-zinc-800 hover:border-[#ff2a6d] transform duration-500 border border-zinc-300 tracking-tight">
             WEB3 DEVELOPER
           </h1>
 
-          <div className="flex items-center justify-between p-5 bg-zinc-300/80 font-robot text-black border border-zinc-300/0 hover:border-[#ff2a6d] hover:text-[#ff2a6d] hover:bg-zinc-800/80 transform duration-300">
+          <div className="flex items-center justify-between p-5 bg-zinc-300/80 font-robot text-black border border-zinc-300/0 hover:border-[#ff2a6d] hover:text-[#ff2a6d] hover:bg-zinc-800 transform duration-300">
             <p className="uppercase text-lg tracking-tight font-semibold">
               Hi, I'M Gurpreet
             </p>
