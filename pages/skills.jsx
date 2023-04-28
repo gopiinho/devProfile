@@ -13,7 +13,7 @@ const Skills = () => {
       className="w-full h-screen bg-zinc-800 pt-[75px] font-robot"
     >
       <div className="flex flex-col w-full">
-        <div className="flex flex-col sm:flex-row w-full h-1/2">
+        <div className="flex flex-row md:flex-row sm:flex-col w-full h-1/2">
           <div
             className="w-1/2 group pr-6 sm:w-full justify-between flex items-center border-r border-zinc-500 hover:bg-zinc-300 hover:text-black transform duration-300"
             style={{ height: "calc(50vh - 75px)" }}
@@ -21,18 +21,30 @@ const Skills = () => {
             <h2 className="writing-vertical font-cyber rotate-180 h-full text-zinc-700 uppercase text-3xl text-center transform duration-300 cursor-default bg-zinc-800 group-hover:text-[#ff577d] px-2">
               Blockchain
             </h2>
-            <div className="grid grid-cols-1 w-[40%] h-full justify-center text-center font-semibold uppercase tracking-lighter ">
-              <div className="flex items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
-                Hardhat
+            <div className="grid grid-cols-1 font-phudu w-[40%] h-full justify-center text-center font-semibold uppercase tracking-lighter ">
+              <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
+                <h3>Development</h3>
+                <p className="font-robot text-sm tracking-tight">
+                  Hardhat • Foundry
+                </p>
               </div>
-              <div className="flex items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
-                Foundry
+              <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
+                <h3>Standards</h3>
+                <p className="font-robot text-sm tracking-tight">
+                  Chainlink • Openzeppelin
+                </p>
               </div>
-              <div className="flex items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
-                ethers
+              <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
+                <h3>API's</h3>
+                <p className="font-robot text-sm tracking-tight">
+                  Ethers.js • web3.js
+                </p>
               </div>
-              <div className="flex items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
-                Openzeppelin
+              <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
+                <h3>Testing</h3>
+                <p className="font-robot text-sm tracking-tight">
+                  Anvil • Foundry
+                </p>
               </div>
             </div>
             <div className="w-[60%] h-full py-8">
@@ -52,18 +64,30 @@ const Skills = () => {
                 arrange this. Probably would need to fix this.
               </p>
             </div>
-            <div className="grid grid-cols-1 w-[40%] h-full justify-center text-center font-semibold uppercase tracking-lighter ">
-              <div className="flex items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
-                Hardhat
+            <div className="grid grid-cols-1 font-phudu w-[40%] h-full justify-center text-center font-semibold uppercase tracking-lighter ">
+              <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
+                <h3>Development</h3>
+                <p className="font-robot text-sm tracking-tight">
+                  Hardhat • Foundry
+                </p>
               </div>
-              <div className="flex items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
-                Foundry
+              <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
+                <h3>Standards</h3>
+                <p className="font-robot text-sm tracking-tight">
+                  Chainlink • Openzeppelin
+                </p>
               </div>
-              <div className="flex items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
-                ethers
+              <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
+                <h3>API's</h3>
+                <p className="font-robot text-sm tracking-tight">
+                  Ethers.js • web3.js
+                </p>
               </div>
-              <div className="flex items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
-                Openzeppelin
+              <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
+                <h3>Testing</h3>
+                <p className="font-robot text-sm tracking-tight">
+                  Anvil • Foundry
+                </p>
               </div>
             </div>
 
@@ -76,7 +100,7 @@ const Skills = () => {
           className="w-full group h-1/2 flex flex-col items-center border-t border-zinc-500 hover:bg-zinc-300 hover:text-black transform duration-300"
           style={{ height: "calc(50vh)" }}
         >
-          <div className="grid grid-cols-4 font-phudu w-full h-full justify-center text-center font-semibold uppercase tracking-widest">
+          <div className="grid grid-cols-4 md:grid-cols-4 sm:grid-cols-2 font-phudu w-full h-full justify-center text-center font-semibold uppercase tracking-widest">
             <div className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-[#63698E] transform duration-300">
               Solidity
               <div className="devicon-solidity-plain text-3xl"></div>
@@ -102,8 +126,8 @@ const Skills = () => {
               <div className="devicon-nextjs-plain text-3xl"></div>
             </div>
             <div className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-[#F2BD03] transform duration-300">
-              Python
-              <div className="devicon-python-plain text-3xl"></div>
+              Firebase
+              <div className="devicon-firebase-plain text-3xl"></div>
             </div>
             <div className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-[#2496ED] transform duration-300">
               Docker
