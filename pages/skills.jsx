@@ -2,7 +2,6 @@ import React from "react"
 import "devicon/devicon.min.css"
 import { motion as m } from "framer-motion"
 import Image from "next/image"
-import { stackBG } from "../public/assets/backgrounds/index"
 
 const Skills = () => {
   return (
@@ -20,17 +19,26 @@ const Skills = () => {
             style={{ height: "calc(50vh - 75px)" }}
           >
             <h2 className="writing-vertical rotate-180 h-full text-zinc-700 uppercase text-4xl text-center transform duration-300 cursor-default bg-zinc-800 group-hover:text-white px-2">
-              Design
+              Blockchain
             </h2>
-            <div className="flex flex-col h-full items-center justify-between py-12">
-              <p>Photoshop</p>
-              <p>Gimp</p>
-              <p>Figma</p>
+            <div className="grid grid-cols-1 w-[40%] h-full justify-center text-center font-semibold uppercase tracking-lighter ">
+              <div className="flex items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
+                Hardhat
+              </div>
+              <div className="flex items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
+                Foundry
+              </div>
+              <div className="flex items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
+                ethers
+              </div>
+              <div className="flex items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
+                Openzeppelin
+              </div>
             </div>
             <div className="w-[60%] h-full py-8">
               <p>
-                This is just to check how big can this shit get and how can I re
-                arrange this. Probably would need to fix this.
+                .This is just to check how big can this shit get and how can I
+                re arrange this. Probably would need to fix this.
               </p>
             </div>
           </div>
@@ -44,10 +52,19 @@ const Skills = () => {
                 arrange this. Probably would need to fix this.
               </p>
             </div>
-            <div className="flex flex-col h-full items-center justify-between py-12">
-              <p>Photoshop</p>
-              <p>Gimp</p>
-              <p>Figma</p>
+            <div className="grid grid-cols-1 w-[40%] h-full justify-center text-center font-semibold uppercase tracking-lighter ">
+              <div className="flex items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
+                Hardhat
+              </div>
+              <div className="flex items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
+                Foundry
+              </div>
+              <div className="flex items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
+                ethers
+              </div>
+              <div className="flex items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
+                Openzeppelin
+              </div>
             </div>
 
             <h2 className="writing-vertical h-full text-zinc-700 uppercase text-4xl text-center transform duration-300 cursor-default bg-zinc-800 group-hover:text-white px-2">
@@ -59,17 +76,39 @@ const Skills = () => {
           className="w-full group h-1/2 flex flex-col items-center border-t border-zinc-500 hover:bg-zinc-300 hover:text-black transform duration-300"
           style={{ height: "calc(50vh)" }}
         >
-          <div className="grid grid-cols-4 w-full h-full justify-center text-center">
-            <div className="flex items-center justify-center hover:bg-zinc-800 transform duration-300">
+          <div className="grid grid-cols-4 w-full h-full justify-center text-center font-semibold uppercase tracking-lighter">
+            <div className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
               Solidity
+              <div className="devicon-solidity-plain text-3xl"></div>
             </div>
-            <div className="flex items-center justify-center">Typescript</div>
-            <div className="flex items-center justify-center">Typescript</div>
-            <div className="flex items-center justify-center">Tailwindcss</div>
-            <div className="flex items-center justify-center">Node.js</div>
-            <div className="flex items-center justify-center">Solidity</div>
-            <div className="flex items-center justify-center">Solidity</div>
-            <div className="flex items-center justify-center">Solidity</div>
+            <div className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
+              Typescript
+              <div className="devicon-typescript-plain text-3xl"></div>
+            </div>
+            <div className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
+              Javascript
+              <div className="devicon-javascript-plain text-3xl"></div>
+            </div>
+            <div className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
+              Tailwindcss
+              <div className="devicon-tailwindcss-plain text-3xl"></div>
+            </div>
+            <div className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
+              Node.js
+              <div className="devicon-nodejs-plain text-3xl"></div>
+            </div>
+            <div className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
+              Next.js
+              <div className="devicon-nextjs-plain text-3xl"></div>
+            </div>
+            <div className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
+              Python
+              <div className="devicon-python-plain text-3xl"></div>
+            </div>
+            <div className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
+              Docker
+              <div className="devicon-docker-plain text-3xl"></div>
+            </div>
           </div>
           <div className="w-full rotate-180 uppercase text-4xl text-zinc-700 text-center transform duration-300 cursor-default bg-zinc-800 group-hover:text-white py-2">
             Stack
