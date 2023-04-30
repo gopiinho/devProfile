@@ -66,21 +66,21 @@ const Skills = () => {
             </div>
             <div className="grid grid-cols-1 font-phudu w-[40%] h-full justify-center text-center font-semibold uppercase tracking-lighter ">
               <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
-                <h3>Development</h3>
+                <h3>Framework</h3>
                 <p className="font-robot text-sm tracking-tight">
-                  Hardhat • Foundry
+                  React • Next.js
                 </p>
               </div>
               <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
-                <h3>Standards</h3>
+                <h3>Styling</h3>
                 <p className="font-robot text-sm tracking-tight">
-                  Chainlink • Openzeppelin
+                  Tailwindcss • CSS5
                 </p>
               </div>
               <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
-                <h3>API's</h3>
+                <h3>Deployment</h3>
                 <p className="font-robot text-sm tracking-tight">
-                  Ethers.js • web3.js
+                  Netlify • AWS
                 </p>
               </div>
               <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
@@ -100,7 +100,7 @@ const Skills = () => {
           className="w-full group h-1/2 flex flex-col items-center border-t border-zinc-500 hover:bg-zinc-300 hover:text-black transform duration-300"
           style={{ height: "calc(50vh)" }}
         >
-          <div className="grid grid-cols-4 md:grid-cols-4 sm:grid-cols-2 font-phudu w-full h-full justify-center text-center font-semibold uppercase tracking-widest">
+          <div className="grid grid-cols-4 md:grid-cols-4 sm:grid-cols-2 font-phudu w-full h-full justify-center text-center font-semibold uppercase tracking-wider">
             <div className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-[#63698E] transform duration-300">
               Solidity
               <div className="devicon-solidity-plain text-3xl"></div>
