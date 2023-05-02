@@ -1,7 +1,7 @@
 import React from "react"
 import "devicon/devicon.min.css"
 import { motion as m } from "framer-motion"
-import Image from "next/image"
+import Link from "next/link"
 
 const Skills = () => {
   return (
@@ -123,38 +123,78 @@ const Skills = () => {
           style={{ height: "calc(50vh)" }}
         >
           <div className="grid grid-cols-4 md:grid-cols-4 sm:grid-cols-2 font-phudu w-full h-full justify-center text-center font-semibold uppercase tracking-wider">
-            <div className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-[#63698E] transform duration-300">
+            <Link
+              href="https://soliditylang.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-[#63698E] transform duration-300"
+            >
               Solidity
               <div className="devicon-solidity-plain text-3xl"></div>
-            </div>
-            <div className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-[#007ACC] transform duration-300">
+            </Link>
+            <Link
+              href="https://www.typescriptlang.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-[#007ACC] transform duration-300"
+            >
               Typescript
               <div className="devicon-typescript-plain text-3xl"></div>
-            </div>
-            <div className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-[#f0db4f] transform duration-300">
+            </Link>
+            <Link
+              href="https://www.javascript.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-[#f0db4f] transform duration-300"
+            >
               Javascript
               <div className="devicon-javascript-plain text-3xl"></div>
-            </div>
-            <div className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-[#37bcf8] transform duration-300">
+            </Link>
+            <Link
+              href="https://tailwindcss.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-[#37bcf8] transform duration-300"
+            >
               Tailwindcss
               <div className="devicon-tailwindcss-plain text-3xl"></div>
-            </div>
-            <div className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-[#3E863E] transform duration-300">
+            </Link>
+            <Link
+              href="https://nodejs.org/en"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-[#3E863E] transform duration-300"
+            >
               Node.js
               <div className="devicon-nodejs-plain text-3xl"></div>
-            </div>
-            <div className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
+            </Link>
+            <Link
+              href="https://nextjs.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300"
+            >
               Next.js
               <div className="devicon-nextjs-plain text-3xl"></div>
-            </div>
-            <div className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-[#F2BD03] transform duration-300">
+            </Link>
+            <Link
+              href="https://firebase.google.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-[#F2BD03] transform duration-300"
+            >
               Firebase
               <div className="devicon-firebase-plain text-3xl"></div>
-            </div>
-            <div className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-[#2496ED] transform duration-300">
+            </Link>
+            <Link
+              href="https://www.docker.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-[#2496ED] transform duration-300"
+            >
               Docker
               <div className="devicon-docker-plain text-3xl"></div>
-            </div>
+            </Link>
           </div>
           <div className="w-full rotate-180 font-cyber uppercase text-3xl text-zinc-700 text-center transform duration-300 cursor-default bg-zinc-800 group-hover:text-[#ff577d] py-2">
             Stack
