@@ -10,12 +10,12 @@ const Skills = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.3, ease: "easeOut" }}
-      className="w-full h-screen bg-zinc-800 pt-[75px] font-robot"
+      className="w-full h-screen bg-zinc-800 pt-[75px] text-zinc-300 font-robot"
     >
       <div className="flex flex-col w-full">
         <div className="flex flex-row md:flex-row sm:flex-col w-full h-1/2">
           <div
-            className="w-1/2 group pr-6 sm:w-full justify-between flex items-center border-r border-zinc-500 hover:bg-zinc-300 hover:text-black transform duration-300"
+            className="w-1/2 group pr-6 sm:w-full justify-between flex items-center border-r border-zinc-500 hover:bg-zinc-300 hover:text-zinc-700 transform duration-300"
             style={{ height: "calc(50vh - 75px)" }}
           >
             <h2 className="writing-vertical font-cyber rotate-180 h-full text-zinc-700 uppercase text-3xl text-center transform duration-300 cursor-default bg-zinc-800 group-hover:text-[#ff577d] px-2">
@@ -47,22 +47,44 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <div className="w-[60%] h-full py-8">
+            <div className="w-[60%] h-full grid grid-cols-1 py-8 font-bold ">
               <p>
-                .This is just to check how big can this shit get and how can I
-                re arrange this. Probably would need to fix this.
+                • Good understanding of Layer 1 and Layer 2 blockchain solutions
+                and experience writing smart contracts using Solidity.
               </p>
+              <p>
+                • Full understanding of Ethersjs library to interact with EVM
+                compatible chains and its ecosystem.
+              </p>
+              <p>
+                • Experience with testing frameworks like Foundry, Mocha,
+                hardhat.
+              </p>
+              <p>
+                • Experience with testing frameworks like Foundry, Mocha,
+                hardhat.
+              </p>
+              <p>• ERC-20/721/721A/1155</p>
             </div>
           </div>
           <div
             className="w-1/2 group pl-6 sm:w-full justify-between flex items-center border-r border-zinc-500 hover:bg-zinc-300 hover:text-black transform duration-300"
             style={{ height: "calc(50vh - 75px)" }}
           >
-            <div className="w-[60%] h-full py-8">
+            <div className="w-[60%] h-full grid grid-cols-1 py-8 font-bold ">
               <p>
-                This is just to check how big can this shit get and how can I re
-                arrange this. Probably would need to fix this.
+                • 
               </p>
+              <p>
+                • 
+              </p>
+              <p>
+                • 
+              </p>
+              <p>
+                • 
+              </p>
+              <p>• </p>
             </div>
             <div className="grid grid-cols-1 font-phudu w-[40%] h-full justify-center text-center font-semibold uppercase tracking-lighter ">
               <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
