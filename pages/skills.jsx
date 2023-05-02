@@ -47,44 +47,44 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <div className="w-[60%] h-full grid grid-cols-1 py-8 font-bold ">
+            <div className="w-[60%] h-full grid grid-cols-1 py-8 font-bold text-sm text-center justify-center">
               <p>
-                • Good understanding of Layer 1 and Layer 2 blockchain solutions
-                and experience writing smart contracts using Solidity.
+                • Solid grasp of cryptography and security principles and
+                understanding of blockchain technology and why it is necessary
               </p>
               <p>
-                • Full understanding of Ethersjs library to interact with EVM
-                compatible chains and its ecosystem.
+                • Proficiency in Solidity, with understanding of its
+                Vulnerabilities and the abilidity to write gas effective code
               </p>
               <p>
-                • Experience with testing frameworks like Foundry, Mocha,
-                hardhat.
+                • Experience with frameworks like Foundry, Hardhat, Truffle for
+                development, deployment and testing of smart contracts
               </p>
               <p>
-                • Experience with testing frameworks like Foundry, Mocha,
-                hardhat.
+                • Working experience of libraries like ethers.js/web3.js,
+                openZeppelin, wagmi.sh,
               </p>
-              <p>• ERC-20/721/721A/1155</p>
+              <p>• zkRollups and Zero Knowledge Proofs</p>
             </div>
           </div>
           <div
-            className="w-1/2 group pl-6 sm:w-full justify-between flex items-center border-r border-zinc-500 hover:bg-zinc-300 hover:text-black transform duration-300"
+            className="w-1/2 group pl-6 sm:w-full justify-between flex items-center border-r border-t border-zinc-500 hover:bg-zinc-300 hover:text-black transform duration-300"
             style={{ height: "calc(50vh - 75px)" }}
           >
-            <div className="w-[60%] h-full grid grid-cols-1 py-8 font-bold ">
+            <div className="w-[60%] h-full grid grid-cols-1 py-8 font-bold text-sm text-center">
               <p>
-                • 
+                • Proficiency in HTML, CSS, Javascript and their respective
+                libraries like tailwindcss, Typescript
               </p>
               <p>
-                • 
+                • Experience working with component based frameworks like React,
+                Nextjs to develop full stack webapps
               </p>
               <p>
-                • 
+                • Using tools like Adobe photoshop, Figma to create designs.
               </p>
-              <p>
-                • 
-              </p>
-              <p>• </p>
+              <p>• Ability to use version control systems such as Git</p>
+              <p>• Ability to write clean, maintainable, and scalable code</p>
             </div>
             <div className="grid grid-cols-1 font-phudu w-[40%] h-full justify-center text-center font-semibold uppercase tracking-lighter ">
               <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
@@ -100,15 +100,15 @@ const Skills = () => {
                 </p>
               </div>
               <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
-                <h3>Deployment</h3>
+                <h3>Backend</h3>
                 <p className="font-robot text-sm tracking-tight">
-                  Netlify • AWS
+                  PostgreSQL • Firebase
                 </p>
               </div>
               <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
-                <h3>Testing</h3>
+                <h3>Deployment</h3>
                 <p className="font-robot text-sm tracking-tight">
-                  Anvil • Foundry
+                  Netlify • AWS
                 </p>
               </div>
             </div>
