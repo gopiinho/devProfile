@@ -96,11 +96,11 @@ const Navbar = () => {
               <Link href="/projects" onClick={() => setNav(false)}>
                 <li className="py-4 text-sm hover:text-white">projects</li>
               </Link>
+              <Link href="/skills" onClick={() => setNav(false)}>
+                <li className="py-4 text-sm hover:text-white">skills</li>
+              </Link>
               <Link href="/about" onClick={() => setNav(false)}>
                 <li className="py-4 text-sm hover:text-white">about</li>
-              </Link>
-              <Link href="/stack" onClick={() => setNav(false)}>
-                <li className="py-4 text-sm hover:text-white">tech</li>
               </Link>
               <Link href="/contact" onClick={() => setNav(false)}>
                 <li className="py-4 text-sm hover:text-white">contact</li>
