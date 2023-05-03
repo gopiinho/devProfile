@@ -10,7 +10,7 @@ const Skills = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.3, ease: "easeOut" }}
-      className="w-full h-screen bg-zinc-800 pt-[75px] text-zinc-300 font-robot"
+      className="w-full h-screen bg-zinc-800 pt-[75px] text-zinc-200 font-robot"
     >
       <div className="flex flex-col w-full">
         <div className="flex flex-row md:flex-row sm:flex-col w-full h-1/2">
