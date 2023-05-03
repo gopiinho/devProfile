@@ -28,12 +28,12 @@ const Contact = () => {
           <div></div>
         </div>
         <div className="w-[50%]">
-          <div className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-2 font-phudu w-full h-full justify-center text-center font-semibold uppercase tracking-wider">
+          <div className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-2 text-3xl font-phudu w-full h-full justify-center text-center font-semibold uppercase tracking-wider">
             <Link
               href=""
               target="_blank"
               rel="noopener noreferrer"
-              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-[#63698E] transform duration-300"
+              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 text-ellipsis border border-zinc-700 hover:text-[#63698E] transform duration-300"
             >
               Github
               <div className="devicon-github-plain text-3xl"></div>
@@ -42,7 +42,7 @@ const Contact = () => {
               href=""
               target="_blank"
               rel="noopener noreferrer"
-              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-[#007ACC] transform duration-300"
+              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-[#007ACC] transform duration-300"
             >
               linkedin
               <div className="devicon-linkedin-plain text-3xl"></div>
@@ -51,7 +51,7 @@ const Contact = () => {
               href=""
               target="_blank"
               rel="noopener noreferrer"
-              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-[#f0db4f] transform duration-300"
+              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-[#f0db4f] transform duration-300"
             >
               Twitter
               <div className="devicon-twitter-plain text-3xl"></div>
@@ -60,7 +60,7 @@ const Contact = () => {
               href=""
               target="_blank"
               rel="noopener noreferrer"
-              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-[#37bcf8] transform duration-300"
+              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-[#37bcf8] transform duration-300"
             >
               Instagram
             </Link>
@@ -68,7 +68,7 @@ const Contact = () => {
               href=""
               target="_blank"
               rel="noopener noreferrer"
-              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-[#3E863E] transform duration-300"
+              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-[#3E863E] transform duration-300"
             >
               Email
             </Link>
@@ -76,7 +76,7 @@ const Contact = () => {
               href=""
               target="_blank"
               rel="noopener noreferrer"
-              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300"
+              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-white transform duration-300"
             >
               Discord
             </Link>
