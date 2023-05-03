@@ -14,8 +14,8 @@ const Contact = () => {
       transition={{ duration: 0.3, ease: "easeIn" }}
       className="w-full h-screen pt-[75px]"
     >
-      <div className="flex w-full">
-        <div className="w-[50%] h-full">
+      <div className="flex flex-row md:flex-row sm:flex-col w-full">
+        <div className="w-1/2 h-full">
           <div className="flex">
             <h2
               style={{ height: "calc(100vh - 75px)" }}
@@ -23,17 +23,21 @@ const Contact = () => {
             >
               Contact
             </h2>
-            <div>Resume section here</div>
+            <div className="flex flex-col w-full">
+              <div className="h-1/2">Paragraph here</div>
+              <div className="h-1/2 text-center items-center">
+                Resume Link here
+              </div>
+            </div>
           </div>
-          <div></div>
         </div>
-        <div className="w-[50%]">
-          <div className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-2 text-3xl font-phudu w-full h-full justify-center text-center font-semibold uppercase tracking-wider">
+        <div className="w-1/2">
+          <div className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-2 text-3xl font-phudu w-full h-full justify-center text-center font-semibold tracking-wider">
             <Link
               href=""
               target="_blank"
               rel="noopener noreferrer"
-              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 text-ellipsis border border-zinc-700 hover:text-[#63698E] transform duration-300"
+              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-white transform duration-300"
             >
               Github
               <div className="devicon-github-plain text-3xl"></div>
@@ -42,7 +46,7 @@ const Contact = () => {
               href=""
               target="_blank"
               rel="noopener noreferrer"
-              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-[#007ACC] transform duration-300"
+              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-[#0177B5] transform duration-300"
             >
               linkedin
               <div className="devicon-linkedin-plain text-3xl"></div>
@@ -51,7 +55,7 @@ const Contact = () => {
               href=""
               target="_blank"
               rel="noopener noreferrer"
-              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-[#f0db4f] transform duration-300"
+              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-[#1C9BEF] transform duration-300"
             >
               Twitter
               <div className="devicon-twitter-plain text-3xl"></div>
@@ -68,7 +72,7 @@ const Contact = () => {
               href=""
               target="_blank"
               rel="noopener noreferrer"
-              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-[#3E863E] transform duration-300"
+              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-[#D04836] transform duration-300"
             >
               Email
             </Link>
@@ -76,7 +80,7 @@ const Contact = () => {
               href=""
               target="_blank"
               rel="noopener noreferrer"
-              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-white transform duration-300"
+              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-[#7288DA] transform duration-300"
             >
               Discord
             </Link>
