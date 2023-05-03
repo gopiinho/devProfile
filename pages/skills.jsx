@@ -15,7 +15,7 @@ const Skills = () => {
       <div className="flex flex-col w-full">
         <div className="flex flex-row md:flex-row sm:flex-col w-full h-1/2">
           <div
-            className="w-1/2 group pr-6 sm:w-full justify-between flex items-center border-r border-zinc-500 hover:bg-zinc-300 hover:text-zinc-700 transform duration-300"
+            className="w-1/2 group pr-6 sm:w-full justify-between flex items-center border-r border-zinc-500 hover:bg-[#3c3d42] transform duration-300"
             style={{ height: "calc(50vh - 75px)" }}
           >
             <h2 className="writing-vertical font-cyber rotate-180 h-full text-zinc-500 uppercase text-3xl text-center transform duration-300 cursor-default bg-[#3c3d42] group-hover:text-[#ff577d] px-2">
@@ -68,7 +68,7 @@ const Skills = () => {
             </div>
           </div>
           <div
-            className="w-1/2 group pl-6 sm:w-full justify-between flex items-center border-r border-t border-zinc-500 hover:bg-zinc-300 hover:text-black transform duration-300"
+            className="w-1/2 group pl-6 sm:w-full justify-between flex items-center border-r border-t border-zinc-500 hover:bg-[#3c3d42]  transform duration-300"
             style={{ height: "calc(50vh - 75px)" }}
           >
             <div className="w-[60%] h-full grid grid-cols-1 py-8 font-bold text-sm text-center">
@@ -119,7 +119,7 @@ const Skills = () => {
           </div>
         </div>
         <div
-          className="w-full group h-1/2 flex flex-col items-center border-t border-zinc-500 hover:bg-zinc-300 hover:text-black transform duration-300"
+          className="w-full group h-1/2 flex flex-col items-center border-t border-zinc-500 hover:bg-[#3c3d42] transform duration-300"
           style={{ height: "calc(50vh)" }}
         >
           <div className="grid grid-cols-4 md:grid-cols-4 sm:grid-cols-2 font-phudu w-full h-full justify-center text-center font-semibold uppercase tracking-wider">
