@@ -78,7 +78,7 @@ const Contact = () => {
             </Link>
             <h3
               onClick={() => setLinkText("Gopinho#6037")}
-              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 select-text hover:text-[#7288DA] transform duration-300"
+              className="flex gap-4 items-center justify-center cursor-pointer hover:bg-zinc-800 hover:scale-105 border border-zinc-700 select-text hover:text-[#7288DA] transform duration-300"
             >
               {linkText}
             </h3>
