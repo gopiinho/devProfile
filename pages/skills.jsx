@@ -87,7 +87,7 @@ const Skills = () => {
               <p>• Ability to write clean, maintainable, and scalable code</p>
             </div>
             <div className="grid grid-cols-1 font-phudu w-[40%] h-full justify-center text-center font-semibold uppercase tracking-lighter ">
-              <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
+              <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800  hover:text-white transform duration-300">
                 <h3>Framework</h3>
                 <p className="font-robot text-sm tracking-tight">
                   React • Next.js

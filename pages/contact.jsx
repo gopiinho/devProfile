@@ -14,7 +14,7 @@ const Contact = () => {
       transition={{ duration: 0.3, ease: "easeIn" }}
       className="w-full h-screen pt-[75px]"
     >
-      <div className="flex flex-row md:flex-row sm:flex-col w-full">
+      <div className="flex flex-row md:flex-row sm:flex-col w-full overflow-hidden">
         <div className="w-1/2 h-full">
           <div className="flex">
             <h2
@@ -24,8 +24,8 @@ const Contact = () => {
               Contact
             </h2>
             <div className="flex flex-col w-full">
-              <div className="h-1/2">Paragraph here</div>
-              <div className="h-1/2 text-center items-center">
+              <div className="h-[70%]">Paragraph here</div>
+              <div className="h-[30%] border-t border-zinc-700 flex text-center items-center justify-center">
                 Resume Link here
               </div>
             </div>
@@ -34,7 +34,7 @@ const Contact = () => {
         <div className="w-1/2">
           <div className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-2 text-3xl font-phudu w-full h-full justify-center text-center font-semibold tracking-wider">
             <Link
-              href=""
+              href="https://github.com/igopib"
               target="_blank"
               rel="noopener noreferrer"
               className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-white transform duration-300"
@@ -43,7 +43,7 @@ const Contact = () => {
               <div className="devicon-github-plain text-3xl"></div>
             </Link>
             <Link
-              href=""
+              href="https://www.linkedin.com/in/gopinho/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-[#0177B5] transform duration-300"
@@ -52,7 +52,7 @@ const Contact = () => {
               <div className="devicon-linkedin-plain text-3xl"></div>
             </Link>
             <Link
-              href=""
+              href="https://twitter.com/gopiinho"
               target="_blank"
               rel="noopener noreferrer"
               className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-[#1C9BEF] transform duration-300"
@@ -61,7 +61,7 @@ const Contact = () => {
               <div className="devicon-twitter-plain text-3xl"></div>
             </Link>
             <Link
-              href=""
+              href="https://www.instagram.com/gopiinho/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-[#37bcf8] transform duration-300"
@@ -69,21 +69,19 @@ const Contact = () => {
               Instagram
             </Link>
             <Link
-              href=""
+              href="mailto:gopinho@protonmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-[#D04836] transform duration-300"
             >
               Email
             </Link>
-            <Link
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-[#7288DA] transform duration-300"
+            <h3
+              onClick={() => setLinkText("Gopinho#6037")}
+              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 select-text hover:text-[#7288DA] transform duration-300"
             >
-              Discord
-            </Link>
+              {linkText}
+            </h3>
           </div>
         </div>
       </div>
