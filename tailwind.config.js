@@ -46,7 +46,7 @@ module.exports = {
         cyber: "'Orbitron', sans-serif;",
         robot: "'Roboto', sans-serif;",
         phudu: "'Phudu', cursive;",
-        quick: "'Quicksand', sans-serif;",
+        rale: "'Raleway', sans-serif;",
       },
 
       boxShadow: {

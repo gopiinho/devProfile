@@ -87,4 +87,9 @@ html {
   .description {
     z-index: 1;
   }
+
+  .fill:hover,
+  .fill:focus {
+    box-shadow: inset 0 0 0 2em var(--hover);
+  }
 }
