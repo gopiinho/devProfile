@@ -1,4 +1,5 @@
 import React, { useEffect } from "react"
+import { motion as m } from "framer-motion"
 import {
   SlSocialGithub,
   SlSocialTwitter,
@@ -20,7 +21,13 @@ const Main = () => {
   }, [])
 
   return (
-    <div className="w-full h-screen  text-center font-robot justify-center">
+    <m.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.5 }}
+      className="w-full h-screen  text-center font-robot justify-center"
+    >
       <Image
         src={mainBG}
         alt="/"
@@ -88,7 +95,7 @@ const Main = () => {
           </div>
         </div>
       </div>
-    </div>
+    </m.div>
   )
 }
 

@@ -4,10 +4,10 @@ import { motion as m } from "framer-motion"
 const Blog = () => {
   return (
     <m.div
-      initial={{ opacity: 0.3 }}
+      initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{ duration: 0.3, ease: "easeIn" }}
+      transition={{ duration: 0.5 }}
       className="w-full h-screen pt-[75px]"
     >
       <div className="w-full h-full flex justify-center items-center text-center">

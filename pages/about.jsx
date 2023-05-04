@@ -6,10 +6,10 @@ import { storyBG, devBG, designBG } from "../public/assets/backgrounds/index"
 const vision = () => {
   return (
     <m.div
-      initial={{ opacity: 0.3 }}
+      initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{ duration: 0.3, ease: "easeOut" }}
+      transition={{ duration: 0.5 }}
       className="w-full h-full text-center font-robot "
     >
       <div>

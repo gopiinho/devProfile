@@ -12,10 +12,10 @@ import {
 const Projects = () => {
   return (
     <m.div
-      initial={{ opacity: 0.3 }}
+      initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{ duration: 0.3, ease: "easeOut" }}
+      transition={{ duration: 0.5 }}
       className="max-w-[1240px] mx-auto p-8 h-full justify-center pt-28"
     >
       <Image
