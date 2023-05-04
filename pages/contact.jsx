@@ -12,7 +12,7 @@ const Contact = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.3, ease: "easeIn" }}
-      className="w-full h-screen pt-[75px]"
+      className="w-full h-screen pt-[75px] group"
     >
       <div className="flex flex-row md:flex-row sm:flex-col w-full overflow-hidden">
         <div className="w-1/2 h-full">
