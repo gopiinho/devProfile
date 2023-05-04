@@ -11,7 +11,7 @@ const Contact = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{ duration: 0.2 }}
+      transition={{ duration: 0.5 }}
       className="w-full h-screen pt-[75px] group"
     >
       <div className="flex flex-row md:flex-row sm:flex-col w-full overflow-hidden">
@@ -44,7 +44,7 @@ const Contact = () => {
               href="https://github.com/igopib"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-white transform duration-300"
+              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:border-[#ff2a6d] hover:text-white transform duration-300"
             >
               Github
               <div className="devicon-github-plain text-3xl"></div>
@@ -53,7 +53,7 @@ const Contact = () => {
               href="https://www.linkedin.com/in/gopinho/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-[#0177B5] transform duration-300"
+              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:border-[#ff2a6d] hover:text-[#0177B5] transform duration-300"
             >
               linkedin
               <div className="devicon-linkedin-plain text-3xl"></div>
@@ -62,7 +62,7 @@ const Contact = () => {
               href="https://twitter.com/gopiinho"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-[#1C9BEF] transform duration-300"
+              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:border-[#ff2a6d] hover:text-[#1C9BEF] transform duration-300"
             >
               Twitter
               <div className="devicon-twitter-plain text-3xl"></div>
@@ -71,7 +71,7 @@ const Contact = () => {
               href="https://www.instagram.com/gopiinho/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-[#37bcf8] transform duration-300"
+              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:border-[#ff2a6d] hover:text-[#37bcf8] transform duration-300"
             >
               Instagram
             </Link>
@@ -79,13 +79,13 @@ const Contact = () => {
               href="mailto:gopinho@protonmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-[#D04836] transform duration-300"
+              className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:border-[#ff2a6d] hover:text-[#D04836] transform duration-300"
             >
               Email
             </Link>
             <h3
               onClick={() => setLinkText("Gopinho#6037")}
-              className="flex gap-4 items-center justify-center cursor-pointer hover:bg-zinc-800 hover:scale-105 border border-zinc-700 select-text hover:text-[#7288DA] transform duration-300"
+              className="flex gap-4 items-center justify-center cursor-pointer hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:border-[#ff2a6d] select-text hover:text-[#7288DA] transform duration-300"
             >
               {linkText}
             </h3>
