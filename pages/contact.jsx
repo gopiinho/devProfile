@@ -25,15 +25,14 @@ const Contact = () => {
             </h2>
             <div className="flex flex-col w-full">
               <div className="h-[70%]">Paragraph here</div>
-              <div className="h-[30%] border-t border-zinc-700 flex text-center items-center justify-center">
+              <div className="h-[30%] w-full grid grid-cols-1 border-t border-zinc-700  text-center items-center justify-center">
                 <Link
                   href="/blog"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex gap-4 items-center justify-center hover:bg-zinc-800 hover:scale-105 border border-zinc-700 hover:text-white transform duration-300"
+                  className="flex gap-4 h-full items-center justify-center hover:bg-zinc-800 text-6xl font-phudu border border-zinc-700 hover:scale-105 hover:text-white transform duration-300"
                 >
                   Blog
-                  <div className="devicon-github-plain text-3xl"></div>
                 </Link>
               </div>
             </div>
