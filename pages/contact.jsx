@@ -11,7 +11,7 @@ const Contact = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 0.2 }}
       className="w-full h-screen pt-[75px] group"
     >
       <div className="flex flex-row md:flex-row sm:flex-col w-full overflow-hidden">

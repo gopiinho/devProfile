@@ -15,7 +15,7 @@ const Projects = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 0.2 }}
       className="max-w-[1240px] mx-auto p-8 h-full justify-center pt-28"
     >
       <Image
