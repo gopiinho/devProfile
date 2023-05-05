@@ -17,10 +17,10 @@ const Contact = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
-      className="w-full h-screen pt-[75px] group"
+      className="w-full h-screen pt-[75px] group text-zinc-300"
     >
       <div className="flex flex-row md:flex-row sm:flex-col w-full overflow-hidden">
-        <div className="w-1/2 h-full">
+        <div className="w-1/2 sm:w-full h-full">
           <div className="flex">
             <h2
               style={{ height: "calc(100vh - 75px)" }}
@@ -29,8 +29,12 @@ const Contact = () => {
               Contact
             </h2>
             <div className="flex flex-col w-full">
-              <div className="h-[70%] text-3xl font-rale text-center flex justify-center items-center">
-                We live in age of the Internet, please reach out!
+              <div className="h-[70%] w-[80%] text-5xl m-auto font-rale text-center flex flex-col gap-8 justify-center items-center">
+                <p>
+                  Have any questions or need to talk about anything tech or web3
+                  related ?
+                </p>
+                <p> We live in age of the Internet, please reach out!</p>
               </div>
               <div className="h-[30%] w-full grid grid-cols-1 border-t border-zinc-700  text-center items-center justify-center">
                 <Link
@@ -46,7 +50,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="w-1/2 ">
+        <div className="w-1/2 sm:w-full ">
           <div className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-2 text-3xl font-rale w-full h-full justify-center text-center font-semibold tracking-wider">
             <Link
               href="https://github.com/igopib"
