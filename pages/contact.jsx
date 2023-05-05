@@ -29,7 +29,9 @@ const Contact = () => {
               Contact
             </h2>
             <div className="flex flex-col w-full">
-              <div className="h-[70%]">Paragraph here</div>
+              <div className="h-[70%] text-3xl font-rale text-center flex justify-center items-center">
+                We live in age of the Internet, please reach out!
+              </div>
               <div className="h-[30%] w-full grid grid-cols-1 border-t border-zinc-700  text-center items-center justify-center">
                 <Link
                   href="/blog"

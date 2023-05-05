@@ -122,7 +122,7 @@ const Skills = () => {
           className="w-full group h-1/2 flex flex-col items-center border-t border-zinc-700 hover:bg-[#3c3d42] transform duration-300"
           style={{ height: "calc(50vh)" }}
         >
-          <div className="grid grid-cols-4 md:grid-cols-4 sm:grid-cols-2 font-rale w-full h-full justify-center text-center font-semibold  tracking-wider">
+          <div className="grid grid-cols-5 md:grid-cols-5 sm:grid-cols-2 font-rale w-full h-full justify-center text-center font-semibold  tracking-wider">
             <Link
               href="https://soliditylang.org/"
               target="_blank"
@@ -194,6 +194,24 @@ const Skills = () => {
             >
               Docker
               <div className="devicon-docker-plain text-3xl"></div>
+            </Link>
+            <Link
+              href="https://expressjs.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex gap-4 items-center justify-center text-2xl hover:bg-zinc-800 hover:text-white transform duration-300"
+            >
+              Express.js
+              <div className="devicon-express-original text-3xl"></div>
+            </Link>
+            <Link
+              href="https://www.postgresql.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex gap-4 items-center justify-center text-2xl hover:bg-zinc-800 hover:text-[#336791] transform duration-300"
+            >
+              PostgreSQL
+              <div className="devicon-postgresql-plain text-3xl"></div>
             </Link>
           </div>
           <div className="w-full rotate-180 font-cyber  text-3xl text-zinc-500 text-center transform duration-300 cursor-default bg-[#3c3d42] group-hover:text-[#ff577d] py-2">
