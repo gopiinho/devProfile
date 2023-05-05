@@ -29,12 +29,15 @@ const Contact = () => {
               Contact
             </h2>
             <div className="flex flex-col w-full">
-              <div className="h-[70%] w-[80%] text-5xl m-auto font-rale text-center flex flex-col gap-8 justify-center items-center">
-                <p>
+              <div className="h-[70%] w-[80%] m-auto font-rale text-center flex flex-col gap-12 justify-center items-center">
+                <p className="text-5xl">
                   Have any questions or need to talk about anything tech or web3
                   related ?
                 </p>
-                <p> We live in age of the Internet, please reach out!</p>
+                <p className="text-3xl">
+                  {" "}
+                  We live in age of the Internet, please reach out!
+                </p>
               </div>
               <div className="h-[30%] w-full grid grid-cols-1 border-t border-zinc-700  text-center items-center justify-center">
                 <Link
