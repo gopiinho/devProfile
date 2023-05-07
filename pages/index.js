@@ -13,7 +13,7 @@ export default function Home() {
       <Head>
         <title>Gurpreet - Portfolio</title>
         <meta name="description" content="Personal website." />
-        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Main />
