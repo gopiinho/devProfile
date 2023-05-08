@@ -1,15 +1,5 @@
 import React, { useEffect } from "react"
 import { motion as m } from "framer-motion"
-import {
-  SlSocialGithub,
-  SlSocialTwitter,
-  SlSocialLinkedin,
-} from "react-icons/sl"
-import Link from "next/link"
-import Image from "next/image"
-
-// Internal Import
-import { mainBG, mainBG2 } from "../public/assets/backgrounds/index"
 
 const Main = () => {
   return (

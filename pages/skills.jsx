@@ -13,7 +13,7 @@ const Skills = () => {
       className="w-full h-screen bg-zinc-800 pt-[75px] text-zinc-200 font-robot"
     >
       <div className="flex flex-col w-full">
-        <div className="flex flex-row md:flex-row sm:flex-col w-full h-1/2">
+        <div className="flex flex-row md:flex-row sm:flex-col w-full h-1/2 lg:h-1/2 md:h-1/2 sm:h-full">
           <div
             className="w-1/2 group pr-6 sm:w-full justify-between flex items-center border-r border-zinc-700 hover:bg-[#3c3d42] transform duration-300"
             style={{ height: "calc(50vh - 75px)" }}
@@ -119,7 +119,7 @@ const Skills = () => {
           </div>
         </div>
         <div
-          className="w-full group h-1/2 flex flex-col items-center border-t border-b border-zinc-700 transform duration-300"
+          className="w-full group h-1/2 lg:h-1/2 md:h-1/2 sm:h-full flex flex-col items-center border-t border-b border-zinc-700 transform duration-300"
           style={{ height: "calc(50vh)" }}
         >
           <div className="grid grid-cols-5 md:grid-cols-5 sm:grid-cols-2 font-rale w-full h-full justify-center text-center font-semibold  tracking-wider">

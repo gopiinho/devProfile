@@ -5,6 +5,9 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  scrollbar-width: none;
+}
 
 @layer base {
   body {
