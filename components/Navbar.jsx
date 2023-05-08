@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import Link from "next/link"
-import { BiCode } from "react-icons/bi"
+import { ImMenu } from "react-icons/im"
 import { AiOutlineClose } from "react-icons/ai"
 
 const Navbar = () => {
@@ -49,8 +49,8 @@ const Navbar = () => {
               <li className="mx-10 text-lg hover:text-white">contact</li>
             </Link>
           </ul>
-          <div onClick={handleNav} className="md:hidden pl-8 ">
-            <BiCode
+          <div onClick={handleNav} className="md:hidden">
+            <ImMenu
               size={30}
               className="cursor-pointer hover:text-[#ff2a6d]/50 transform duration-300"
             />
