@@ -6,7 +6,6 @@ import projectBG from "./projects.jpg"
 import contactBG from "./contact.png"
 import stackBG from "./stack.png"
 import sibylBG from "./sibyl.gif"
-import mainBG2 from "./mainBG2.png"
 
 export {
   storyBG,
@@ -17,5 +16,4 @@ export {
   contactBG,
   stackBG,
   sibylBG,
-  mainBG2,
 }
