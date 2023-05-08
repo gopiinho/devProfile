@@ -5,13 +5,14 @@
 html {
   scroll-behavior: smooth;
 }
+
 body {
   scrollbar-width: none;
 }
 
 @layer base {
   body {
-    @apply bg-[#2A2B2E] text-white tracking-wide  select-none;
+    @apply bg-[#2A2B2E] text-white tracking-wide  select-none scrollbar-none;
   }
 
   h1 {
