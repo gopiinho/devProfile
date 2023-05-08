@@ -21,50 +21,31 @@ const Skills = () => {
             <h2 className="writing-vertical font-cyber rotate-180 h-full text-zinc-500  text-3xl text-center transform duration-300 cursor-default bg-[#3c3d42] group-hover:text-[#ff577d] px-2">
               Blockchain
             </h2>
-            <div className="grid grid-cols-1 font-rale w-[40%] h-full justify-center text-center font-semibold  tracking-lighter ">
+            <div className="grid grid-cols-1 font-rale w-[40%] h-full justify-center text-center font-semibold  tracking-lighter sm:text-xs">
               <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
-                <h3>Development</h3>
-                <p className="font-robot text-sm tracking-tight">
-                  Hardhat • Foundry
-                </p>
+                <h3 className="tracking-wider text-[#ff2a6d]">Development</h3>
+                <p className="sm:text-xs tracking-tight">Hardhat • Foundry</p>
               </div>
               <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
-                <h3>Standards</h3>
-                <p className="font-robot text-sm tracking-tight">
+                <h3 className="tracking-wider text-[#ff2a6d]">Standards</h3>
+                <p className="sm:text-xs tracking-tight">
                   Chainlink • Openzeppelin
                 </p>
               </div>
               <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
-                <h3>API's</h3>
-                <p className="font-robot text-sm tracking-tight">
-                  Ethers.js • web3.js
-                </p>
+                <h3 className="tracking-wider text-[#ff2a6d]">API's</h3>
+                <p className="sm:text-xs tracking-tight">Ethers.js • web3.js</p>
               </div>
               <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
-                <h3>Testing</h3>
-                <p className="font-robot text-sm tracking-tight">
-                  Anvil • Foundry
-                </p>
+                <h3 className="tracking-wider text-[#ff2a6d]">Testing</h3>
+                <p className="sm:text-xs tracking-tight">Anvil • Foundry</p>
               </div>
             </div>
-            <div className="w-[60%] h-full grid grid-cols-1 py-8 font-bold text-sm text-center justify-center">
-              <p>
-                • Solid grasp of cryptography and security principles and
-                understanding of blockchain technology and why it is necessary
-              </p>
-              <p>
-                • Proficiency in Solidity, with understanding of its
-                Vulnerabilities and the abilidity to write gas effective code
-              </p>
-              <p>
-                • Experience with frameworks like Foundry, Hardhat, Truffle for
-                development, deployment and testing of smart contracts
-              </p>
-              <p>
-                • Working experience of libraries like ethers.js/web3.js,
-                openZeppelin, wagmi.sh,
-              </p>
-              <p>• zkRollups and Zero Knowledge Proofs</p>
+            <div className="w-[60%] font-rale h-full grid grid-cols-1 py-8 font-bold text-center uppercase items-center tracking-tight lg:text-4xl md:text-2xl sm:text-md justify-center">
+              <p>Smart Contracts Security</p>
+              <p>Scripted Deployments</p>
+              <p>Deployment and Scripting</p>
+              <p>Deployment and Scripting</p>
             </div>
           </div>
           <div
@@ -84,30 +65,29 @@ const Skills = () => {
                 • Using tools like Adobe photoshop, Figma to create designs.
               </p>
               <p>• Ability to use version control systems such as Git</p>
-              <p>• Ability to write clean, maintainable, and scalable code</p>
             </div>
-            <div className="grid grid-cols-1 font-rale w-[40%] h-full justify-center text-center font-semibold  tracking-lighter ">
+            <div className="grid grid-cols-1 font-rale w-[40%] h-full justify-center text-center font-semibold  tracking-lighter sm:text-xs">
               <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800  hover:text-white transform duration-300">
-                <h3>Framework</h3>
-                <p className="font-robot text-sm tracking-tight">
+                <h3 className="tracking-wider text-[#ff2a6d]">Framework</h3>
+                <p className="font-robot sm:text-xs tracking-tight">
                   React • Next.js
                 </p>
               </div>
               <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
-                <h3>Styling</h3>
-                <p className="font-robot text-sm tracking-tight">
+                <h3 className="tracking-wider text-[#ff2a6d]">Styling</h3>
+                <p className="font-robot sm:text-xs tracking-tight">
                   Tailwindcss • CSS5
                 </p>
               </div>
               <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
-                <h3>Backend</h3>
-                <p className="font-robot text-sm tracking-tight">
+                <h3 className="tracking-wider text-[#ff2a6d]">Backend</h3>
+                <p className="font-robot sm:text-xs tracking-tight">
                   PostgreSQL • Firebase
                 </p>
               </div>
               <div className="flex flex-col gap-1 items-center justify-center hover:bg-zinc-800 hover:text-white transform duration-300">
-                <h3>Deployment</h3>
-                <p className="font-robot text-sm tracking-tight">
+                <h3 className="tracking-wider text-[#ff2a6d]">Deployment</h3>
+                <p className="font-robot sm:text-xs tracking-tight">
                   Netlify • AWS
                 </p>
               </div>
