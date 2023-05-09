@@ -12,7 +12,7 @@ body {
 
 @layer base {
   body {
-    @apply bg-[#2A2B2E] text-white tracking-wide  select-none scrollbar-none;
+    @apply bg-zinc-900 text-white tracking-wide  select-none scrollbar-none;
   }
 
   h1 {

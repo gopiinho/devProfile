@@ -17,7 +17,7 @@ const Contact = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
-      className="w-full h-screen pt-[75px] group text-zinc-300"
+      className="w-full h-screen pt-[75px] group bg-zinc-900 text-zinc-300"
     >
       <div className="flex flex-row md:flex-row sm:flex-col w-full overflow-hidden">
         <div className="w-1/2 sm:w-full h-full">
@@ -44,7 +44,7 @@ const Contact = () => {
                   href="/blog"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex gap-4 h-full items-center justify-center hover:bg-zinc-900 text-6xl font-rale border border-zinc-700 hover:text-[#ff2a6d] transform duration-300"
+                  className="flex gap-4 h-full items-center justify-center hover:bg-zinc-800 text-6xl font-rale border border-zinc-700 hover:text-[#ff2a6d] transform duration-300"
                 >
                   blog
                   <ImBlog size={35} />
@@ -59,7 +59,7 @@ const Contact = () => {
               href="https://github.com/igopib"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex gap-4 py-4 items-center justify-center hover:bg-zinc-900 border border-zinc-700 hover:text-[#ff2a6d] transform duration-300"
+              className="flex gap-4 py-4 items-center justify-center hover:bg-zinc-800 border border-zinc-700 hover:text-[#ff2a6d] transform duration-300"
             >
               github
               <div className="devicon-github-plain text-3xl"></div>
@@ -68,7 +68,7 @@ const Contact = () => {
               href="https://www.linkedin.com/in/gopinho/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex gap-4 py-4 items-center justify-center hover:bg-zinc-900 border border-zinc-700 hover:text-[#ff2a6d] transform duration-300"
+              className="flex gap-4 py-4 items-center justify-center hover:bg-zinc-800 border border-zinc-700 hover:text-[#ff2a6d] transform duration-300"
             >
               linkedin
               <div className="devicon-linkedin-plain text-3xl"></div>
@@ -77,7 +77,7 @@ const Contact = () => {
               href="https://twitter.com/gopiinho"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex gap-4 py-4 items-center justify-center hover:bg-zinc-900 border border-zinc-700 hover:text-[#ff2a6d] transform duration-300"
+              className="flex gap-4 py-4 items-center justify-center hover:bg-zinc-800 border border-zinc-700 hover:text-[#ff2a6d] transform duration-300"
             >
               twitter
               <div className="devicon-twitter-plain text-3xl"></div>
@@ -86,7 +86,7 @@ const Contact = () => {
               href="https://www.instagram.com/gopiinho/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex gap-4 py-4 items-center justify-center hover:bg-zinc-900 border border-zinc-700 hover:text-[#ff2a6d] transform duration-300"
+              className="flex gap-4 py-4 items-center justify-center hover:bg-zinc-800 border border-zinc-700 hover:text-[#ff2a6d] transform duration-300"
             >
               insta
               <AiFillInstagram size={35} />
@@ -95,14 +95,14 @@ const Contact = () => {
               href="mailto:gopinho@protonmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex gap-4 py-4 items-center justify-center hover:bg-zinc-900 border border-zinc-700 hover:text-[#ff2a6d] transform duration-300"
+              className="flex gap-4 py-4 items-center justify-center hover:bg-zinc-800 border border-zinc-700 hover:text-[#ff2a6d] transform duration-300"
             >
               email
               <AiFillMail size={35} />
             </Link>
             <h3
               onClick={() => setLinkText("Gopinho#6037")}
-              className="flex gap-4 py-4 items-center justify-center cursor-pointer hover:bg-zinc-900 border border-zinc-700 select-text hover:text-[#ff2a6d] transform duration-300"
+              className="flex gap-4 py-4 items-center justify-center cursor-pointer hover:bg-zinc-800 border border-zinc-700 select-text hover:text-[#ff2a6d] transform duration-300"
             >
               {linkText}
               <BsDiscord size={35} />
