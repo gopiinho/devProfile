@@ -26,27 +26,27 @@ const Navbar = () => {
     <div
       className={
         shadow
-          ? "fixed w-full h-30  shadow-md shadow-slate-400 z-[100] transform duration-700 bg-[#3c3d42]  "
-          : "fixed w-full h-30 z-[100] transform duration-700 bg-[#3c3d42]  shadow-md shadow-[#ff577d]"
+          ? "fixed w-full h-16  shadow-md shadow-slate-400 z-[100] transform duration-700 bg-[#3c3d42]  "
+          : "fixed w-full h-16 z-[100] transform duration-700 bg-[#3c3d42]  shadow-md shadow-black/30"
       }
     >
       <div className="navBar flex justify-center items-center w-full h-full p-6 2xl:px-16 font-cyber text-[#ff2a6d]">
         <div className=" justify-between items-center">
           <ul className="hidden md:flex">
             <Link href="/projects">
-              <li className="mx-10 text-lg hover:text-white">projects</li>
+              <li className="mx-10 text-lg">projects</li>
             </Link>
             <Link href="/skills">
-              <li className="mx-10 text-lg hover:text-white">skills</li>
+              <li className="mx-10 text-lg">skills</li>
             </Link>
             <Link href="/" className="neonH2">
               <h2 className=" text-white text-xl mx-10">menu</h2>
             </Link>
             <Link href="/about">
-              <li className="mx-10 text-lg hover:text-white">about</li>
+              <li className="mx-10 text-lg">about</li>
             </Link>
             <Link href="/contact">
-              <li className="mx-10 text-lg hover:text-white">contact</li>
+              <li className="mx-10 text-lg">contact</li>
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden">

@@ -13,7 +13,7 @@ const vision = () => {
       className="w-full h-full text-center font-robot "
     >
       <div>
-        <div className="flex flex-col justify-between lg:flex-row md:flex-row  sm:flex-col md:h-screen  sm:h-screen sm:justify-center md:justify-center lg:justify-center font-robot pt-20 sm:pt-20 md:pt-20">
+        <div className="flex flex-col justify-between lg:flex-row md:flex-row  sm:flex-col md:h-screen  sm:h-screen sm:justify-center md:justify-center lg:justify-center font-robot pt-16 sm:pt-16 md:pt-16">
           <div className=" bg-[#e2dddf]/40 hover:bg-[#e2dddf] hover:text-slate-700 text-slate-700/90 transform duration-300 lg:w-1/3 md:w-full h-full sm:w-full">
             <Image
               src={storyBG}
