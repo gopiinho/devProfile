@@ -13,11 +13,14 @@ module.exports = {
         sm2: "550px",
         // => @media (min-width: 550px) { ... }
 
-        md: "760px",
-        // => @media (min-width: 760px) { ... }
+        md: "720px",
+        // => @media (min-width: 720px) { ... }
 
-        lg: "1060px",
-        // => @media (min-width: 1060px) { ... }
+        lg: "1080px",
+        // => @media (min-width: 1080px) { ... }
+
+        xl: "1440px",
+        // => @media (min-width: 1440px) { ... }
       },
 
       animation: {
