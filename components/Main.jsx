@@ -9,7 +9,7 @@ const Main = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.2 }}
-      className="w-full h-screen pt-[75px] group text-zinc-100 bg-zinc-900"
+      className="w-full h-screen pt-[64px] group text-zinc-100 bg-zinc-900"
     >
       <div className="flex lg:flex-col md:flex-col sm:flex-col w-full h-full">
         <div className="w-full h-[80%] flex flex-col gap-4 font-electro justify-center text-left">
@@ -24,7 +24,7 @@ const Main = () => {
               href="https://github.com/igopib"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex gap-4 py-4 items-center justify-center hover:bg-zinc-800 border border-zinc-700 hover:text-[#ff2a6d] transform duration-300"
+              className="flex gap-4 py-4 m-1 items-center justify-center bg-[#ff2a6d]/30 hover:bg-[#ff2a6d]/60 border border-[#ff2a6d] transform duration-300"
             >
               projects
               <div className="devicon-github-plain text-3xl"></div>
@@ -33,7 +33,7 @@ const Main = () => {
               href="https://www.linkedin.com/in/gopinho/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex gap-4 py-4 items-center justify-center hover:bg-zinc-800 border border-zinc-700 hover:text-[#ff2a6d] transform duration-300"
+              className="flex gap-4 py-4 m-1 items-center justify-center bg-[#ff2a6d]/30 hover:bg-[#ff2a6d]/60 border border-[#ff2a6d] transform duration-300"
             >
               skills
               <div className="devicon-linkedin-plain text-3xl"></div>
@@ -42,7 +42,7 @@ const Main = () => {
               href="https://twitter.com/gopiinho"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex gap-4 py-4 items-center justify-center hover:bg-zinc-800 border border-zinc-700 hover:text-[#ff2a6d] transform duration-300"
+              className="flex gap-4 py-4 m-1 items-center justify-center bg-[#ff2a6d]/30 hover:bg-[#ff2a6d]/60 border border-[#ff2a6d] transform duration-300"
             >
               about
               <div className="devicon-twitter-plain text-3xl"></div>
