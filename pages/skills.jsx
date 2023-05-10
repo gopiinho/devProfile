@@ -216,7 +216,7 @@ const Skills = () => {
               <div className="devicon-postgresql-plain text-3xl"></div>
             </Link>
           </div>
-          <div className="w-full rotate-180 font-cyber  text-3xl text-zinc-500 text-center transform duration-300 cursor-default bg-[#3c3d42] group-hover:text-[#ff577d] py-2">
+          <div className="w-full rotate-180 font-cyber text-3xl text-zinc-500 text-center transform duration-300 cursor-default bg-[#3c3d42] group-hover:text-[#ff577d] py-2">
             Stack
           </div>
         </div>
