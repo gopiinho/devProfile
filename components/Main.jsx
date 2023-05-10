@@ -12,11 +12,9 @@ const Main = () => {
       className="w-full h-screen pt-[75px] group text-zinc-100 bg-zinc-900"
     >
       <div className="flex lg:flex-col md:flex-col sm:flex-col w-full h-full">
-        <div className="w-full h-[80%] flex flex-col gap-4 font-electro justify-center items-center text-center">
-          <h1 className=" tracking-tighter">
-            {`I'm Gurpreet `}{" "}
-            <span className="text-[#ff2a6d]">Web3 Developer</span>{" "}
-          </h1>
+        <div className="w-full h-[80%] flex flex-col gap-4 font-electro justify-center text-left">
+          <h1 className=" tracking-tighter">I'm Gurpreet</h1>
+          <h1 className="tracking-tighter text-[#ff2a6d]">Web3 Developer</h1>
           <p className="text-lg">I work with smart contracts and webapps.</p>
         </div>
 
