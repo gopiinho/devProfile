@@ -24,10 +24,10 @@ const vision = () => {
             />
 
             <div className="flex justify-between w-full h-full">
-              <h2 className="writing-vertical h-full text-slate-700 font-rale uppercase text-4xl tracking-titleWide hover:tracking-titleDefault transform duration-1000 cursor-default   bg-[#E4E1E3]/50 px-3">
+              <h2 className="writing-vertical h-full text-slate-700 font-electro uppercase text-4xl tracking-titleWide hover:tracking-titleDefault transform duration-1000 cursor-default   bg-[#E4E1E3]/50 px-3">
                 Storyteller
               </h2>
-              <p className="text-zinc-600  text-2xl font-rale mx-2 transform duration-300">
+              <p className="text-zinc-600  text-2xl font-electro mx-2 transform duration-300">
                 Been inspired from great medium like movies, video games and
                 anime. I love creating media that tells a meaningful story. Each
                 project is a labor of love for me, and I'm always striving to
@@ -44,10 +44,10 @@ const vision = () => {
               unoptimized={true}
             />
             <div className="flex justify-between w-full h-full">
-              <h2 className="writing-vertical h-full font-rale uppercase text-4xl tracking-titleWide hover:tracking-titleDefault transform duration-1000  cursor-default text-slate-100  bg-[#CD3769]/50 px-3">
+              <h2 className="writing-vertical h-full font-electro uppercase text-4xl tracking-titleWide hover:tracking-titleDefault transform duration-1000  cursor-default text-slate-100  bg-[#CD3769]/50 px-3">
                 Developer
               </h2>
-              <p className="text-slate-100  text-2xl font-rale mx-2 transform duration-300">
+              <p className="text-slate-100  text-2xl font-electro mx-2 transform duration-300">
                 Filler text for developer section. Will update with something
                 personal.
               </p>
@@ -62,10 +62,10 @@ const vision = () => {
               unoptimized={true}
             />
             <div className="flex justify-between w-full h-full">
-              <h2 className="writing-vertical h-full text-slate-700 font-rale uppercase text-4xl tracking-titleWide hover:tracking-titleDefault transform duration-1000  cursor-default bg-[#79AFC0]/50 px-3">
+              <h2 className="writing-vertical h-full text-slate-700 font-electro uppercase text-4xl tracking-titleWide hover:tracking-titleDefault transform duration-1000  cursor-default bg-[#79AFC0]/50 px-3">
                 Designer
               </h2>
-              <p className="text-zinc-600  text-2xl font-rale mx-2 transform duration-300">
+              <p className="text-zinc-600  text-2xl font-electro mx-2 transform duration-300">
                 Filler text for developer section. Will update with something
                 personal.
               </p>

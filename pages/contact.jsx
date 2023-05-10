@@ -29,7 +29,7 @@ const Contact = () => {
               Contact
             </h2>
             <div className="flex flex-col w-full">
-              <div className="h-[70%] w-[80%] md:w-[90%] sm:w-[90%] m-auto font-rale text-center flex flex-col gap-12 justify-center items-center">
+              <div className="h-[70%] w-[80%] md:w-[90%] sm:w-[90%] m-auto font-electro text-center flex flex-col gap-12 justify-center items-center">
                 <p className="lg:text-5xl md:text-3xl sm:text-2xl">
                   Have any questions or need to talk about anything tech or web3
                   related ?
@@ -44,7 +44,7 @@ const Contact = () => {
                   href="/blog"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex gap-4 h-full items-center justify-center hover:bg-zinc-800 text-6xl font-rale border border-zinc-700 hover:text-[#ff2a6d] transform duration-300"
+                  className="flex gap-4 h-full items-center justify-center hover:bg-zinc-800 text-6xl font-electro border border-zinc-700 hover:text-[#ff2a6d] transform duration-300"
                 >
                   blog
                   <ImBlog size={35} />
@@ -54,7 +54,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="w-1/2 sm:w-full ">
-          <div className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-2 text-3xl font-rale w-full h-full justify-center text-center font-semibold tracking-wider">
+          <div className="grid grid-cols-2 md:grid-cols-2 sm:grid-cols-2 text-3xl font-electro w-full h-full justify-center text-center tracking-wider">
             <Link
               href="https://github.com/igopib"
               target="_blank"

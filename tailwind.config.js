@@ -44,9 +44,8 @@ module.exports = {
 
       fontFamily: {
         cyber: "'Orbitron', sans-serif;",
-        robot: "'Roboto', sans-serif;",
-        phudu: "'Phudu', cursive;",
         rale: "'Raleway', sans-serif;",
+        electro: "'Electrolize', sans-serif;",
       },
 
       boxShadow: {

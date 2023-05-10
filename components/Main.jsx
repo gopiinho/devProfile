@@ -9,10 +9,10 @@ const Main = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.2 }}
-      className="w-full h-screen pt-[75px] group text-zinc-300 bg-zinc-900"
+      className="w-full h-screen pt-[75px] group text-zinc-100 bg-zinc-900"
     >
       <div className="flex lg:flex-col md:flex-col sm:flex-col w-full h-full">
-        <div className="w-full h-[80%] flex flex-col gap-4 font-rale justify-center items-center text-center">
+        <div className="w-full h-[80%] flex flex-col gap-4 font-electro justify-center items-center text-center">
           <h1 className=" tracking-tighter">
             {`I'm Gurpreet `}{" "}
             <span className="text-[#ff2a6d]">Web3 Developer</span>{" "}
@@ -21,7 +21,7 @@ const Main = () => {
         </div>
 
         <div className="w-full h-[20%]">
-          <div className="grid grid-cols-3 md:grid-cols-3 sm:grid-cols-3 text-3xl font-rale w-full h-full justify-center text-center font-semibold tracking-wider">
+          <div className="grid grid-cols-3 md:grid-cols-3 sm:grid-cols-3 text-3xl font-electro w-full h-full justify-center text-center tracking-wider">
             <Link
               href="https://github.com/igopib"
               target="_blank"
