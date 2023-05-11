@@ -15,14 +15,14 @@ const Main = () => {
       transition={{ duration: 0.2 }}
       className="w-full h-screen pt-[64px] group text-zinc-100 bg-zinc-900"
     >
-      <div className="flex flex-col w-full h-full justify-between">
-        <div className="flex lg:flex-row md:flex-row sm:flex-col">
-          <div className="max-w-[495px] flex flex-col gap-4 m-1 p-3 font-electro text-left bg-[#ff2a6d]/10 border border-[#ff2a6d]">
-            <h1 className="text-5xl font-cyber text-[#ff2a6d] mb-8">Profile</h1>
+      <div className="flex lg:flex-col md:flex-col sm:flex-col w-full h-full justify-between">
+        <div className="flex h-full lg:flex-row md:flex-row sm:flex-col">
+          <div className="flex flex-col gap-4 m-1 p-3 font-electro text-left bg-[#ff2a6d]/10 border border-[#ff2a6d]">
+            <h1 className="text-4xl font-cyber text-[#ff2a6d] mb-8">Profile</h1>
             <Image
               src={avatar}
               alt="/"
-              className="w-[170px] h-[170px] border border-[#ff2a6d] flex items-center justify-center opacity-40 pointer-events-none"
+              className="w-[170px] h-[170px] border border-[#ff2a6d] flex items-center justify-center opacity-40 hover:opacity-60 transform duration-300 cursor-pointeryar"
               priority
               unoptimized={true}
               style={{ margin: "0 auto" }}
@@ -59,10 +59,11 @@ const Main = () => {
               cv
             </Link>
           </div>
+          <div className="w-full flex flex-col gap-4 m-1 p-3 font-electro text-left bg-[#ff2a6d]/10 border border-[#ff2a6d]"></div>
         </div>
         <div>
-          <div className="w-full">
-            <div className="grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1 text-3xl font-electro w-full justify-center text-center tracking-wider">
+          <div className="w-full lg:text-3xl md:text-2xl sm:text-sm">
+            <div className="grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1 font-electro w-full justify-center text-center tracking-wider">
               <Link
                 href="/projects"
                 className="flex gap-4 py-4 m-1 items-center justify-center bg-[#ff2a6d]/30 hover:bg-[#ff2a6d]/60 border border-[#ff2a6d] transform duration-300"
