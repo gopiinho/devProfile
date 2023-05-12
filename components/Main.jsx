@@ -4,7 +4,7 @@ import Link from "next/link"
 import Image from "next/image"
 
 // Internal Imports
-import { avatar } from "../public/assets/backgrounds"
+import { avatar, mainBG } from "../public/assets/backgrounds/index"
 
 const Main = () => {
   return (
@@ -13,16 +13,31 @@ const Main = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.2 }}
-      className="w-full h-screen pt-[64px] group text-zinc-100 bg-zinc-900"
+      className="w-full h-screen pt-[64px] group text-zinc-100"
     >
+      <Image
+        src={mainBG}
+        alt="/"
+        className="fixed inset-0 w-full h-full object-cover z-[-1] opacity-10 pointer-events-none"
+        priority
+        unoptimized={true}
+      />
       <div className="flex lg:flex-col md:flex-col sm:flex-col w-full h-full justify-between">
         <div className="flex h-full lg:flex-row md:flex-row sm:flex-col">
-          <div className="flex lg:w-[35%] md:w-[40%] sm:w-full flex-col gap-4 m-1 p-3 font-electro text-left bg-[#ff2a6d]/10 border border-[#ff2a6d]">
-            <h1 className="text-4xl font-cyber text-[#ff2a6d] mb-8">Profile</h1>
+          <div className="lg:w-[65%] md:w-[65%] sm:w-full flex flex-col items-center justify-center gap-4 m-1 p-3 font-electro bg-[#ff2a6d]/5 border border-[#ff2a6d]">
+            <h1 className="text-4xl font-electro text-white mt-4 ">
+              i build <span className="text-[#ff2a6d]">web3</span> apps and
+              design things..
+            </h1>
+          </div>
+          <div className="flex lg:w-[35%] md:w-[40%] sm:w-full flex-col gap-4 m-1 p-3 font-electro text-left bg-[#ff2a6d]/5 border border-[#ff2a6d]">
+            <h1 className="text-4xl font-electro text-[#ff2a6d] mb-8 mt-4">
+              Data
+            </h1>
             <Image
               src={avatar}
               alt="/"
-              className="w-[170px] h-[170px] border border-[#ff2a6d] flex items-center justify-center opacity-40 hover:opacity-60 transform duration-300 cursor-pointeryar"
+              className="w-[170px] h-[170px] border border-[#ff2a6d] flex items-center justify-center opacity-40 hover:opacity-60 transform duration-300 cursor-pointer"
               priority
               unoptimized={true}
               style={{ margin: "0 auto" }}
@@ -64,10 +79,9 @@ const Main = () => {
               cv
             </Link>
           </div>
-          <div className="lg:w-[65%] md:w-[65%] sm:w-full flex flex-col gap-4 m-1 p-3 font-electro text-left bg-[#ff2a6d]/10 border border-[#ff2a6d]"></div>
         </div>
         <div>
-          <div className="w-full lg:text-3xl md:text-2xl sm:text-sm">
+          <div className="w-full lg:text-4xl md:text-2xl sm:text-base">
             <div className="grid grid-cols-3 md:grid-cols-3 sm:grid-cols-1 font-electro w-full justify-center text-center tracking-wider">
               <Link
                 href="/projects"
