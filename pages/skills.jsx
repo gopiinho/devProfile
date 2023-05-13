@@ -55,7 +55,7 @@ const Skills = () => {
                 </p>
               </div>
             </div>
-            <div className="w-[60%] font-electro h-full grid grid-cols-1 py-8 text-center uppercase items-center tracking-tight lg:text-4xl md:text-2xl sm:text-md justify-center">
+            <div className="w-[60%] font-electro h-full grid grid-cols-1 py-8 text-center uppercase items-center tracking-tight lg:text-2 xl md:text-2xl sm:text-md justify-center">
               <p>Smart Contracts Security</p>
               <p>Scripted Deployments</p>
               <p>Deployment and Scripting</p>
