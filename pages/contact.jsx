@@ -29,7 +29,7 @@ const Contact = () => {
               Contact
             </h2>
             <div className="flex flex-col w-full">
-              <div className="h-[70%] font-electro m-2 px-4 bg-[#ff2a6d]/5 border border-[#ff2a6d]/40 text-center flex flex-col gap-12 justify-center items-center">
+              <div className="h-[70%] font-electro m-1 px-4 bg-[#ff2a6d]/5 border border-[#ff2a6d]/40 text-center flex flex-col gap-12 justify-center items-center">
                 <p className="lg:text-5xl md:text-3xl sm:text-2xl">
                   Have any questions or need to talk about anything tech or web3
                   related ?

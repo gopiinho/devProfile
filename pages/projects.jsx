@@ -16,7 +16,7 @@ const Projects = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.2 }}
-      className="max-w-[1240px] sm:w-full mx-auto p-8 h-full justify-center pt-16"
+      className="w-full sm:w-full h-full justify-center pt-[64px] bg-[#ff2a6d]/10 m-1 border border-[#ff2a6d]/40 px-8"
     >
       <Image
         src={projectBG}
@@ -25,12 +25,8 @@ const Projects = () => {
         priority
         unoptimized={true}
       />
-      <div className="neonH2 flex items-center justify-center cursor-default">
-        <h2 className="text-3xl tracking-widest uppercase text-cyber text-center my-12 font-cyber  duration-200">
-          Projects
-        </h2>
-      </div>
-      <div className="grid md:grid-cols-2 gap-8">
+
+      <div className="grid md:grid-cols-2 gap-8 pt-8">
         <ProjectsItems
           title="NFT MINT PAGE"
           backgroundImg={sibylImage}

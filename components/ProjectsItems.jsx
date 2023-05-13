@@ -17,12 +17,12 @@ const ProjectsItems = ({
           src={backgroundImg}
           alt="/"
         />
-        <div className="hidden lg:block md:block bg-black w-full ease-in border-2 border-[#ff2a6d] hover:border-[#ff2a6d] duration-200 rounded-md border-opacity-40 p-2 text-center font-rale h-auto">
+        <div className="hidden lg:block md:block bg-black w-full ease-in border-2 border-[#ff2a6d] hover:border-[#ff2a6d] duration-200 rounded-md border-opacity-40 p-2 text-center font-electro h-auto">
           <p>{description}</p>
         </div>
       </div>
-      <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] font-rale">
-        <h3 className="text-2xl sm:text-sm tracking-wider text-center ">
+      <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] font-electro">
+        <h3 className="text-2xl md:-2xl sm:text-sm tracking-wider text-center ">
           {title}
         </h3>
 
