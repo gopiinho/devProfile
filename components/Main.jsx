@@ -33,18 +33,6 @@ const Main = () => {
               best friends with <span className="text-[#ff2a6d]">solidity</span>{" "}
               and <span className="text-[#ff2a6d]">typescript</span>
             </h1>
-            <h1 className="text-xl font-electro text-white">
-              best friends with <span className="text-[#ff2a6d]">solidity</span>{" "}
-              and <span className="text-[#ff2a6d]">typescript</span>
-            </h1>
-            <h1 className="text-xl font-electro text-white">
-              best friends with <span className="text-[#ff2a6d]">solidity</span>{" "}
-              and <span className="text-[#ff2a6d]">typescript</span>
-            </h1>
-            <h1 className="text-xl font-electro text-white">
-              best friends with <span className="text-[#ff2a6d]">solidity</span>{" "}
-              and <span className="text-[#ff2a6d]">typescript</span>
-            </h1>
           </div>
           <div className="flex lg:w-[35%] md:w-[40%] sm:w-full sm:h-full flex-col gap-4 m-1 p-3 font-electro text-left bg-[#ff2a6d]/5 border border-[#ff2a6d]">
             <h1 className="text-4xl font-electro text-[#ff2a6d] mb-8 mt-4">
