@@ -13,7 +13,8 @@ const Main = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.2 }}
-      className="w-full h-screen pt-[64px] group text-zinc-100"
+      className="w-full min-h-screen pt-[64px] group text-zinc-100"
+      style={{ height: "100%" }}
     >
       <Image
         src={mainBG}
@@ -24,7 +25,7 @@ const Main = () => {
       />
       <div className="flex lg:flex-col md:flex-col sm:flex-col w-full h-full justify-between">
         <div className="flex h-full lg:flex-row md:flex-row sm:flex-col">
-          <div className="lg:w-[65%] md:w-[65%] sm:w-full flex flex-col items-center justify-center gap-4 m-1 p-3 font-electro bg-[#ff2a6d]/5 border border-[#ff2a6d]">
+          <div className="lg:w-[65%] md:w-[65%] sm:w-full flex flex-col items-center justify-center gap-4 m-1 font-electro bg-[#ff2a6d]/5 border border-[#ff2a6d]">
             <h1 className="text-4xl font-electro text-white mt-4 ">
               i build <span className="text-[#ff2a6d]">web3</span> apps and
               design things
@@ -34,7 +35,7 @@ const Main = () => {
               and <span className="text-[#ff2a6d]">typescript</span>
             </h1>
           </div>
-          <div className="flex lg:w-[35%] md:w-[40%] sm:w-full sm:h-full flex-col gap-4 m-1 p-3 font-electro text-left bg-[#ff2a6d]/5 border border-[#ff2a6d]">
+          <div className="flex lg:w-[35%] md:w-[40%] sm:w-full sm:h-full flex-col gap-4 m-1 font-electro text-left bg-[#ff2a6d]/5 border border-[#ff2a6d]">
             <h1 className="text-4xl font-electro text-[#ff2a6d] mb-8 mt-4">
               Data
             </h1>
