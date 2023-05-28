@@ -3,97 +3,97 @@
 @tailwind utilities;
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-  scrollbar-width: none;
+    scrollbar-width: none;
 }
 
 @layer base {
-  body {
-    @apply bg-zinc-900 text-white tracking-wide  select-none scrollbar-none;
-  }
-
-  h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl;
-  }
-
-  @media (max-width: 768px) {
-    .mobile-center {
-      grid-template-columns: 1fr;
-      justify-items: center;
+    body {
+        @apply select-none bg-zinc-900 tracking-wide text-white scrollbar-none;
     }
-  }
 
-  @media (min-width: 640px) and (max-width: 768px) {
-    .pt-20 {
-      padding-top: 20px;
+    h1 {
+        @apply text-4xl sm:text-5xl md:text-6xl;
     }
-  }
 
-  .navBar h1:hover,
-  li:hover {
-    text-shadow: 0 0 10px #ff2a6d, 0 0 20px #ff2a6d, 0 0 40px #ff2a6d,
-      0 0 80px #ff2a6d, 0 0 120px #ff2a6d;
-    transition: 0.5s;
-    --primary: hsl(
-      var(--primary-hue),
-      85%,
-      calc(var(--primary-lightness, 50) * 0.6%)
-    );
-  }
-  .navBar h1,
-  li {
-    text-shadow: 0 0 0 transparent; /* Initial state, with no shadow */
-    transition: text-shadow 0.5s ease-out; /* Fade out over 0.5 seconds */
-  }
-  .links h3 {
-    text-shadow: 0 0 0 transparent; /* Initial state, with no shadow */
-    transition: text-shadow 0.5s ease-out; /* Fade out over 0.5 seconds */
-  }
+    @media (max-width: 768px) {
+        .mobile-center {
+            grid-template-columns: 1fr;
+            justify-items: center;
+        }
+    }
 
-  .links h3:hover {
-    text-shadow: 0 0 10px #ff2a6d, 0 0 20px #ff2a6d, 0 0 40px #ff2a6d,
-      0 0 80px #ff2a6d, 0 0 120px #ff2a6d;
-    transition: 0.5s;
-    --primary: hsl(
-      var(--primary-hue),
-      85%,
-      calc(var(--primary-lightness, 50) * 0.6%)
-    );
-  }
+    @media (min-width: 640px) and (max-width: 768px) {
+        .pt-20 {
+            padding-top: 20px;
+        }
+    }
 
-  .neonH2 h2 {
-    text-shadow: 0 0 0 transparent; /* Initial state, with no shadow */
-    transition: text-shadow 0.5s ease-out; /* Fade out over 0.5 seconds */
-  }
+    .navBar h1:hover,
+    li:hover {
+        text-shadow: 0 0 10px #ff2a6d, 0 0 20px #ff2a6d, 0 0 40px #ff2a6d,
+            0 0 80px #ff2a6d, 0 0 120px #ff2a6d;
+        transition: 0.5s;
+        --primary: hsl(
+            var(--primary-hue),
+            85%,
+            calc(var(--primary-lightness, 50) * 0.6%)
+        );
+    }
+    .navBar h1,
+    li {
+        text-shadow: 0 0 0 transparent; /* Initial state, with no shadow */
+        transition: text-shadow 0.5s ease-out; /* Fade out over 0.5 seconds */
+    }
+    .links h3 {
+        text-shadow: 0 0 0 transparent; /* Initial state, with no shadow */
+        transition: text-shadow 0.5s ease-out; /* Fade out over 0.5 seconds */
+    }
 
-  .neonH2 h2:hover {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff,
-      0 0 120px #fff;
-    transition: 0.5s;
-    --primary: hsl(
-      var(--primary-hue),
-      85%,
-      calc(var(--primary-lightness, 50) * 0.6%)
-    );
-  }
+    .links h3:hover {
+        text-shadow: 0 0 10px #ff2a6d, 0 0 20px #ff2a6d, 0 0 40px #ff2a6d,
+            0 0 80px #ff2a6d, 0 0 120px #ff2a6d;
+        transition: 0.5s;
+        --primary: hsl(
+            var(--primary-hue),
+            85%,
+            calc(var(--primary-lightness, 50) * 0.6%)
+        );
+    }
 
-  .writing-vertical {
-    writing-mode: vertical-rl;
-  }
+    .neonH2 h2 {
+        text-shadow: 0 0 0 transparent; /* Initial state, with no shadow */
+        transition: text-shadow 0.5s ease-out; /* Fade out over 0.5 seconds */
+    }
 
-  .blocks:hover {
-    color: #fff;
-  }
+    .neonH2 h2:hover {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff,
+            0 0 120px #fff;
+        transition: 0.5s;
+        --primary: hsl(
+            var(--primary-hue),
+            85%,
+            calc(var(--primary-lightness, 50) * 0.6%)
+        );
+    }
 
-  .description {
-    z-index: 1;
-  }
+    .writing-vertical {
+        writing-mode: vertical-rl;
+    }
 
-  .fill:hover,
-  .fill:focus {
-    box-shadow: inset 0 0 0 2em var(--hover);
-  }
+    .blocks:hover {
+        color: #fff;
+    }
+
+    .description {
+        z-index: 1;
+    }
+
+    .fill:hover,
+    .fill:focus {
+        box-shadow: inset 0 0 0 2em var(--hover);
+    }
 }

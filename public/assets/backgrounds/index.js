@@ -9,13 +9,13 @@ import sibylBG from "./sibyl.gif"
 import avatar from "./avatar.png"
 
 export {
-  storyBG,
-  devBG,
-  designBG,
-  mainBG,
-  projectBG,
-  contactBG,
-  stackBG,
-  sibylBG,
-  avatar,
+    storyBG,
+    devBG,
+    designBG,
+    mainBG,
+    projectBG,
+    contactBG,
+    stackBG,
+    sibylBG,
+    avatar,
 }

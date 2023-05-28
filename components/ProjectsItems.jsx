@@ -3,39 +3,43 @@ import Link from "next/link"
 import Image from "next/image"
 
 const ProjectsItems = ({
-  title,
-  backgroundImg,
-  stack,
-  projectUrl,
-  description,
+    title,
+    backgroundImg,
+    stack,
+    projectUrl,
+    description,
 }) => {
-  return (
-    <div className="relative flex items-center justify-center h-auto w-full group rounded-sm p-1 transition duration-300 text-white pb-6">
-      <div className="relative flex flex-col justify-center items-center ease-in border-2 border-slate-600 hover:border-[#ff2a6d] duration-300 hover:shadow-neon-main rounded-md border-opacity-40">
-        <Image
-          className="relative rounded-md group-hover:opacity-70 hover:bg-slate-900 transition duration-300 blur-sm "
-          src={backgroundImg}
-          alt="/"
-        />
-        <div className="hidden lg:block md:block bg-black w-full ease-in border-2 border-[#ff2a6d] hover:border-[#ff2a6d] duration-200 rounded-md border-opacity-40 p-2 text-center font-electro h-auto">
-          <p>{description}</p>
+    return (
+        <div className="group relative flex h-auto w-full items-center justify-center rounded-sm p-1 pb-6 text-white transition duration-300">
+            <div className="relative flex flex-col items-center justify-center rounded-md border-2 border-slate-600 border-opacity-40 duration-300 ease-in hover:border-[#ff2a6d] hover:shadow-neon-main">
+                <Image
+                    className="relative rounded-md blur-sm transition duration-300 group-hover:opacity-70 hover:bg-slate-900 "
+                    src={backgroundImg}
+                    alt="/"
+                />
+                <div className="hidden h-auto w-full rounded-md border-2 border-[#ff2a6d] border-opacity-40 bg-black p-2 text-center font-electro duration-200 ease-in hover:border-[#ff2a6d] md:block lg:block">
+                    <p>{description}</p>
+                </div>
+            </div>
+            <div className="absolute left-[50%] top-[50%] hidden translate-x-[-50%] translate-y-[-50%] font-electro group-hover:block">
+                <h3 className="md:-2xl text-center text-2xl tracking-wider sm:text-sm ">
+                    {title}
+                </h3>
+
+                <p className="pb-4 pt-2 text-center sm:text-xs">{stack}</p>
+
+                <Link
+                    href={projectUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <p className="neonH2 mx-8 cursor-pointer rounded-md border-2 border-zinc-600 border-opacity-40 bg-zinc-800 py-2 text-center font-cyber text-lg text-[#ff2a6d] transition duration-700 hover:border-[#ff2a6d] hover:shadow-neon-main sm:text-xs">
+                        Visit
+                    </p>
+                </Link>
+            </div>
         </div>
-      </div>
-      <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] font-electro">
-        <h3 className="text-2xl md:-2xl sm:text-sm tracking-wider text-center ">
-          {title}
-        </h3>
-
-        <p className="pb-4 pt-2 sm:text-xs text-center">{stack}</p>
-
-        <Link href={projectUrl} target="_blank" rel="noopener noreferrer">
-          <p className="neonH2 text-center py-2 mx-8 border-2 font-cyber border-zinc-600 hover:border-[#ff2a6d] bg-zinc-800 text-[#ff2a6d] text-lg sm:text-xs cursor-pointer transition duration-700 hover:shadow-neon-main rounded-md border-opacity-40">
-            Visit
-          </p>
-        </Link>
-      </div>
-    </div>
-  )
+    )
 }
 
 export default ProjectsItems
