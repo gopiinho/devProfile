@@ -13,8 +13,7 @@ const Main = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className="group min-h-screen w-full pt-[64px] text-zinc-100"
-            style={{ height: "100%" }}
+            className="group h-screen w-full pt-[64px] text-zinc-100"
         >
             <Image
                 src={mainBG}
@@ -23,7 +22,10 @@ const Main = () => {
                 priority
                 unoptimized={true}
             />
-            <div className="flex h-full w-full justify-between sm:flex-col md:flex-col lg:flex-col">
+            <div
+                style={{ height: "calc(100%)" }}
+                className="flex h-screen w-full justify-between sm:flex-col md:flex-col lg:flex-col"
+            >
                 <div className="flex h-full sm:flex-col md:flex-row lg:flex-row">
                     <div className="m-1 flex flex-col items-center justify-center gap-4 border border-[#ff2a6d] bg-[#ff2a6d]/5 font-electro sm:w-full md:w-[65%] lg:w-[65%]">
                         <h1 className="mt-4 font-electro text-4xl text-white ">
