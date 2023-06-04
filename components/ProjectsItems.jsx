@@ -10,10 +10,10 @@ const ProjectsItems = ({
     description,
 }) => {
     return (
-        <div className="group relative m-1 flex h-full w-full items-center justify-center px-3 text-white transition duration-300">
+        <div className="group relative m-1 flex h-full w-full items-center justify-center px-2 text-white">
             <div className="relative flex flex-col items-center justify-center border border-[#ff2a6d] duration-300 ease-in hover:bg-[#ff2a6d]">
                 <Image
-                    className="relative blur-sm transition duration-300 group-hover:opacity-70"
+                    className="relative transform blur-sm duration-300 group-hover:opacity-70"
                     src={backgroundImg}
                     alt="/"
                 />
@@ -23,14 +23,14 @@ const ProjectsItems = ({
                     {title}
                 </h3>
 
-                <p className="pb-4 pt-2 text-center sm:text-xs">{stack}</p>
+                <p className="pb-4 pt-2 text-center sm:text-sm">{stack}</p>
 
                 <Link
                     href={projectUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <p className="neonH2 mx-8 cursor-pointer rounded-md border-2 border-zinc-600 border-opacity-40 bg-zinc-800 py-2 text-center font-cyber text-lg text-[#ff2a6d] transition duration-700 sm:text-xs">
+                    <p className=" mx-8 cursor-pointer rounded-md border-2 border-zinc-600 border-opacity-40 bg-zinc-800 py-2 text-center font-cyber text-lg text-[#ff2a6d] transition duration-700 sm:text-sm">
                         Visit
                     </p>
                 </Link>

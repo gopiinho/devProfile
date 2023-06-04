@@ -8,6 +8,7 @@ import {
     dexImage,
     nftImage,
     untitledImage,
+    donateImage,
 } from "../public/assets/projects/index"
 const Projects = () => {
     return (
@@ -16,7 +17,7 @@ const Projects = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className="h-full w-full justify-center pt-[64px] sm:w-full"
+            className="h-full w-full justify-center py-8 pt-[64px] sm:w-full"
         >
             <Image
                 src={projectBG}
@@ -30,7 +31,7 @@ const Projects = () => {
                 <ProjectsItems
                     title="NFT MINT PAGE"
                     backgroundImg={sibylImage}
-                    stack="ReactJS / Solidity / Ethers"
+                    stack="react / soldiity / ethers.js"
                     projectUrl="/sibyl"
                     description="NFT project based on anime psycho pass. Each NFT is supposed to be an access token to every member in Sibyl system"
                 />
@@ -38,21 +39,28 @@ const Projects = () => {
                 <ProjectsItems
                     title="DEFI EXCHANGE"
                     backgroundImg={dexImage}
-                    stack="NextJS / Solidity / TailWindCSS"
+                    stack="next.js / solidity / tailwindcss"
                     projectUrl="https://singular-parfait-06cfa7.netlify.app/"
                     description="Defi Exchange build using Solidity smart contracts. Follows Uniswap AMM, hardhat for contract development."
                 />
                 <ProjectsItems
+                    title="ETH DONATION"
+                    backgroundImg={donateImage}
+                    stack="nextjs / solidity / wagmi.sh"
+                    projectUrl="/"
+                    description="Simple nextjs app powered by smart contract. Makes it easier for anyone to deploy and start receiving funds."
+                />
+                <ProjectsItems
                     title="untitled"
                     backgroundImg={untitledImage}
-                    stack="NextJS / TailWindCSS"
+                    stack="nextjs / tailwindcss"
                     projectUrl="https://boisterous-hamster-73490e.netlify.app/"
                     description="As the title says, this project is still untitled. This may or may not change later on."
                 />
                 <ProjectsItems
                     title="NFT SHOWCASE"
                     backgroundImg={nftImage}
-                    stack="NextJS / Ethers"
+                    stack="nextjs / ethersjs"
                     projectUrl="https://scintillating-monstera-c20172.netlify.app/"
                     description="NFT showcase page, where it indexes all nft's from a certain address and displays them with link to opensea."
                 />
