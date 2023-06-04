@@ -16,7 +16,7 @@ const Projects = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className="m-1 h-full w-full justify-center border border-[#ff2a6d]/40 bg-[#ff2a6d]/10 px-8 pt-[64px] sm:w-full"
+            className="h-full w-full justify-center pt-[64px] sm:w-full"
         >
             <Image
                 src={projectBG}
@@ -26,7 +26,7 @@ const Projects = () => {
                 unoptimized={true}
             />
 
-            <div className="grid gap-8 pt-8 md:grid-cols-2">
+            <div className="grid gap-4 md:grid-cols-2">
                 <ProjectsItems
                     title="NFT MINT PAGE"
                     backgroundImg={sibylImage}
