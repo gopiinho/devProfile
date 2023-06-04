@@ -10,10 +10,10 @@ const ProjectsItems = ({
     description,
 }) => {
     return (
-        <div className="group relative flex h-auto w-full items-center justify-center rounded-sm p-1 text-white transition duration-300">
-            <div className="relative flex flex-col items-center justify-center rounded-md border-2 border-slate-600 border-opacity-40 duration-300 ease-in hover:border-[#ff2a6d] hover:shadow-neon-main">
+        <div className="group relative m-1 flex h-full w-full items-center justify-center px-3 text-white transition duration-300">
+            <div className="relative flex flex-col items-center justify-center border border-[#ff2a6d] duration-300 ease-in hover:bg-[#ff2a6d]">
                 <Image
-                    className="relative rounded-md blur-sm transition duration-300 group-hover:opacity-70 hover:bg-slate-900 "
+                    className="relative blur-sm transition duration-300 group-hover:opacity-70"
                     src={backgroundImg}
                     alt="/"
                 />
@@ -30,7 +30,7 @@ const ProjectsItems = ({
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <p className="neonH2 mx-8 cursor-pointer rounded-md border-2 border-zinc-600 border-opacity-40 bg-zinc-800 py-2 text-center font-cyber text-lg text-[#ff2a6d] transition duration-700 hover:border-[#ff2a6d] hover:shadow-neon-main sm:text-xs">
+                    <p className="neonH2 mx-8 cursor-pointer rounded-md border-2 border-zinc-600 border-opacity-40 bg-zinc-800 py-2 text-center font-cyber text-lg text-[#ff2a6d] transition duration-700 sm:text-xs">
                         Visit
                     </p>
                 </Link>

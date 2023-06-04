@@ -26,7 +26,7 @@ const Projects = () => {
                 unoptimized={true}
             />
 
-            <div className="grid gap-4 md:grid-cols-2">
+            <div className="grid gap-2 md:grid-cols-2">
                 <ProjectsItems
                     title="NFT MINT PAGE"
                     backgroundImg={sibylImage}
