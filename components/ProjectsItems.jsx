@@ -30,7 +30,7 @@ const ProjectsItems = ({
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    <p className=" mx-8 cursor-pointer rounded-md border-2 border-zinc-600 border-opacity-40 bg-zinc-800 py-2 text-center font-cyber text-lg text-[#ff2a6d] transition duration-700 sm:text-sm">
+                    <p className="m-1 flex transform items-center justify-center gap-4 border border-[#ff2a6d] bg-[#ff2a6d]/10 py-4  duration-300 hover:bg-[#ff2a6d]/50">
                         Visit
                     </p>
                 </Link>

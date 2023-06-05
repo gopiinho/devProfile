@@ -77,7 +77,7 @@ const Main = () => {
                             href="https://drive.google.com/file/d/1OExEROBqbM1LBC46ofQPJSkYKOnuLYC4/view?usp=share_link"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="first-letter m-1 flex h-full transform items-center  justify-center border border-[#ff2a6d] bg-[#ff2a6d]/30 py-4 duration-300 hover:bg-[#ff2a6d]/60 sm:text-xl md:text-2xl lg:text-4xl"
+                            className="m-1 flex h-full transform items-center justify-center border border-[#ff2a6d] bg-[#ff2a6d]/30 py-2 duration-300 hover:bg-[#ff2a6d]/60 sm:text-xl md:text-2xl lg:text-4xl"
                         >
                             blockchain cv
                         </Link>
@@ -85,7 +85,7 @@ const Main = () => {
                             href="https://drive.google.com/file/d/1OExEROBqbM1LBC46ofQPJSkYKOnuLYC4/view?usp=share_link"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="m-1 flex h-full transform items-center justify-center gap-4 border border-[#ff2a6d] bg-[#ff2a6d]/30 py-4 duration-300 hover:bg-[#ff2a6d]/60 sm:text-xl md:text-2xl lg:text-4xl"
+                            className="m-1 flex h-full transform items-center justify-center border border-[#ff2a6d] bg-[#ff2a6d]/30 py-2 duration-300 hover:bg-[#ff2a6d]/60 sm:text-xl md:text-2xl lg:text-4xl"
                         >
                             cv
                         </Link>

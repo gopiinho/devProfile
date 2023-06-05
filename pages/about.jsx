@@ -10,10 +10,16 @@ const vision = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className="font-robot h-full w-full text-center "
+            className="h-screen w-full pt-[64px] font-electro text-zinc-100"
         >
-            <div>
-                <div className="font-robot flex flex-col justify-between pt-16  sm:h-screen sm:flex-col  sm:justify-center sm:pt-16 md:h-screen md:flex-row md:justify-center md:pt-16 lg:flex-row lg:justify-center">
+            <div
+                style={{ height: "calc(100%)" }}
+                className=" flex h-screen w-full items-center justify-center border border-[#ff2a6d] bg-[#ff2a6d]/5 text-center"
+            >
+                <div>
+                    <p>Sorry, let me come up with something fancy.</p>
+                </div>
+                {/* <div className="font-robot flex flex-col justify-between pt-16  sm:h-screen sm:flex-col  sm:justify-center sm:pt-16 md:h-screen md:flex-row md:justify-center md:pt-16 lg:flex-row lg:justify-center">
                     <div className=" h-full transform bg-[#e2dddf]/40 text-slate-700/90 duration-300 hover:bg-[#e2dddf] hover:text-slate-700 sm:w-full md:w-full lg:w-1/3">
                         <Image
                             src={storyBG}
@@ -72,7 +78,7 @@ const vision = () => {
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </m.div>
     )
