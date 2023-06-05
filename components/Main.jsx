@@ -13,7 +13,7 @@ const Main = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className="group h-screen w-full pt-[64px] text-zinc-100 sm:h-full"
+            className="group w-full pt-[64px] text-zinc-100 sm:h-full md:h-screen lg:h-screen"
         >
             <Image
                 src={mainBG}
