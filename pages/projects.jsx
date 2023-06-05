@@ -27,7 +27,7 @@ const Projects = () => {
                 unoptimized={true}
             />
 
-            <div className="grid gap-2 md:grid-cols-2">
+            <div className="grid gap-2 p-2 md:grid-cols-2">
                 <ProjectsItems
                     title="NFT MINT PAGE"
                     backgroundImg={sibylImage}
@@ -60,7 +60,7 @@ const Projects = () => {
                 <ProjectsItems
                     title="NFT SHOWCASE"
                     backgroundImg={nftImage}
-                    stack="nextjs / ethersjs"
+                    stack="nextjs / ethersjs / tailwindcss"
                     projectUrl="https://scintillating-monstera-c20172.netlify.app/"
                     description="NFT showcase page, where it indexes all nft's from a certain address and displays them with link to opensea."
                 />
