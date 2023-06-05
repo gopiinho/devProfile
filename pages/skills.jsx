@@ -56,35 +56,21 @@ const Skills = () => {
                             </div>
                         </div>
                         <div className="lg:text-2 xl sm:text-md grid h-full w-[60%] grid-cols-1 items-center justify-center py-8 text-center font-electro uppercase tracking-tight md:text-2xl">
+                            <p>Blockchain architecture</p>
                             <p>Smart Contracts Security</p>
-                            <p>Scripted Deployments</p>
-                            <p>Deployment and Scripting</p>
-                            <p>Deployment and Scripting</p>
+                            <p>Solidity wizard</p>
+                            <p>ERC 20,721,1155</p>
                         </div>
                     </div>
                     <div
                         className="group flex w-1/2 transform items-center justify-between border-r border-t border-zinc-700 pl-6 duration-300  hover:bg-[#3c3d42] sm:w-full"
                         style={{ height: "calc(50vh - 75px)" }}
                     >
-                        <div className="grid h-full w-[60%] grid-cols-1 py-8 text-center text-sm">
-                            <p>
-                                • Proficiency in HTML, CSS, Javascript and their
-                                respective libraries like tailwindcss,
-                                Typescript
-                            </p>
-                            <p>
-                                • Experience working with component based
-                                frameworks like React, Nextjs to develop full
-                                stack webapps
-                            </p>
-                            <p>
-                                • Using tools like Adobe photoshop, Figma to
-                                create designs.
-                            </p>
-                            <p>
-                                • Ability to use version control systems such as
-                                Git
-                            </p>
+                        <div className="lg:text-2 xl sm:text-md grid h-full w-[60%] grid-cols-1 items-center justify-center py-8 text-center font-electro uppercase tracking-tight md:text-2xl">
+                            <p>Advanced Web Development</p>
+                            <p>Unique Designs</p>
+                            <p>Editing and maintaining</p>
+                            <p>Modern JS Frameworks</p>
                         </div>
                         <div className="tracking-lighter grid h-full w-[40%] grid-cols-1 justify-center text-center   font-electro sm:text-xs md:text-base">
                             <div className="flex transform flex-col items-center justify-center gap-1  duration-300 hover:bg-zinc-800 hover:text-white">
