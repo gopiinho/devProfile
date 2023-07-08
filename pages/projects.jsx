@@ -47,7 +47,7 @@ const Projects = () => {
                     title="ETH DONATION"
                     backgroundImg={donateImage}
                     stack="nextjs / solidity / wagmi.sh"
-                    projectUrl="/"
+                    projectUrl="https://github.com/igopib/eth-donate"
                     description="Simple nextjs app powered by smart contract. Makes it easier for anyone to deploy and start receiving funds."
                 />
                 <ProjectsItems

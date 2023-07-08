@@ -72,22 +72,16 @@ const Navbar = () => {
                     }
                 >
                     <div>
-                        <div className=" navBar flex w-full items-center justify-between font-cyber ">
-                            <h1 className="font-phudu cursor-default text-[#ff2a6d]">
-                                {" "}
-                                WEB3{" "}
+                        <div className=" navBar flex w-full items-center justify-between py-8 font-electro">
+                            <h1 className="cursor-default font-electro text-[#ff2a6d]">
+                                web3
                             </h1>
                             <div
                                 onClick={handleNav}
-                                className="shadow-full cursor-pointer rounded-full p-3 shadow-gray-300 duration-300 ease-in hover:scale-105 hover:text-[#ff2a6d] hover:shadow-[#ff2a6d] "
+                                className="cursor-pointer border border-[#ff2a6d] bg-[#ff2a6d]/10 p-2 duration-300 hover:bg-[#ff2a6d]/50"
                             >
                                 <AiOutlineClose size={15} />
                             </div>
-                        </div>
-                        <div className="my-5 ">
-                            <p className="font-robot w-[85%] py-4 uppercase text-slate-400 md:w-[90%]">
-                                Building the decentralised web.
-                            </p>
                         </div>
                     </div>
                     <div className="flex flex-col p-4">
