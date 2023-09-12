@@ -9,6 +9,8 @@ import {
     nftImage,
     untitledImage,
     donateImage,
+    ender,
+    enderApp,
 } from "../public/assets/projects/index"
 const Projects = () => {
     return (
@@ -29,9 +31,23 @@ const Projects = () => {
 
             <div className="grid gap-2 p-2 md:grid-cols-2">
                 <ProjectsItems
+                    title="Ender Protocol - Landing"
+                    backgroundImg={ender}
+                    stack="next.js / tailwindcss"
+                    projectUrl="https://www.enderprotocol.io/"
+                />
+
+                <ProjectsItems
+                    title="Ender Protocol - Landing"
+                    backgroundImg={enderApp}
+                    stack="next.js / wagmi.sh / tailwindcss"
+                    projectUrl="https://app.enderprotocol.io/"
+                />
+
+                <ProjectsItems
                     title="NFT MINT PAGE"
                     backgroundImg={sibylImage}
-                    stack="react / soldiity / ethers.js"
+                    stack="react / soldity / ethers.js"
                     projectUrl="/sibyl"
                     description="NFT project based on anime psycho pass. Each NFT is supposed to be an access token to every member in Sibyl system"
                 />
