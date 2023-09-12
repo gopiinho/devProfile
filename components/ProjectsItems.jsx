@@ -11,7 +11,7 @@ const ProjectsItems = ({
 }) => {
     return (
         <div className="group relative flex h-full w-full items-center justify-center  text-white">
-            <div className="relative flex flex-col items-center justify-center border border-[#ff2a6d] duration-300 ease-in hover:bg-[#ff2a6d]">
+            <div className="relative flex flex-col items-center justify-center border border-[#ff2a6d] duration-300 ease-in hover:bg-[#ff2a6d] lg:max-h-[930px] lg:max-w-[1837px]">
                 <Image
                     className="relative transform duration-300 group-hover:opacity-70 group-hover:blur-md"
                     src={backgroundImg}
