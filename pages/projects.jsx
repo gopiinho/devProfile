@@ -38,7 +38,7 @@ const Projects = () => {
                 />
 
                 <ProjectsItems
-                    title="Ender Protocol - Landing"
+                    title="Ender Protocol - App"
                     backgroundImg={enderApp}
                     stack="next.js / wagmi.sh / tailwindcss"
                     projectUrl="https://app.enderprotocol.io/"
