@@ -26,8 +26,8 @@ const Navbar = () => {
         <div
             className={
                 shadow
-                    ? "fixed z-[100] h-16  w-full transform bg-[#3c3d42] shadow-md shadow-slate-400 duration-700  "
-                    : "fixed z-[100] h-16 w-full transform bg-[#3c3d42] shadow-md  shadow-black/30 duration-700"
+                    ? "fixed z-[100] h-16  w-full transform bg-[#070606] shadow-md shadow-slate-400 duration-700  "
+                    : "fixed z-[100] h-16 w-full transform bg-[#070606]"
             }
         >
             <div className="navBar flex h-full w-full items-center justify-center p-6 font-cyber text-[#ff2a6d] 2xl:px-16">
