@@ -24,23 +24,12 @@ const Main = () => {
             />
             <div
                 style={{ height: "calc(100%)" }}
-                className="flex h-screen w-full justify-between sm:flex-col md:flex-col lg:flex-col"
+                className="flex h-screen w-full justify-between p-1 sm:flex-col"
             >
-                <div className="flex h-full sm:flex-col md:flex-row lg:flex-row">
-                    <div className="m-1 flex flex-col items-center justify-center gap-4 border border-[#ff2a6d] bg-[#ff2a6d]/5 font-electro sm:w-full md:w-[65%] lg:w-[65%]">
-                        <h1 className="mt-4 font-electro text-4xl text-white ">
-                            i build <span className="text-[#ff2a6d]">web3</span>{" "}
-                            apps and design things
-                        </h1>
-                        <h1 className="font-electro text-xl text-white">
-                            best friends with{" "}
-                            <span className="text-[#ff2a6d]">solidity</span> and{" "}
-                            <span className="text-[#ff2a6d]">typescript</span>
-                        </h1>
-                    </div>
-                    <div className="m-1 flex flex-col gap-4 border border-[#ff2a6d] bg-[#ff2a6d]/5 text-left font-electro sm:h-full sm:w-full md:w-[40%] lg:w-[35%]">
-                        <h1 className="mb-8 mt-4 font-electro text-4xl text-[#ff2a6d]">
-                            Data
+                <div className="flex h-full gap-1 sm:flex-col md:flex-row ">
+                    <div className="flex flex-col gap-4 border border-[#ff2a6d] bg-[#ff2a6d]/5 p-1 text-left font-electro sm:h-full sm:w-full md:w-[40%] lg:w-[35%]">
+                        <h1 className="mb-8 mt-4 text-center font-electro text-4xl text-[#ff2a6d]">
+                            User
                         </h1>
                         <Image
                             src={avatar}
@@ -77,38 +66,31 @@ const Main = () => {
                             href="https://drive.google.com/file/d/1OExEROBqbM1LBC46ofQPJSkYKOnuLYC4/view?usp=share_link"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="m-1 flex h-full transform items-center justify-center border border-[#ff2a6d] bg-[#ff2a6d]/30 py-2 duration-300 hover:bg-[#ff2a6d]/60 sm:text-xl md:text-2xl lg:text-4xl"
+                            className="flex h-16 flex-grow transform items-center justify-center border border-[#ff2a6d] bg-[#ff2a6d]/30 duration-300 hover:bg-[#ff2a6d]/60 sm:text-xl md:h-full md:text-2xl lg:text-4xl"
                         >
-                            blockchain cv
-                        </Link>
-                        <Link
-                            href="https://drive.google.com/file/d/1OExEROBqbM1LBC46ofQPJSkYKOnuLYC4/view?usp=share_link"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="m-1 flex h-full transform items-center justify-center border border-[#ff2a6d] bg-[#ff2a6d]/30 py-2 duration-300 hover:bg-[#ff2a6d]/60 sm:text-xl md:text-2xl lg:text-4xl"
-                        >
-                            cv
+                            resume
                         </Link>
                     </div>
-                </div>
-                <div>
-                    <div className="h-full w-full sm:text-base md:text-2xl lg:text-4xl">
-                        <div className="grid h-full w-full grid-cols-3 justify-center text-center font-electro tracking-wider sm:grid-cols-1 md:grid-cols-3">
+                    <div className="flex flex-col items-center justify-center gap-1 bg-[#ff2a6d]/5 font-electro sm:w-full md:flex-row">
+                        <div className="flex h-full w-full border border-[#ff2a6d] bg-[#ff2a6d]/10 text-white">
+                            <p>Developer journey so far!</p>
+                        </div>
+                        <div className="sm flex h-full w-full flex-col justify-stretch gap-2 text-center font-electro tracking-wider md:w-60 ">
                             <Link
                                 href="/projects"
-                                className="m-1 flex transform items-center justify-center gap-4 border border-[#ff2a6d] bg-[#ff2a6d]/30 py-4 duration-300 hover:bg-[#ff2a6d]/60"
+                                className="flex h-full transform items-center justify-center border border-[#ff2a6d] bg-[#ff2a6d]/30 py-4 duration-300 hover:bg-[#ff2a6d]/60"
                             >
-                                projects
+                                work
                             </Link>
                             <Link
                                 href="/skills"
-                                className="m-1 flex transform items-center justify-center gap-4 border border-[#ff2a6d] bg-[#ff2a6d]/30 py-4 duration-300 hover:bg-[#ff2a6d]/60"
+                                className=" flex h-full transform items-center justify-center border border-[#ff2a6d] bg-[#ff2a6d]/30 py-4 duration-300 hover:bg-[#ff2a6d]/60"
                             >
                                 skills
                             </Link>
                             <Link
                                 href="/contact"
-                                className="m-1 flex transform items-center justify-center gap-4 border border-[#ff2a6d] bg-[#ff2a6d]/30 py-4 duration-300 hover:bg-[#ff2a6d]/60"
+                                className=" flex h-full transform items-center justify-center border border-[#ff2a6d] bg-[#ff2a6d]/30 py-4 duration-300 hover:bg-[#ff2a6d]/60"
                             >
                                 contact
                             </Link>
